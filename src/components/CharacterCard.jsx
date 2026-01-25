@@ -4,6 +4,7 @@ function CharacterCard({ character, onClick, image, isSelected }) {
   
   return (
     <div className={`character-card ${isSelected ? 'selected' : ''}`} onClick={() => onClick(character)}>
+      {/* hihihihi */}
       <div className="character-icon">
         <div>
           <img src={`./champion-pics/low-res/${character.name.toLowerCase()}1.png`} alt={character.name} />
