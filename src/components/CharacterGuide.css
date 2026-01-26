@@ -797,4 +797,12 @@
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
+  .moves-table th {
+    padding: 1rem .25rem;
+  }
+
+  .teams-list {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }

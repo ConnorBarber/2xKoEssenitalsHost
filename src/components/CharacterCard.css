@@ -46,6 +46,6 @@
 
 @media (max-width: 800px) {
   .character-card {
-    padding: 1rem;
+    padding: .5rem;
   }
 }
