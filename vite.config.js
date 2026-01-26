@@ -14,7 +14,7 @@ export default defineConfig({
       includeAssets: ['favicon/favicon.svg'],
       manifest: {
         name: 'How to 2XKO',
-        short_name: '2XKO Guide',
+        short_name: 'How to 2XKO',
         description: 'Your essential guide to mastering 2XKO - combos, key moves, matchups and more',
         theme_color: '#1a1a2e',
         background_color: '#1a1a2e',
