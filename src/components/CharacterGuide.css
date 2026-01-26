@@ -790,6 +790,7 @@
 
   .character-guide {
     padding: 0;
+    margin: .5rem;
   }
 
   .tab-content p {
