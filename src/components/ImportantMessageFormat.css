@@ -51,6 +51,6 @@
 @media (max-width: 600px) {
   .notification-bar {
     font-size: 1.2rem; /* keeps mobile text not too big */
-    padding: 16px;     /* mobile height */
+    padding: 0;     /* mobile height */
   }
 }
