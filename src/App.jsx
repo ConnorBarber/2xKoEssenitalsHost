@@ -37,10 +37,10 @@ function App() {
   return (
     <div className="app">
       {<ImpoprtantMessageBar/>}
+      <h1>How to</h1>
       <div className="logo-container">
         <img src={logo} alt="2XKO Logo" className="logo" />
       </div>
-      <h1>Character Guide</h1>
       
       <SearchBar value={searchTerm} onChange={handleSearch} />
       
