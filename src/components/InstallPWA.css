@@ -1,0 +1,72 @@
+.install-pwa-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.install-pwa-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: #cdf564;
+  border: 1px solid #cdf564;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.install-pwa-button:hover {
+  background: #cdf564;
+  color: #1a1a2e;
+}
+
+.install-pwa-button i {
+  font-size: 12px;
+}
+
+.install-pwa-tooltip {
+  position: absolute;
+  top: 100%;
+  margin-top: 8px;
+  background: #1a1a2e;
+  border: 1px solid #cdf564;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  white-space: nowrap;
+  z-index: 100;
+  animation: fadeIn 0.2s ease;
+}
+
+.install-pwa-tooltip::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-bottom-color: #cdf564;
+}
+
+.install-pwa-tooltip i {
+  color: #cdf564;
+  margin: 0 4px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

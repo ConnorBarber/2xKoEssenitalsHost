@@ -6,6 +6,7 @@ import CharacterGuide from './components/CharacterGuide'
 import { charactersData } from './data/charactersData'
 import logo from './img/2XKO-Outline-logo-external.png'
 import ImpoprtantMessageBar from './components/ImpoprtantMessageBar'
+import InstallPWA from './components/InstallPWA'
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('')
@@ -43,6 +44,8 @@ function App() {
       </div>
       
       <SearchBar value={searchTerm} onChange={handleSearch} />
+      
+      <InstallPWA />
       
       <CharacterGrid 
         characters={filteredCharacters} 
