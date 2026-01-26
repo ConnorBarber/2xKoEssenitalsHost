@@ -43,3 +43,9 @@
   box-shadow: 0 0 20px rgba(187, 223, 93, 0.5);
   background: linear-gradient(135deg, #2a2c2e 0%, #3a3c3e 100%);
 }
+
+@media (max-width: 800px) {
+  .character-card {
+    padding: 1rem;
+  }
+}

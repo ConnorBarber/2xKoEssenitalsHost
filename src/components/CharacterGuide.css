@@ -782,3 +782,18 @@
   font-weight: 600;
   text-align: center;
 }
+
+@media (max-width: 800px) {
+  .hero-banner {
+    margin: 0;
+  }
+
+  .character-guide {
+    padding: 0;
+  }
+
+  .tab-content p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

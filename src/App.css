@@ -22,3 +22,10 @@ h1 {
   margin-bottom: 2rem;
   color: #bbdf5d;
 }
+
+@media (max-width: 768px) {
+  #root {
+    padding: 0;
+    padding-top: 1rem;
+  }
+}

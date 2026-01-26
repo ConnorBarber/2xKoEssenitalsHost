@@ -22,3 +22,9 @@
 .search-bar::placeholder {
   color: #888;
 }
+
+@media (max-width: 800px) {
+  .search-bar {
+    max-width: 80%;
+  }
+}
