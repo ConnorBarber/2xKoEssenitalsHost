@@ -32,13 +32,12 @@ export const vi = {
 
         ],
         combos: [
-          { purpose: 'BnB', numericNotation: 'M - H - Sway - L - Charge M - Sway - Charge M - Charge H - Sway - Charge M - Sway - Charge M - Sway - Charge L - M - H - 2S2 - S2 Super', notationImage: '/combo-notation/ekko/ekko-combo-1.png', video: 'videos/ekko/combos/ekko-combo-1.mp4' },
-          { purpose: 'Corner Combo', numericNotation: 'M - H - Sway - L - [M] - Sway - [L] - [M] - Sway - [L] - [M] - Sway - [L] - 6S1 - L - M - H - 2S2 - S2 Super', notationImage: '/combo-notation/ekko/ekko-combo-2.png', video: 'videos/ekko/combos/ekko-combo-2.mp4' },
-          { purpose: 'Limit Strike', numericNotation: 'M - H - Sway - L - Charge M - Sway - Charge M - Charge H - Sway - Charge M - Sway - Charge M - Charge H', notationImage: '/combo-notation/ekko/ekko-combo-3.png', video: 'videos/ekko/combos/ekko-combo-3.mp4' },
-          { purpose: 'Tag Launcher', numericNotation: '2M - H - Sway - L - Charge M - Sway - Charge L - S1 - Dash - L - M - 2H - Jump - Charge JS1 - 2M - Tag launch', notationImage: '/combo-notation/ekko/ekko-combo-4.png', video: 'videos/ekko/combos/ekko-combo-4.mp4' },
-          { purpose: 'Jump In', numericNotation: '2jH- M - H - Sway - L - Charge M - Sway - Charge M - Charge H - Sway - Charge M - Sway - Charge M - Sway - Charge L - M - H', notationImage: '/combo-notation/ekko/ekko-combo-4.png', video: 'videos/ekko/combos/ekko-combo-4.mp4' },
-          { purpose: 'Fury', numericNotation: 'M - H - Sway - L - Charge M - Sway - Charge M - Sway - Charge L - Sway - L - M - Fury - Dash - H - H - S1 - Dash cancel - H - 2H - Jump - jH - jS1 - Dash cancel - 2S2 - Ult', notationImage: '/combo-notation/ekko/ekko-combo-4.png', video: 'videos/ekko/combos/ekko-combo-4.mp4' }
-
+          { purpose: 'BnB', numericNotation: 'M - H - Sway - L - Charge M - Sway - Charge M - Charge H - Sway - Charge M - Sway - Charge M - Sway - Charge L - M - H - 2S2 - S2 Super', notationImage: '/combo-notation/ekko/ekko-combo-1.png', video: 'videos/vi/combos/vi-combo-1.mp4' },
+          { purpose: 'Corner Combo', numericNotation: 'M - H - Sway - L - [M] - Sway - [L] - [M] - Sway - [L] - [M] - Sway - [L] - 6S1 - L - M - H - 2S2 - S2 Super', notationImage: '/combo-notation/ekko/ekko-combo-2.png', video: 'videos/vi/combos/vi-combo-2.mp4' },
+          { purpose: 'Limit Strike', numericNotation: 'M - H - Sway - L - Charge M - Sway - Charge M - Charge H - Sway - Charge M - Sway - Charge M - Charge H', notationImage: '/combo-notation/ekko/ekko-combo-3.png', video: 'videos/vi/combos/vi-combo-3.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: '2M - H - Sway - L - Charge M - Sway - Charge L - S1 - Dash - L - M - 2H - Jump - Charge JS1 - 2M - Tag launch', notationImage: '/combo-notation/ekko/ekko-combo-4.png', video: 'videos/vi/combos/vi-combo-4.mp4' },
+          { purpose: 'Jump In', numericNotation: '2jH- M - H - Sway - L - Charge M - Sway - Charge M - Charge H - Sway - Charge M - Sway - Charge M - Sway - Charge L - M - H', notationImage: '/combo-notation/ekko/ekko-combo-4.png', video: 'videos/vi/combos/vi-combo-4.mp4' },
+          { purpose: 'Fury', numericNotation: 'M-H-Sway-L-Charge-M-Sway-Charge-M-Charge-H-Sway-Charge-M-Sway-Charge-M-Sway-Charge-L-M-H-Fury-Dash-H-H-S1-Dash cancel-H-2H-Jump-jH-jS1-Dash cancel-2S2-Ult', notationImage: '/combo-notation/ekko/ekko-combo-4.png', video: 'videos/vi/combos/vi-combo-4.mp4' }
         ],
         //between combos and enders
         description2: [
