@@ -38,7 +38,7 @@ export const yasuo = {
           { purpose: 'Back to Corner Side Swap', numericNotation: 'M, H, S1, 2S1, 6, M, j.[S1], 2S1, H, 2S1, 2S1, 66, [6S1], 2S1, M, j.2H, j.S2, 2S1, M, j.2H, j.S1, j.S1, j.S2', notationImage: '/combo-notation/yasuo/yasuo3.png', video: 'videos/ekko/combos/ekko-combo-3.mp4' },
           { purpose: 'Corner Combo', numericNotation: 'M, H, S1, 2S1, 6, M, j.[S1], 2S1, H, 2S1, 6, S1, 2S1, M, j.S2, 66, S1, 2S1, M, j.2H, j.S2, j.2H, j.S1, j.S1', notationImage: '/combo-notation/yasuo/yasuo4.png', video: 'videos/ekko/combos/ekko-combo-4.mp4' },
           { purpose: 'Jump In', numericNotation: 'Convert into Midscreen or Corner BnB from jump attack', notationImage: '/combo-notation/yasuo/yasuo5.png', video: 'videos/ekko/combos/ekko-combo-4.mp4' },
-          { purpose: 'Fury', numericNotation: 'M,H,S1,Fury,[6S1],2S1,M,j.M,j.H,j.2H,j.[S1],j.H,j.3H,j.[S3],j.H,j.3H,j.[S3],j.H,j.3H,j.[S3],j.H,j.3H,j.[S3]', notationImage: '/combo-notation/yasuo/yasuo5.png', video: 'videos/ekko/combos/ekko-combo-4.mp4' }
+          { purpose: 'Fury', numericNotation: 'M,H,S1,Fury,[6S1],2S1,M,j.M,j.H,j.2H,j.[S1],j.H,j.3H,j.[S1],j.H,j.3H,j.[S1],j.H,j.3H,[j.S1],j.H,j.3H,j.[S2]', notationImage: '/combo-notation/yasuo/yasuo5.png', video: 'videos/ekko/combos/ekko-combo-4.mp4' }
 
         ],
         //between combos and enders
