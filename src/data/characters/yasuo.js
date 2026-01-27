@@ -1,6 +1,12 @@
 export const yasuo = {
   name: 'Yasuo',
   heroImageOffset: { desktop: -365, mobile: -100 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
+  guideAuthor: {
+    name: 'EvanAlmighty', // Author name to display
+    youtube: 'https://www.youtube.com/@EvanAlmightyFGC', // YouTube channel URL (leave empty if none)
+    twitter: 'https://x.com/EvanAlmightyFGC', // Twitter/X profile URL (leave empty if none)
+    twitch: 'https://www.twitch.tv/evanalmightyfgc', // Twitch channel URL (leave empty if none)
+  },
   tabs: [
     {
       id: 'key_moves',

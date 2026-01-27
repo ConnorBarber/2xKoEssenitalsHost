@@ -1,6 +1,12 @@
 export const teemo = {
   name: 'Teemo',
   heroImageOffset: { desktop: -1080, mobile: -358 },
+  guideAuthor: {
+    name: '', // Author name to display
+    youtube: '', // YouTube channel URL (leave empty if none)
+    twitter: '', // Twitter/X profile URL (leave empty if none)
+    twitch: '', // Twitch channel URL (leave empty if none)
+  },
   tabs: [
     {
       id: 'key_moves',

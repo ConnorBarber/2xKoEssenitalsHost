@@ -1,6 +1,12 @@
 export const ekko = {// Ekko Data Starts Here
     name: 'Ekko',
     heroImageOffset: { desktop: -73, mobile: -20 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
+    guideAuthor: {
+      name: 'Pedro', // Author name to display
+      youtube: 'https://www.youtube.com/@PedroMakesStuff', // YouTube channel URL (leave empty if none)
+      twitter: '', // Twitter/X profile URL (leave empty if none)
+      twitch: '', // Twitch channel URL (leave empty if none)
+    },
     tabs: [
       {
         id: 'key_moves',
