@@ -12,17 +12,17 @@ export const yasuo = {
         id: 'key_moves',
         title: 'Key Moves',
         description: [
-          'Yasuo is a high-skill skirmisher who flows through combat with dashes and windwalls.',
+          'Yasuo is a high-skill stance based skirmisher who flows through combat with dashes and windwalls.',
         'He scales incredibly well and rewards mastery.',
         'Best for players who enjoy mechanical expression and outplay potential.'
         ],
         moves: [
-          { numericNotation: 'S1', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko1.png', description: 'Also knwon as Hasagi, this move is super fast for it\'s range. 2 hitting to break armor. Max range combo with assist or into S1 super', video: 'videos/ekko/key-moves/ekko-key1.mp4' },
-          { numericNotation: '4S2', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko2.png', description: 'Great setplay. Use to block projectiles, on knockdown, or to setup full screen neutral skips with your assist character.', video: 'videos/ekko/key-moves/ekko-key2.mp4' },
-          { numericNotation: 'j.S1', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko3.png', description: '"Neutral skip" the move. Use this with an assist call to protect yourself while advancing forward and over enemies', video: 'videos/ekko/key-moves/ekko-key3.mp4' },
-          { numericNotation: 'j.[S1}', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko4.png', description: 'Holding j.S1 angles it downward and leads to a crossup', video: 'videos/ekko/key-moves/ekko-key4.mp4' },
-          { numericNotation: '[6S1]', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko5.png', description: 'Holding the grounded forward slash is also a crossup', video: 'videos/ekko/key-moves/ekko-key5.mp4' },
-           { numericNotation: '2S1', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko5.png', description: 'This puts Yasuo in his stance. Both useful for safe pressure, combos, and simply entering stance on command.', video: 'videos/ekko/key-moves/ekko-key5.mp4' }   
+          { numericNotation: 'S1', notation: 'blabla', notationImage: '/key-moves-notation/yasuo/yasuo1.png', description: 'Also knwon as Hasagi, this move is super fast for it\'s range. 2 hitting to break armor. Max range combo with assist or into S1 super', video: 'videos/ekko/key-moves/ekko-key1.mp4' },
+          { numericNotation: '4S2', notation: 'blabla', notationImage: '/key-moves-notation/yasuo/yasuo2.png', description: 'Great setplay. Use to block projectiles, on knockdown, or to setup full screen neutral skips with your assist character.', video: 'videos/ekko/key-moves/ekko-key2.mp4' },
+          { numericNotation: 'j.S1', notation: 'blabla', notationImage: '/key-moves-notation/yasuo/yasuo3.png', description: '"Neutral skip" the move. Use this with an assist call to protect yourself while advancing forward and over enemies', video: 'videos/ekko/key-moves/ekko-key3.mp4' },
+          { numericNotation: 'j.[S1]', notation: 'blabla', notationImage: '/key-moves-notation/yasuo/yasuo4.png', description: 'Holding j.S1 angles it downward and leads to a crossup', video: 'videos/ekko/key-moves/ekko-key4.mp4' },
+          { numericNotation: '[6S1]', notation: 'blabla', notationImage: '/key-moves-notation/yasuo/yasuo5.png', description: 'Holding the grounded forward slash is also a crossup', video: 'videos/ekko/key-moves/ekko-key5.mp4' },
+           { numericNotation: '2S1', notation: 'blabla', notationImage: '/key-moves-notation/yasuo/yasuo5.png', description: 'This puts Yasuo in his stance. Both useful for safe pressure, combos, and simply entering stance on command.', video: 'videos/ekko/key-moves/ekko-key5.mp4' }   
         ]
       },
       {
