@@ -9,6 +9,8 @@ function SoloCombosTab({ character, tabData }) {
   const [videoModal, setVideoModal] = useState({ isOpen: false, videoUrl: '', moveName: '', numericNotation: '' })
   const [isCheatsheetOpen, setIsCheatsheetOpen] = useState(false)
   const [imageModal, setImageModal] = useState({ isOpen: false, imageUrl: '', altText: '' })
+  const [isCompactView, setIsCompactView] = useState(false)
+  const [expandedItems, setExpandedItems] = useState({})
 
   const openImageModal = (imageUrl, altText) => {
     setImageModal({ isOpen: true, imageUrl, altText })
@@ -16,6 +18,14 @@ function SoloCombosTab({ character, tabData }) {
 
   const closeImageModal = () => {
     setImageModal({ isOpen: false, imageUrl: '', altText: '' })
+  }
+
+  const toggleAccordion = (section, index) => {
+    const key = `${section}-${index}`
+    setExpandedItems(prev => ({
+      ...prev,
+      [key]: !prev[key]
+    }))
   }
 
   const openVideoModal = (videoUrl, moveName, numericNotation) => {
@@ -55,10 +65,60 @@ function SoloCombosTab({ character, tabData }) {
         >
           <i className="fas fa-question-circle"></i> Numeric notation cheatsheet
         </button>
+        <button 
+          className="view-toggle-btn"
+          onClick={() => setIsCompactView(!isCompactView)}
+          title={isCompactView ? "Switch to table view" : "Switch to compact view"}
+        >
+          <i className={`fas ${isCompactView ? 'fa-table' : 'fa-list'}`}></i> {isCompactView ? 'Table View' : 'Compact View'}
+        </button>
       </div>
 
       {combos.length === 0 ? (
         <p>No combos available for this character yet.</p>
+      ) : isCompactView ? (
+        <div className="compact-list">
+          {combos.map((combo, index) => (
+            <div key={index} className="compact-item">
+              <div 
+                className={`compact-item-header ${expandedItems[`combo-${index}`] ? 'expanded' : ''}`}
+                onClick={() => toggleAccordion('combo', index)}
+              >
+                <span className="compact-purpose">{combo.purpose || 'General combo'}</span>
+                <i className={`fas fa-chevron-${expandedItems[`combo-${index}`] ? 'up' : 'down'}`}></i>
+              </div>
+              {expandedItems[`combo-${index}`] && (
+                <div className="compact-item-content">
+                  <div className="compact-field">
+                    <span className="compact-label">Numeric Notation:</span>
+                    <span className="compact-value numeric"><ComboNotationText notation={combo.numericNotation} /></span>
+                  </div>
+                  <div className="compact-field">
+                    <span className="compact-label">2XKO Notation:</span>
+                    <img 
+                      src={`.${combo.notationImage}`} 
+                      alt={combo.notation} 
+                      className="notation-image clickable-image compact-notation-image" 
+                      onClick={() => openImageModal(`.${combo.notationImage}`, combo.notation)}
+                      title="Click to enlarge"
+                    />
+                  </div>
+                  <div className="compact-field">
+                    <span className="compact-label">Video:</span>
+                    <video 
+                      controls 
+                      loop
+                      className="compact-video"
+                    >
+                      <source src={combo.video} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
       ) : (
         <table className="moves-table solo-combos-table">
           <thead>
@@ -118,6 +178,50 @@ function SoloCombosTab({ character, tabData }) {
       {comboEnders.length > 0 && (
         <>
           <h3 className="combo-enders-heading">Combo Enders</h3>
+          {isCompactView ? (
+            <div className="compact-list">
+              {comboEnders.map((combo, index) => (
+                <div key={index} className="compact-item">
+                  <div 
+                    className={`compact-item-header ${expandedItems[`ender-${index}`] ? 'expanded' : ''}`}
+                    onClick={() => toggleAccordion('ender', index)}
+                  >
+                    <span className="compact-purpose">{combo.purpose || 'General ender'}</span>
+                    <i className={`fas fa-chevron-${expandedItems[`ender-${index}`] ? 'up' : 'down'}`}></i>
+                  </div>
+                  {expandedItems[`ender-${index}`] && (
+                    <div className="compact-item-content">
+                      <div className="compact-field">
+                        <span className="compact-label">Numeric Notation:</span>
+                        <span className="compact-value numeric"><ComboNotationText notation={combo.numericNotation} /></span>
+                      </div>
+                      <div className="compact-field">
+                        <span className="compact-label">2XKO Notation:</span>
+                        <img 
+                          src={`.${combo.notationImage}`} 
+                          alt={combo.notation} 
+                          className="notation-image clickable-image compact-notation-image" 
+                          onClick={() => openImageModal(`.${combo.notationImage}`, combo.notation)}
+                          title="Click to enlarge"
+                        />
+                      </div>
+                      <div className="compact-field">
+                        <span className="compact-label">Video:</span>
+                        <video 
+                          controls 
+                          loop
+                          className="compact-video"
+                        >
+                          <source src={combo.video} type="video/mp4" />
+                          Your browser does not support the video tag.
+                        </video>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          ) : (
           <table className="moves-table solo-combos-table">
             <thead>
               <tr>
@@ -163,6 +267,7 @@ function SoloCombosTab({ character, tabData }) {
             ))}
           </tbody>
         </table>
+          )}
         </>
       )}
 

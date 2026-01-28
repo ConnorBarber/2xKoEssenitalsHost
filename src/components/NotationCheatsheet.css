@@ -186,6 +186,143 @@
 
 .notation-btn-wrapper {
   margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-toggle-btn {
+  border-radius: 0;
+  border: 0px;
+  padding: 0.6em 1.2em;
+  font-size: 0.95em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: transparent;
+  color: #bbdf5d;
+  cursor: pointer;
+  transition: all 0.25s;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.view-toggle-btn:hover {
+  background-color: #bbdf5d;
+  color: #1b1d1f;
+  transform: scale(1.02);
+  box-shadow: 0 2px 10px rgba(187, 223, 93, 0.3);
+}
+
+.view-toggle-btn i {
+  font-size: 1.1em;
+}
+
+/* Compact View Styles */
+.compact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.compact-item {
+  border: 1px solid #3a3c3e;
+  background: linear-gradient(135deg, #252729 0%, #2d2f31 100%);
+  overflow: hidden;
+}
+
+.compact-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.compact-item-header:hover {
+  background-color: rgba(187, 223, 93, 0.08);
+}
+
+.compact-item-header.expanded {
+  background-color: rgba(187, 223, 93, 0.1);
+  border-bottom: 1px solid #3a3c3e;
+}
+
+.compact-purpose {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.compact-item-header i {
+  color: #bbdf5d;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+}
+
+.compact-item-content {
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  animation: slideDown 0.2s ease;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.compact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.compact-label {
+  color: #bbdf5d;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.compact-value {
+  color: #ddd;
+  font-size: 1rem;
+}
+
+.compact-value.numeric {
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+  color: #bbdf5d;
+  font-size: 1.05em;
+}
+
+.compact-notation-image {
+  max-width: 100%;
+  max-height: 100px;
+  width: auto;
+  margin: 0;
+}
+
+.compact-video {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 4px;
+  border: 1px solid #3a3c3e;
 }
 
 .combo-description-section {
