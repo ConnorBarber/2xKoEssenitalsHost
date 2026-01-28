@@ -60,42 +60,42 @@ export const warwick = {
         },
       ]
     },
-    {
-      id: 'matchups',
-      title: 'Matchups',
-      matchups: {
-        'Ahri': {
-          difficulty: 'Medium',
-          difficultyClass: 'medium',
-          overview: [
-            'Ahri\'s mobility can be tricky but your sustain helps in extended fights.',
-            'Use Blood Hunt speed boost to keep up with her dashes. Infinite Duress can catch her post-dash.'
-          ],
-          keyPoints: [
-            'Sustain helps in longer fights',
-            'Blood Hunt keeps you mobile',
-            'Infinite Duress catches dashes',
-            'Fear can interrupt her combos'
-          ],
-          videos: []
-        },
-        'Jinx': {
-          difficulty: 'Easy',
-          difficultyClass: 'easy',
-          overview: [
-            'Jinx cannot escape once you get in. Infinite Duress closes the gap instantly.',
-            'Your sustain lets you absorb her poke while approaching. Once in, she\'s done.'
-          ],
-          keyPoints: [
-            'She cannot escape your engage',
-            'Sustain through her poke',
-            'Infinite Duress is a free hit',
-            'Fear prevents her from fighting back'
-          ],
-          videos: []
-        },
-      }
-    },
+    // {
+    //   id: 'matchups',
+    //   title: 'Matchups',
+    //   matchups: {
+    //     'Ahri': {
+    //       difficulty: 'Medium',
+    //       difficultyClass: 'medium',
+    //       overview: [
+    //         'Ahri\'s mobility can be tricky but your sustain helps in extended fights.',
+    //         'Use Blood Hunt speed boost to keep up with her dashes. Infinite Duress can catch her post-dash.'
+    //       ],
+    //       keyPoints: [
+    //         'Sustain helps in longer fights',
+    //         'Blood Hunt keeps you mobile',
+    //         'Infinite Duress catches dashes',
+    //         'Fear can interrupt her combos'
+    //       ],
+    //       videos: []
+    //     },
+    //     'Jinx': {
+    //       difficulty: 'Easy',
+    //       difficultyClass: 'easy',
+    //       overview: [
+    //         'Jinx cannot escape once you get in. Infinite Duress closes the gap instantly.',
+    //         'Your sustain lets you absorb her poke while approaching. Once in, she\'s done.'
+    //       ],
+    //       keyPoints: [
+    //         'She cannot escape your engage',
+    //         'Sustain through her poke',
+    //         'Infinite Duress is a free hit',
+    //         'Fear prevents her from fighting back'
+    //       ],
+    //       videos: []
+    //     },
+    //   }
+    // },
     {
       id: 'top_players',
       title: 'Top Players',

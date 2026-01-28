@@ -59,42 +59,42 @@ export const teemo = {
         },
       ]
     },
-    {
-      id: 'matchups',
-      title: 'Matchups',
-      matchups: {
-        'Darius': {
-          difficulty: 'Easy',
-          difficultyClass: 'easy',
-          overview: [
-            'Teemo\'s speed and range completely shut down Darius. He cannot catch you if you play correctly.',
-            'Poke him from range, plant mushrooms to control space, and never let him get close.'
-          ],
-          keyPoints: [
-            'Speed advantage is massive',
-            'Mushrooms prevent his approach',
-            'Blind reduces his damage significantly',
-            'Never trade in melee range'
-          ],
-          videos: []
-        },
-        'Yasuo': {
-          difficulty: 'Hard',
-          difficultyClass: 'hard',
-          overview: [
-            'Yasuo\'s Wind Wall blocks your darts and his mobility can navigate around mushrooms effectively.',
-            'Bait out Wind Wall before committing to projectiles. Use mushroom placement to limit his dash options.'
-          ],
-          keyPoints: [
-            'Wind Wall negates your main poke',
-            'His mobility counters your zoning',
-            'Smart mushroom placement is key',
-            'Patience wins this matchup'
-          ],
-          videos: []
-        },
-      }
-    },
+    // {
+    //   id: 'matchups',
+    //   title: 'Matchups',
+    //   matchups: {
+    //     'Darius': {
+    //       difficulty: 'Easy',
+    //       difficultyClass: 'easy',
+    //       overview: [
+    //         'Teemo\'s speed and range completely shut down Darius. He cannot catch you if you play correctly.',
+    //         'Poke him from range, plant mushrooms to control space, and never let him get close.'
+    //       ],
+    //       keyPoints: [
+    //         'Speed advantage is massive',
+    //         'Mushrooms prevent his approach',
+    //         'Blind reduces his damage significantly',
+    //         'Never trade in melee range'
+    //       ],
+    //       videos: []
+    //     },
+    //     'Yasuo': {
+    //       difficulty: 'Hard',
+    //       difficultyClass: 'hard',
+    //       overview: [
+    //         'Yasuo\'s Wind Wall blocks your darts and his mobility can navigate around mushrooms effectively.',
+    //         'Bait out Wind Wall before committing to projectiles. Use mushroom placement to limit his dash options.'
+    //       ],
+    //       keyPoints: [
+    //         'Wind Wall negates your main poke',
+    //         'His mobility counters your zoning',
+    //         'Smart mushroom placement is key',
+    //         'Patience wins this matchup'
+    //       ],
+    //       videos: []
+    //     },
+    //   }
+    // },
     {
       id: 'top_players',
       title: 'Top Players',
