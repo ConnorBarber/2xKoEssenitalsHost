@@ -1020,6 +1020,15 @@
   .teams-list {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
+
+  .moves-table td {
+    padding: 0.5rem 0.6rem;
+  }
+
+  .image-modal-content .close-button {
+    font-size: 2rem;
+    right: 0;
+  }
 }
 
 @media (max-width: 1200px) {
