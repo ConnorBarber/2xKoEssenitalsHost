@@ -82,8 +82,31 @@ const CharacterGuide = forwardRef(({ character, onClose }, ref) => {
           )}
         </div>
         <div className="hero-content">
-          <h2>{character.name.toUpperCase()}</h2>
-          <button className="close-button" onClick={onClose}>✕</button>
+          <div className="hero-outer-container">
+            <div className="hero-name-archetype-row">
+              <h2 className="hero-name">{character.name.toUpperCase()}</h2>
+              {character.archetype && (
+                <span className="archetype-label">{character.archetype}</span>
+              )}
+            </div>
+            <button className="close-button" onClick={onClose}>✕</button>
+          </div>
+          {character.stats && (
+            <div className="character-stats-bar">
+              {['range', 'power', 'vitality', 'mobility', 'ease'].map((stat) => (
+                <div key={stat} className="stat-row">
+                  <span className="stat-label">{
+                    stat === 'ease' ? 'Ease of Use' : stat.charAt(0).toUpperCase() + stat.slice(1)
+                  }</span>
+                  <div className="stat-bar">
+                    {[1,2,3,4,5].map((i) => (
+                      <span key={i} className={`stat-dot${i <= (character.stats[stat] || 0) ? ' filled' : ''}`}></span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
 

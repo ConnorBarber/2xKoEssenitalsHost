@@ -1,5 +1,13 @@
 export const ekko = {// Ekko Data Starts Here
     name: 'Ekko',
+    archetype: 'mix up',
+    stats: {
+      range: 3,
+      power: 2,
+      vitality: 2,
+      mobility: 4,
+      ease: 3
+    },
     heroImageOffset: { desktop: -73, mobile: -20 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
     guideAuthor: {
       name: 'Pedro', // Author name to display
@@ -85,169 +93,169 @@ export const ekko = {// Ekko Data Starts Here
           },
         ]
       },
-      {
-        id: 'matchups',
-        title: 'Matchups',
-        matchups: {
-          'Ahri': {
-            difficulty: 'Medium',
-            difficultyClass: 'medium',
-            overview: [
-              'Placeholder overview'
-            ],
-            keyPoints: [
-              'Placeholder keypoint 1',
-              'Placeholder keypoint 2',
-              'Placeholder keypoint 3',
-            ],
-            videos: [
-              { id: 'F3x1-NNy6h4' },
-              { id: 'F3x1-NNy6h4' },
-              { id: 'F3x1-NNy6h4' },
-              { id: 'F3x1-NNy6h4' },
-            ]
-          },
-          'Blitzcrank': {
-            difficulty: 'Medium',
-            difficultyClass: 'medium',
-            overview: [
-              'Placeholder overview'
-            ],
-            keyPoints: [
-              'Placeholder keypoint 1',
-              'Placeholder keypoint 2',
-              'Placeholder keypoint 3',
-            ],
-            videos: [
-              { id: 'F3x1-NNy6h4' },
-              { id: 'F3x1-NNy6h4' },
-              { id: 'F3x1-NNy6h4' },
-              { id: 'F3x1-NNy6h4' },
-            ]
-          },
-          'Braum': {
-            difficulty: 'Hard',
-            difficultyClass: 'hard',
-            overview: [
-              'Placeholder overview'
-            ],
-            keyPoints: [
-              'Placeholder keypoint 1',
-              'Placeholder keypoint 2',
-              'Placeholder keypoint 3',
-            ],
-            videos: []
-          },
-          'Caitlyn': {
-            difficulty: 'Hard',
-            difficultyClass: 'hard',
-            overview: [
-              'Placeholder overview'
-            ],
-            keyPoints: [
-              'Placeholder keypoint 1',
-              'Placeholder keypoint 2',
-              'Placeholder keypoint 3',
-            ],
-            videos: []
-          },
-          'Darius': {
-            difficulty: 'Medium',
-            difficultyClass: 'medium',
-            overview: [
-              'Placeholder overview'
-            ],
-            keyPoints: [
-              'Placeholder keypoint 1',
-              'Placeholder keypoint 2',
-              'Placeholder keypoint 3',
-            ],
-            videos: []
-          },
-          'Illaoi': {
-            difficulty: 'Medium',
-            difficultyClass: 'medium',
-           overview: [
-              'Placeholder overview'
-            ],
-            keyPoints: [
-              'Placeholder keypoint 1',
-              'Placeholder keypoint 2',
-              'Placeholder keypoint 3',
-            ],
-            videos: [
-              { id: 'illaekko' }
-            ]
-          },
-          'Jinx': {
-            difficulty: 'Easy',
-            difficultyClass: 'easy',
-            overview: [
-              'Placeholder overview'
-            ],
-            keyPoints: [
-              'Placeholder keypoint 1',
-              'Placeholder keypoint 2',
-              'Placeholder keypoint 3',
-            ],
-            videos: []
-          },
-          'Teemo': {
-            difficulty: 'Easy',
-            difficultyClass: 'easy',
-            overview: [
-              'Placeholder overview'
-            ],
-            keyPoints: [
-              'Placeholder keypoint 1',
-              'Placeholder keypoint 2',
-              'Placeholder keypoint 3',
-            ],
-            videos: []
-          },
-          'Vi': {
-            difficulty: 'Hard',
-            difficultyClass: 'hard',
-            overview: [
-              'Placeholder overview'
-            ],
-            keyPoints: [
-              'Placeholder keypoint 1',
-              'Placeholder keypoint 2',
-              'Placeholder keypoint 3',
-            ],
-            videos: []
-          },
-          'Warwick': {
-            difficulty: 'Hard',
-            difficultyClass: 'hard',
-            overview: [
-              'Placeholder overview'
-            ],
-            keyPoints: [
-              'Placeholder keypoint 1',
-              'Placeholder keypoint 2',
-              'Placeholder keypoint 3',
-            ],
-            videos: []
-          },
-          'Yasuo': {
-            difficulty: 'Medium',
-            difficultyClass: 'medium',
-            overview: [
-              'Placeholder overview'
-            ],
-            keyPoints: [
-              'Placeholder keypoint 1',
-              'Placeholder keypoint 2',
-              'Placeholder keypoint 3',
-            ],
-            videos: [
-              { id: '8qmI6OieGnI' }
-            ]
-          }
-        }
-      },
+      // {
+      //   id: 'matchups',
+      //   title: 'Matchups',
+      //   matchups: {
+      //     'Ahri': {
+      //       difficulty: 'Medium',
+      //       difficultyClass: 'medium',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: [
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //       ]
+      //     },
+      //     'Blitzcrank': {
+      //       difficulty: 'Medium',
+      //       difficultyClass: 'medium',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: [
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //       ]
+      //     },
+      //     'Braum': {
+      //       difficulty: 'Hard',
+      //       difficultyClass: 'hard',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Caitlyn': {
+      //       difficulty: 'Hard',
+      //       difficultyClass: 'hard',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Darius': {
+      //       difficulty: 'Medium',
+      //       difficultyClass: 'medium',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Illaoi': {
+      //       difficulty: 'Medium',
+      //       difficultyClass: 'medium',
+      //      overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: [
+      //         { id: 'illaekko' }
+      //       ]
+      //     },
+      //     'Jinx': {
+      //       difficulty: 'Easy',
+      //       difficultyClass: 'easy',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Teemo': {
+      //       difficulty: 'Easy',
+      //       difficultyClass: 'easy',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Vi': {
+      //       difficulty: 'Hard',
+      //       difficultyClass: 'hard',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Warwick': {
+      //       difficulty: 'Hard',
+      //       difficultyClass: 'hard',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Yasuo': {
+      //       difficulty: 'Medium',
+      //       difficultyClass: 'medium',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: [
+      //         { id: '8qmI6OieGnI' }
+      //       ]
+      //     }
+      //   }
+      // },
       {
         id: 'top_players',
         title: 'Top Players',

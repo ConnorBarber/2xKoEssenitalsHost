@@ -1,5 +1,13 @@
 export const caitlyn = {
   name: 'Caitlyn',
+  archetype: 'Zoner',
+  stats: {
+    range: 5,
+    power: 3,
+    vitality: 2,
+    mobility: 2,
+    ease: 3
+  },
   heroImageOffset: { desktop: -60, mobile: -12 },
   tabs: [
     {
@@ -53,42 +61,42 @@ export const caitlyn = {
         },
       ]
     },
-    {
-      id: 'matchups',
-      title: 'Matchups',
-      matchups: {
-        'Vi': {
-          difficulty: 'Hard',
-          difficultyClass: 'hard',
-          overview: [
-            'Vi\'s gap closers make it difficult to maintain distance. Her ultimate goes through your net.',
-            'Pre-place traps to interrupt her Q dash. Save net for after her ultimate lands.'
-          ],
-          keyPoints: [
-            'Her engage is difficult to stop',
-            'Traps can interrupt her Q',
-            'Ultimate goes through everything',
-            'Positioning is critical'
-          ],
-          videos: []
-        },
-        'Jinx': {
-          difficulty: 'Medium',
-          difficultyClass: 'medium',
-          overview: [
-            'Zoner vs zoner matchup. Both characters want to control space from range.',
-            'Your traps give you an edge in controlling ground space. Watch for her rocket poke.'
-          ],
-          keyPoints: [
-            'Similar gameplan - spacing is key',
-            'Your traps control ground better',
-            'Her rockets have longer range',
-            'First hit often wins the exchange'
-          ],
-          videos: []
-        },
-      }
-    },
+    // {
+    //   id: 'matchups',
+    //   title: 'Matchups',
+    //   matchups: {
+    //     'Vi': {
+    //       difficulty: 'Hard',
+    //       difficultyClass: 'hard',
+    //       overview: [
+    //         'Vi\'s gap closers make it difficult to maintain distance. Her ultimate goes through your net.',
+    //         'Pre-place traps to interrupt her Q dash. Save net for after her ultimate lands.'
+    //       ],
+    //       keyPoints: [
+    //         'Her engage is difficult to stop',
+    //         'Traps can interrupt her Q',
+    //         'Ultimate goes through everything',
+    //         'Positioning is critical'
+    //       ],
+    //       videos: []
+    //     },
+    //     'Jinx': {
+    //       difficulty: 'Medium',
+    //       difficultyClass: 'medium',
+    //       overview: [
+    //         'Zoner vs zoner matchup. Both characters want to control space from range.',
+    //         'Your traps give you an edge in controlling ground space. Watch for her rocket poke.'
+    //       ],
+    //       keyPoints: [
+    //         'Similar gameplan - spacing is key',
+    //         'Your traps control ground better',
+    //         'Her rockets have longer range',
+    //         'First hit often wins the exchange'
+    //       ],
+    //       videos: []
+    //     },
+    //   }
+    // },
     {
       id: 'top_players',
       title: 'Top Players',
