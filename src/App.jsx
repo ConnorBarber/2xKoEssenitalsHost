@@ -7,6 +7,7 @@ import { charactersData } from './data/charactersData'
 import logo from './img/2XKO-Outline-logo-external.png'
 import ImpoprtantMessageBar from './components/ImpoprtantMessageBar'
 import InstallPWA from './components/InstallPWA'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('')
@@ -58,6 +59,8 @@ function App() {
         character={selectedCharacter} 
         onClose={handleCloseGuide} 
       />
+      
+      <Analytics />
     </div>
   )
 }
