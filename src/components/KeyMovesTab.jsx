@@ -5,6 +5,15 @@ import './NotationCheatsheet.css';
 function KeyMovesTab({ character, tabData }) {
   const [videoModal, setVideoModal] = useState({ isOpen: false, videoUrl: '', moveName: '', numericNotation: '' })
   const [isCheatsheetOpen, setIsCheatsheetOpen] = useState(false)
+  const [imageModal, setImageModal] = useState({ isOpen: false, imageUrl: '', altText: '' })
+
+  const openImageModal = (imageUrl, altText) => {
+    setImageModal({ isOpen: true, imageUrl, altText })
+  }
+
+  const closeImageModal = () => {
+    setImageModal({ isOpen: false, imageUrl: '', altText: '' })
+  }
 
   const openVideoModal = (videoUrl, moveName, numericNotation) => {
     setVideoModal({ isOpen: true, videoUrl, moveName, numericNotation })
@@ -51,7 +60,13 @@ function KeyMovesTab({ character, tabData }) {
             <tr key={index}>
               <td className="numeric-notation-cell">{move.numericNotation}</td>
               <td className="notation-cell">
-                <img src={`.${move.notationImage}`} alt={move.notation} className="notation-image" />
+                <img 
+                  src={`.${move.notationImage}`} 
+                  alt={move.notation} 
+                  className="notation-image clickable-image" 
+                  onClick={() => openImageModal(`.${move.notationImage}`, move.notation)}
+                  title="Click to enlarge"
+                />
               </td>
               <td className="description-cell">{move.description}</td>
               <td className="video-cell">
@@ -67,6 +82,19 @@ function KeyMovesTab({ character, tabData }) {
           ))}
         </tbody>
       </table>
+
+      {imageModal.isOpen && (
+        <div className="image-modal-overlay" onClick={closeImageModal}>
+          <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-button" onClick={closeImageModal}>✕</button>
+            <img 
+              src={imageModal.imageUrl} 
+              alt={imageModal.altText} 
+              className="zoomed-notation-image"
+            />
+          </div>
+        </div>
+      )}
 
       {videoModal.isOpen && (
         <div className="video-modal-overlay" onClick={closeVideoModal}>

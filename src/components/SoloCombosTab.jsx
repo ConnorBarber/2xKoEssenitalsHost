@@ -8,6 +8,15 @@ import ComboNotationText from './ComboNotationText';
 function SoloCombosTab({ character, tabData }) {
   const [videoModal, setVideoModal] = useState({ isOpen: false, videoUrl: '', moveName: '', numericNotation: '' })
   const [isCheatsheetOpen, setIsCheatsheetOpen] = useState(false)
+  const [imageModal, setImageModal] = useState({ isOpen: false, imageUrl: '', altText: '' })
+
+  const openImageModal = (imageUrl, altText) => {
+    setImageModal({ isOpen: true, imageUrl, altText })
+  }
+
+  const closeImageModal = () => {
+    setImageModal({ isOpen: false, imageUrl: '', altText: '' })
+  }
 
   const openVideoModal = (videoUrl, moveName, numericNotation) => {
     setVideoModal({ isOpen: true, videoUrl, moveName, numericNotation })
@@ -75,7 +84,13 @@ function SoloCombosTab({ character, tabData }) {
                 <ComboNotationText notation={combo.numericNotation} />
               </td>
               <td className="notation-cell">
-                  <img src={`.${combo.notationImage}`} alt={combo.notation} className="notation-image" />
+                  <img 
+                    src={`.${combo.notationImage}`} 
+                    alt={combo.notation} 
+                    className="notation-image clickable-image" 
+                    onClick={() => openImageModal(`.${combo.notationImage}`, combo.notation)}
+                    title="Click to enlarge"
+                  />
               </td>
               <td className="video-cell">
                 <button 
@@ -127,7 +142,13 @@ function SoloCombosTab({ character, tabData }) {
                   <ComboNotationText notation={combo.numericNotation} />
                 </td>
                 <td className="notation-cell">
-                    <img src={`.${combo.notationImage}`} alt={combo.notation} className="notation-image" />
+                    <img 
+                      src={`.${combo.notationImage}`} 
+                      alt={combo.notation} 
+                      className="notation-image clickable-image" 
+                      onClick={() => openImageModal(`.${combo.notationImage}`, combo.notation)}
+                      title="Click to enlarge"
+                    />
                 </td>
                 <td className="video-cell">
                   <button 
@@ -150,6 +171,19 @@ function SoloCombosTab({ character, tabData }) {
           {description3.map((paragraph, index) => (
             <p key={`desc3-${index}`}>{paragraph}</p>
           ))}
+        </div>
+      )}
+
+      {imageModal.isOpen && (
+        <div className="image-modal-overlay" onClick={closeImageModal}>
+          <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-button" onClick={closeImageModal}>✕</button>
+            <img 
+              src={imageModal.imageUrl} 
+              alt={imageModal.altText} 
+              className="zoomed-notation-image"
+            />
+          </div>
         </div>
       )}
 

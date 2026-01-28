@@ -12,7 +12,7 @@ export const ekko = {// Ekko Data Starts Here
     guideAuthor: {
       name: 'PedroMakesStuff', // Author name to display
       youtube: 'https://www.youtube.com/@PedroMakesStuff', // YouTube channel URL (leave empty if none)
-      twitter: '', // Twitter/X profile URL (leave empty if none)
+      twitter: 'https://x.com/pedromakestuff', // Twitter/X profile URL (leave empty if none)
       twitch: '', // Twitch channel URL (leave empty if none)
     },
     tabs: [
