@@ -42,7 +42,7 @@ export const ekko = {// Ekko Data Starts Here
 
         ],
         combos: [
-          { purpose: 'BnB', numericNotation: 'M H S2 S2 S1+L 2H S1 2S2 [2H] [j.H] j.d.S1 S2 H 2T', notationImage: '/combo-notation/ekko/ekko-combo-1.png', video: 'videos/ekko/combos/ekko-combo-1.mp4' },
+          { purpose: 'BnB', numericNotation: 'M > H > S2 > S2 > S1+L > 2H > S1 > 2S2 > [2H] > [j.H] > j.d.S1 > S2 > H > 2T', notationImage: '/combo-notation/ekko/ekko-combo-1.png', video: 'videos/ekko/combos/ekko-combo-1.mp4' },
           { purpose: 'Corner Combo', numericNotation: 'M H S2 S2 S1+L 66 j.H j.S2 H 2H j.H j.S2', notationImage: '/combo-notation/ekko/ekko-combo-2.png', video: 'videos/ekko/combos/ekko-combo-2.mp4' },
           { purpose: 'Side Swap', numericNotation: 'M H 2H j.M j.H j.S2 66 L M H 2H j.M j.H j.S2', notationImage: '/combo-notation/ekko/ekko-combo-3.png', video: 'videos/ekko/combos/ekko-combo-3.mp4' },
           { purpose: 'Anti Air starter', numericNotation: '2H j.M j.H 66 j.H j.S2 2M 5M 5H 2H j.M j.H j.S2', notationImage: '/combo-notation/ekko/ekko-combo-4.png', video: 'videos/ekko/combos/ekko-combo-4.mp4' },
@@ -51,7 +51,7 @@ export const ekko = {// Ekko Data Starts Here
         description2: [
         ],
         comboEnders: [
-          { purpose: 'Limit Strike into S2 super', numericNotation: 'j.S2 2S1 S2+L', notationImage: '/combo-notation/ekko/combo-enders/ekko-ender1.png', video: 'videos/ekko/combo-enders/ekko-ender1.mp4' },
+          { purpose: 'Limit Strike into S2 super', numericNotation: 'j.S2 > 2S1 > S2+L', notationImage: '/combo-notation/ekko/combo-enders/ekko-ender1.png', video: 'videos/ekko/combo-enders/ekko-ender1.mp4' },
           { purpose: '6S1 into S2 super', numericNotation: '6S1 S2+L', notationImage: '/combo-notation/ekko/combo-enders/ekko-ender2.png', video: 'videos/ekko/combo-enders/ekko-ender2.mp4' },
           { purpose: 'Tag launcher', numericNotation: '2M M H 2T', notationImage: '/combo-notation/ekko/combo-enders/ekko-ender3.png', video: 'videos/ekko/combo-enders/ekko-ender3.mp4' },
         ],

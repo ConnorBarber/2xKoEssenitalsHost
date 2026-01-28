@@ -2,7 +2,8 @@ import { useState } from 'react';
 import NotationCheatsheet from './NotationCheatsheet';
 import './NotationCheatsheet.css';
 import './convertText.css';
-import './convertText.jsx';
+
+import ComboNotationText from './ComboNotationText';
 
 function SoloCombosTab({ character, tabData }) {
   const [videoModal, setVideoModal] = useState({ isOpen: false, videoUrl: '', moveName: '', numericNotation: '' })
@@ -70,11 +71,11 @@ function SoloCombosTab({ character, tabData }) {
             {combos.map((combo, index) => (
             <tr key={index}>
               <td className="description-cell">{combo.purpose || 'General combo'}</td>              
-              <td className="numeric-notation-cell">{combo.numericNotation}</td>
+              <td className="numeric-notation-cell">
+                <ComboNotationText notation={combo.numericNotation} />
+              </td>
               <td className="notation-cell">
-                {/* //converted image hereish */}
-                {/* <NotationRenderer character={character}></NotationRenderer> */}
-                <img src={`.${combo.notationImage}`} alt={combo.notation} className="notation-image" />
+                  <img src={`.${combo.notationImage}`} alt={combo.notation} className="notation-image" />
               </td>
               <td className="video-cell">
                 <button 
@@ -122,9 +123,11 @@ function SoloCombosTab({ character, tabData }) {
               {comboEnders.map((combo, index) => (
               <tr key={index}>
                 <td className="description-cell">{combo.purpose || 'General ender'}</td>              
-                <td className="numeric-notation-cell">{combo.numericNotation}</td>
+                <td className="numeric-notation-cell">
+                  <ComboNotationText notation={combo.numericNotation} />
+                </td>
                 <td className="notation-cell">
-                  <img src={`.${combo.notationImage}`} alt={combo.notation} className="notation-image" />
+                    <img src={`.${combo.notationImage}`} alt={combo.notation} className="notation-image" />
                 </td>
                 <td className="video-cell">
                   <button 
