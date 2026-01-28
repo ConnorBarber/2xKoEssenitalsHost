@@ -282,7 +282,6 @@ function SoloCombosTab({ character, tabData }) {
       {imageModal.isOpen && (
         <div className="image-modal-overlay" onClick={closeImageModal}>
           <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="close-button" onClick={closeImageModal}>✕</button>
             <img 
               src={imageModal.imageUrl} 
               alt={imageModal.altText} 
