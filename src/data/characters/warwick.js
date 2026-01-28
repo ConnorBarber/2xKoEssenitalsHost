@@ -23,11 +23,11 @@ export const warwick = {
         'Warwick is a true rushdown character, with a running special and aggression install.',
         'Best for players who enjoy aggressive gameplay and high damage output.'],
       moves: [
-        { numericNotation: 'S1', notation: 'blabla', notationImage: '/key-moves-notation/warwick/ww1.png', description: 'Unreactable overhead. Not really, but its fast.', video: 'videos/warwick/ww1.mp4' },
-        { numericNotation: 'S1+j', notation: 'blabla', notationImage: '/key-moves-notation/warwick/ww2.png', description: 'Activates blood scent, gaining attack speed and movement based on bloodlust stacks.', video: 'videos/warwick/ww2.mp4' },
-        { numericNotation: '2S2', notation: 'blabla', notationImage: '/key-moves-notation/warwick/ww3.png', description: 'Best anti-air in the game', video: 'videos/warwick/ww3.mp4' },
-        { numericNotation: '[S1] or [6S1]', notation: 'blabla', notationImage: '/key-moves-notation/warwick/ww4.png', description: 'Can run through projectiles and exit into leap', video: 'videos/warwick/ww4.mp4' },
-        { numericNotation: 'Bloodlust 6S1', notation: 'blabla', notationImage: '/key-moves-notation/warwick/ww5.png', description: 'Crossup while in bloodlust', video: 'videos/warwick/ww5.mp4' },
+        { numericNotation: 'S1', notation: 'blabla', notationImage: '/key-moves-notation/warwick/warwick1.png', description: 'Unreactable overhead. Not really, but its fast.', video: 'videos/warwick/ww1.mp4' },
+        { numericNotation: 'S1+j', notation: 'blabla', notationImage: '/key-moves-notation/warwick/warwick2.png', description: 'Activates blood scent, gaining attack speed and movement based on bloodlust stacks.', video: 'videos/warwick/ww2.mp4' },
+        { numericNotation: '2S2', notation: 'blabla', notationImage: '/key-moves-notation/warwick/warwick3.png', description: 'Best anti-air in the game', video: 'videos/warwick/ww3.mp4' },
+        { numericNotation: '[S1] or [6S1]', notation: 'blabla', notationImage: '/key-moves-notation/warwick/warwick4.png', description: 'Can run through projectiles and exit into leap', video: 'videos/warwick/ww4.mp4' },
+        { numericNotation: 'Bloodlust 6S1', notation: 'blabla', notationImage: '/key-moves-notation/warwick/warwick5.png', description: 'Crossup while in bloodlust', video: 'videos/warwick/ww5.mp4' },
       ]
     },
     {
