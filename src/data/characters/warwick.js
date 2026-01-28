@@ -10,7 +10,7 @@ export const warwick = {
   },
   heroImageOffset: { desktop: -400, mobile: -95 },
   guideAuthor: {
-    name: 'EvanAlmighty', // Author name to display
+    name: 'EvanAlmightyFGC', // Author name to display
     youtube: 'https://www.youtube.com/@EvanAlmightyFGC', // YouTube channel URL (leave empty if none)
     twitter: 'https://x.com/EvanAlmightyFGC', // Twitter/X profile URL (leave empty if none)
     twitch: 'https://www.twitch.tv/evanalmightyfgc', // Twitch channel URL (leave empty if none)

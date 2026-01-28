@@ -10,7 +10,7 @@ export const vi = {
   },
   heroImageOffset: { desktop: -145, mobile: -50 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
   guideAuthor: {
-    name: 'Quicksand', // Author name to display
+    name: 'Quicksand_FGC', // Author name to display
     youtube: 'https://www.youtube.com/@Quicksand_FGC', // YouTube channel URL (leave empty if none)
     twitter: 'https://x.com/Quicksand_FGC', // Twitter/X profile URL (leave empty if none)
     twitch: '', // Twitch channel URL (leave empty if none)
