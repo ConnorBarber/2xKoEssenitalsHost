@@ -23,11 +23,11 @@ export const warwick = {
         'Warwick is a true rushdown character, with a running special and aggression install.',
         'Best for players who enjoy aggressive gameplay and high damage output.'],
       moves: [
-        { numericNotation: 'S1', notation: 'Jaws of the Beast', notationImage: '/key-moves-notation/warwick/ww1.png', description: 'Unreactable overhead. Not really, but its fast.', video: 'videos/warwick/ww1.mp4' },
-        { numericNotation: 'S1+j', notation: 'Blood Hunt', notationImage: '/key-moves-notation/warwick/ww2.png', description: 'Activates blood scent, gaining attack speed and movement based on bloodlust stacks.', video: 'videos/warwick/ww2.mp4' },
-        { numericNotation: '2S2', notation: 'Primal Howl', notationImage: '/key-moves-notation/warwick/ww3.png', description: 'Best anti-air in the game', video: 'videos/warwick/ww3.mp4' },
-        { numericNotation: '[S1] or [6S1]', notation: 'Infinite Duress', notationImage: '/key-moves-notation/warwick/ww4.png', description: 'Can run through projectiles and exit into leap', video: 'videos/warwick/ww4.mp4' },
-        { numericNotation: 'Bloodlust 6S1', notation: 'Savage Claw', notationImage: '/key-moves-notation/warwick/ww5.png', description: 'Crossup while in bloodlust', video: 'videos/warwick/ww5.mp4' },
+        { numericNotation: 'S1', notation: 'blabla', notationImage: '/key-moves-notation/warwick/ww1.png', description: 'Unreactable overhead. Not really, but its fast.', video: 'videos/warwick/ww1.mp4' },
+        { numericNotation: 'S1+j', notation: 'blabla', notationImage: '/key-moves-notation/warwick/ww2.png', description: 'Activates blood scent, gaining attack speed and movement based on bloodlust stacks.', video: 'videos/warwick/ww2.mp4' },
+        { numericNotation: '2S2', notation: 'blabla', notationImage: '/key-moves-notation/warwick/ww3.png', description: 'Best anti-air in the game', video: 'videos/warwick/ww3.mp4' },
+        { numericNotation: '[S1] or [6S1]', notation: 'blabla', notationImage: '/key-moves-notation/warwick/ww4.png', description: 'Can run through projectiles and exit into leap', video: 'videos/warwick/ww4.mp4' },
+        { numericNotation: 'Bloodlust 6S1', notation: 'blabla', notationImage: '/key-moves-notation/warwick/ww5.png', description: 'Crossup while in bloodlust', video: 'videos/warwick/ww5.mp4' },
       ]
     },
     {
@@ -35,11 +35,11 @@ export const warwick = {
       title: 'Combos',
       description: [],
       combos: [
-        { purpose: 'BnB', numericNotation: 'M> H> [2S1]> M> H> j.L> j.M> j.H> 2H> j.M> j.H> j.S1', notationImage: '/combo-notation/warwick/ww-combo-1.png', video: 'videos/warwick/ww-combo-1.mp4' },
-        { purpose: 'BnB on Crouchers', numericNotation: 'M> H> 3H> d.2S1> L> L> M> 2H> j.M> j.H> j.S1', notationImage: '/combo-notation/warwick/ww-combo-2.png', video: 'videos/warwick/ww-combo-2.mp4' },
-        { purpose: 'Side Swap', numericNotation: 'M> H> 3H> d.2S1> L> L> M> 2H> j.M> j.H> j.S2', notationImage: '/combo-notation/warwick/ww-combo-3.png', video: 'videos/warwick/ww-combo-3.mp4' },
-        { purpose: 'Corner Combo', numericNotation: 'M> H> 2H> [2S1]> L> 2M> M> H> [2S1]> M> 6S2> 2S2', notationImage: '/combo-notation/warwick/ww-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' },
-        { purpose: 'Fury', numericNotation: 'Any combo but loop 6S2> 66> S1 at the end', notationImage: '/combo-notation/warwick/ww-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' }
+        { purpose: 'BnB', numericNotation: 'M> H> [2S1]> M> H> j.L> j.M> j.H> 2H> j.M> j.H> j.S1', notationImage: '/combo-notation/warwick/warwick-combo-1.png', video: 'videos/warwick/ww-combo-1.mp4' },
+        { purpose: 'BnB on Crouchers', numericNotation: 'M> H> 3H> d.2S1> L> L> M> 2H> j.M> j.H> j.S1', notationImage: '/combo-notation/warwick/warwick-combo-2.png', video: 'videos/warwick/ww-combo-2.mp4' },
+        { purpose: 'Side Swap', numericNotation: 'M> H> 3H> d.2S1> L> L> M> 2H> j.M> j.H> j.S2', notationImage: '/combo-notation/warwick/warwick-combo-3.png', video: 'videos/warwick/ww-combo-3.mp4' },
+        { purpose: 'Corner Combo', numericNotation: 'M> H> 2H> [2S1]> L> 2M> M> H> [2S1]> M> 6S2> 2S2', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' },
+        { purpose: 'Fury', numericNotation: 'Any combo but loop 6S2> 66> S1 at the end', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' }
       ],
       comboEnders: [
         { purpose: 'Healing Oki', numericNotation: 'j.H S1 2T', notationImage: '/combo-notation/warwick/ww-ender-1.png', video: 'videos/warwick/ww-ender-1.mp4' },
