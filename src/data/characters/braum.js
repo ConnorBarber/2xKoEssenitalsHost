@@ -1,5 +1,13 @@
 export const braum = {
   name: 'Braum',
+  archetype: 'bruiser',
+  stats: {
+    range: 2,
+    power: 5,
+    vitality: 5,
+    mobility: 2,
+    ease: 4
+  },
   heroImageOffset: { desktop: -82, mobile: -35 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
   tabs: [
     {

@@ -1,5 +1,13 @@
 export const warwick = {
   name: 'Warwick',
+  archetype: 'rushdown',
+  stats: {
+    range: 2,
+    power: 4,
+    vitality: 3,
+    mobility: 3,
+    ease: 4
+  },
   heroImageOffset: { desktop: -400, mobile: -95 },
   guideAuthor: {
     name: 'EvanAlmighty', // Author name to display

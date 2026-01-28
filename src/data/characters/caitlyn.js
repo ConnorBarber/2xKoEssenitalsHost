@@ -1,5 +1,13 @@
 export const caitlyn = {
   name: 'Caitlyn',
+  archetype: 'Zoner',
+  stats: {
+    range: 5,
+    power: 3,
+    vitality: 2,
+    mobility: 2,
+    ease: 3
+  },
   heroImageOffset: { desktop: -60, mobile: -12 },
   tabs: [
     {

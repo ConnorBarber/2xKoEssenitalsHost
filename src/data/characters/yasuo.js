@@ -1,5 +1,13 @@
 export const yasuo = {
   name: 'Yasuo',
+  archetype: 'all rounder', // e.g., Rushdown, Grappler, Zoner, etc.
+  stats: {
+    range: 3,
+    power: 3,
+    vitality: 3,
+    mobility: 3,
+    ease: 3
+  },
   heroImageOffset: { desktop: -365, mobile: -100 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
   guideAuthor: {
     name: 'EvanAlmighty', // Author name to display

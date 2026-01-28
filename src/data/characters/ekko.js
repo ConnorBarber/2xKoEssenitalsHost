@@ -1,5 +1,13 @@
 export const ekko = {// Ekko Data Starts Here
     name: 'Ekko',
+    archetype: 'mix up',
+    stats: {
+      range: 3,
+      power: 2,
+      vitality: 2,
+      mobility: 4,
+      ease: 3
+    },
     heroImageOffset: { desktop: -73, mobile: -20 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
     guideAuthor: {
       name: 'Pedro', // Author name to display

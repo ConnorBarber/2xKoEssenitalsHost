@@ -1,5 +1,13 @@
 export const ahri = {
   name: 'Ahri',
+  archetype: 'rushdown',
+  stats: {
+    range: 3,
+    power: 2,
+    vitality: 2,
+    mobility: 5,
+    ease: 3
+  },
   heroImageOffset: { desktop: -104, mobile: -27 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
   tabs: [
    {

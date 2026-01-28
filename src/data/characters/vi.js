@@ -1,5 +1,13 @@
 export const vi = {
   name: 'Vi',
+  archetype: 'Rushdown',
+  stats: {
+    range: 1,
+    power: 4,
+    vitality: 3,
+    mobility: 4,
+    ease: 4
+  },
   heroImageOffset: { desktop: -145, mobile: -50 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
   guideAuthor: {
     name: 'Quicksand', // Author name to display

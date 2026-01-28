@@ -1,5 +1,13 @@
 export const blitzcrank = {
   name: 'Blitzcrank',
+  archetype: 'Grappler',
+  stats: {
+    range: 3,
+    power: 4,
+    vitality: 4,
+    mobility: 2,
+    ease: 3
+  },
   heroImageOffset: { desktop: -296, mobile: -100 },
   tabs: [
     {

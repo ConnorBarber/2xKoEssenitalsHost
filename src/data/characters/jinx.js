@@ -1,5 +1,13 @@
 export const jinx = {
   name: 'Jinx',
+  archetype: 'Zoner',
+  stats: {
+    range: 4,
+    power: 3,
+    vitality: 2,
+    mobility: 2,
+    ease: 4
+  },
   heroImageOffset: { desktop: -164, mobile: -63 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
   tabs: [
     {

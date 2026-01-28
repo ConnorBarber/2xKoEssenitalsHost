@@ -1,5 +1,13 @@
 export const illaoi = {
   name: 'Illaoi',
+  archetype: 'bruiser',
+  stats: {
+    range: 3,
+    power: 4,
+    vitality: 4,
+    mobility: 2,
+    ease: 3
+  },
   heroImageOffset: { desktop: -57, mobile: -28 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
   tabs: [
     {

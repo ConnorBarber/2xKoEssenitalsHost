@@ -1,5 +1,13 @@
 export const darius =  {
     name: 'Darius',
+    archetype: 'all rounder',
+    stats: {
+      range: 3,
+      power: 4,
+      vitality: 4,
+      mobility: 2,
+      ease: 5
+    },
     heroImageOffset: { desktop: -454, mobile: -150 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
     tabs: [
       {

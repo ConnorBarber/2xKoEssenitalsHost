@@ -1,5 +1,13 @@
 export const teemo = {
   name: 'Teemo',
+  archetype: 'trap',
+  stats: {
+    range: 4,
+    power: 1,
+    vitality: 2,
+    mobility: 3,
+    ease: 3
+  },
   heroImageOffset: { desktop: -1080, mobile: -358 },
   guideAuthor: {
     name: '', // Author name to display
