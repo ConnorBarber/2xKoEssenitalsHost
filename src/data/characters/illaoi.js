@@ -14,27 +14,24 @@ export const illaoi = {
       id: 'key_moves',
       title: 'Key Moves',
       description: [
-        'Illaoi is a powerful juggernaut who dominates through zone control and area denial.',
-        'She thrives when multiple enemies engage her.',
-        'Best for players who enjoy standing their ground and turning ganks into victories.'
       ],
       moves: [
-        { numericNotation: '5P', notation: 'Passive', notationImage: '/key-moves-notation/illaoi/illaoi-passive.png', description: 'Prophet of an Elder God - Tentacles spawn near Illaoi', video: '/videos/illaoi-passive.mp4' },
-        { numericNotation: '236P', notation: 'Q', notationImage: '/key-moves-notation/illaoi/illaoi-q.png', description: 'Tentacle Smash - Slams tentacle in direction', video: '/videos/illaoi-q.mp4' },
-        { numericNotation: '214P', notation: 'W', notationImage: '/key-moves-notation/illaoi/illaoi-w.png', description: 'Harsh Lesson - Leap to target, nearby tentacles slam', video: '/videos/illaoi-w.mp4' },
-        { numericNotation: '623P', notation: 'E', notationImage: '/key-moves-notation/illaoi/illaoi-e.png', description: 'Test of Spirit - Pulls enemy spirit, tentacles hit both', video: '/videos/illaoi-e.mp4' },
-        { numericNotation: '632146P', notation: 'R', notationImage: '/key-moves-notation/illaoi/illaoi-r.png', description: 'Leap of Faith - Slams ground, summons tentacles', video: '/videos/illaoi-r.mp4' }
+        { numericNotation: '5P', notation: 'Passive', notationImage: '/key-moves-notation/illaoi/illaoi-passive.png', description: 'UNDER CONSTRUCTION', video: '/videos/illaoi-passive.mp4' },
+        { numericNotation: '236P', notation: 'Q', notationImage: '/key-moves-notation/illaoi/illaoi-q.png', description: 'UNDER CONSTRUCTION', video: '/videos/illaoi-q.mp4' },
+        { numericNotation: '214P', notation: 'W', notationImage: '/key-moves-notation/illaoi/illaoi-w.png', description: 'UNDER CONSTRUCTION', video: '/videos/illaoi-w.mp4' },
+        { numericNotation: '623P', notation: 'E', notationImage: '/key-moves-notation/illaoi/illaoi-e.png', description: 'UNDER CONSTRUCTION', video: '/videos/illaoi-e.mp4' },
+        { numericNotation: '632146P', notation: 'R', notationImage: '/key-moves-notation/illaoi/illaoi-r.png', description: 'UNDER CONSTRUCTION', video: '/videos/illaoi-r.mp4' }
       ]
     },
     {
       id: 'important_solo_combos',
       title: 'Combos',
-      content: 'Harass: E → Q → W on spirit. All-in: R → W → Q → E → W. Multiple Enemies: R when grouped → W spam. Spirit Kill: E → Auto → Q → W → Q. Tentacle Rotation: W → Auto → Q → W.'
+      content: 'UNDER CONSTRUCTION'
     },
     {
       id: 'team_synergies',
       title: 'Teams',
-      content: 'Control areas with tentacle spawns. Land spirit pulls to win trades. Ultimate when outnumbered for maximum value. Use W to trigger all nearby tentacles. Fight in areas with multiple tentacles.'
+      content: 'UNDER CONSTRUCTION'
     },
     // {
     //   id: 'matchups',

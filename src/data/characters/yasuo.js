@@ -20,9 +20,7 @@ export const yasuo = {
         id: 'key_moves',
         title: 'Key Moves',
         description: [
-          'Yasuo is a high-skill stance based skirmisher who flows through combat with dashes and windwalls.',
-        'He scales incredibly well and rewards mastery.',
-        'Best for players who enjoy mechanical expression and outplay potential.'
+          ''
         ],
         moves: [
           { numericNotation: 'S1', notation: 'blabla', notationImage: '/key-moves-notation/yasuo/yasuo1.png', description: 'Also knwon as Hasagi, this move is super fast for it\'s range. 2 hitting to break armor. Max range combo with assist or into S1 super', video: 'videos/ekko/key-moves/ekko-key1.mp4' },

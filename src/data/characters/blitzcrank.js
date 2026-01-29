@@ -15,11 +15,11 @@ export const blitzcrank = {
       title: 'Key Moves',
       description: [],
       moves: [
-        { numericNotation: 'S1', notation: 'Rocket Grab', notationImage: '/key-moves-notation/blitzcrank/blitz1.png', description: 'Long range hook that pulls opponents towards you. Core neutral tool and combo starter.', video: 'videos/blitzcrank/blitz1.mp4' },
-        { numericNotation: '5H', notation: 'Power Fist', notationImage: '/key-moves-notation/blitzcrank/blitz2.png', description: 'Overhead punch that causes a ground bounce. Great for combo extensions.', video: 'videos/blitzcrank/blitz2.mp4' },
-        { numericNotation: '2S1', notation: 'Low Grab', notationImage: '/key-moves-notation/blitzcrank/blitz3.png', description: 'Low hitting hook variant. Catches opponents trying to jump over regular grabs.', video: 'videos/blitzcrank/blitz3.mp4' },
-        { numericNotation: 'S2', notation: 'Overdrive', notationImage: '/key-moves-notation/blitzcrank/blitz4.png', description: 'Speed boost that enhances movement and combo potential for a short duration.', video: 'videos/blitzcrank/blitz4.mp4' },
-        { numericNotation: '6H', notation: 'Static Field', notationImage: '/key-moves-notation/blitzcrank/blitz5.png', description: 'AOE burst around Blitzcrank. Good for pressure and catching jumps.', video: 'videos/blitzcrank/blitz5.mp4' },
+        { numericNotation: 'S1', notation: 'Rocket Grab', notationImage: '/key-moves-notation/blitzcrank/blitz1.png', description: 'UNDER CONSTRUCTION', video: 'videos/blitzcrank/blitz1.mp4' },
+        { numericNotation: '5H', notation: 'Power Fist', notationImage: '/key-moves-notation/blitzcrank/blitz2.png', description: 'UNDER CONSTRUCTION', video: 'videos/blitzcrank/blitz2.mp4' },
+        { numericNotation: '2S1', notation: 'Low Grab', notationImage: '/key-moves-notation/blitzcrank/blitz3.png', description: 'UNDER CONSTRUCTION', video: 'videos/blitzcrank/blitz3.mp4' },
+        { numericNotation: 'S2', notation: 'Overdrive', notationImage: '/key-moves-notation/blitzcrank/blitz4.png', description: 'UNDER CONSTRUCTION', video: 'videos/blitzcrank/blitz4.mp4' },
+        { numericNotation: '6H', notation: 'Static Field', notationImage: '/key-moves-notation/blitzcrank/blitz5.png', description: 'UNDER CONSTRUCTION', video: 'videos/blitzcrank/blitz5.mp4' },
       ]
     },
     {
@@ -41,24 +41,8 @@ export const blitzcrank = {
     {
       id: 'team_synergies',
       title: 'Teams',
-      description: '',
+      description: 'UNDER CONSTRUCTION',
       teams: [
-        {
-          pairing: 'Yasuo',
-          fuseType: 'Freestyle',
-          explanation: 'Rocket Grab into Yasuo combos creates devastating damage. Easy confirms off grabs.',
-          videos: [
-            { id: 'F3x1-NNy6h4' },
-          ]
-        },
-        {
-          pairing: 'Jinx',
-          fuseType: '2x Assist',
-          explanation: 'Blitzcrank grab sets up perfect Jinx super confirms. Great zoning team.',
-          videos: [
-            { id: 'gCDtZgLubqw' },
-          ]
-        },
       ]
     },
     // {

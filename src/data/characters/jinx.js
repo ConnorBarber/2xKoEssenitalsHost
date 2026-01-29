@@ -14,27 +14,25 @@ export const jinx = {
       id: 'key_moves',
       title: 'Key Moves',
       description: [
-        'Jinx is a hyperactive marksman who excels at ranged combat and area control.',
-        'Her excitement mechanic makes her deadly when scoring takedowns.',
-        'Perfect for players who love chaotic, explosive gameplay.'
+        ''
       ],
       moves: [
-        { numericNotation: '5P', notation: 'Passive', notationImage: '/key-moves-notation/jinx/jinx-passive.png', description: 'Get Excited! - Gain massive movement speed on takedown', video: '/videos/jinx-passive.mp4' },
-        { numericNotation: '236P', notation: 'Q', notationImage: '/key-moves-notation/jinx/jinx-q.png', description: 'Switcheroo! - Toggle between Pow-Pow (attack speed) and Fishbones (range/AoE)', video: '/videos/jinx-q.mp4' },
-        { numericNotation: '214P', notation: 'W', notationImage: '/key-moves-notation/jinx/jinx-w.png', description: 'Zap! - Long-range skillshot that slows', video: '/videos/jinx-w.mp4' },
-        { numericNotation: '623P', notation: 'E', notationImage: '/key-moves-notation/jinx/jinx-e.png', description: 'Flame Chompers! - Deploy traps that snare', video: '/videos/jinx-e.mp4' },
-        { numericNotation: '632146P', notation: 'R', notationImage: '/key-moves-notation/jinx/jinx-r.png', description: 'Super Mega Death Rocket! - Global execute', video: '/videos/jinx-r.mp4' }
+        { numericNotation: '5P', notation: 'Passive', notationImage: '/key-moves-notation/jinx/jinx-passive.png', description: 'UNDER CONSTRUCTION', video: '/videos/jinx-passive.mp4' },
+        { numericNotation: '236P', notation: 'Q', notationImage: '/key-moves-notation/jinx/jinx-q.png', description: 'UNDER CONSTRUCTION', video: '/videos/jinx-q.mp4' },
+        { numericNotation: '214P', notation: 'W', notationImage: '/key-moves-notation/jinx/jinx-w.png', description: 'UNDER CONSTRUCTION', video: '/videos/jinx-w.mp4' },
+        { numericNotation: '623P', notation: 'E', notationImage: '/key-moves-notation/jinx/jinx-e.png', description: 'UNDER CONSTRUCTION', video: '/videos/jinx-e.mp4' },
+        { numericNotation: '632146P', notation: 'R', notationImage: '/key-moves-notation/jinx/jinx-r.png', description: 'UNDER CONSTRUCTION', video: '/videos/jinx-r.mp4' }
       ]
     },
     {
       id: 'important_solo_combos',
       title: 'Combos',
-      content: 'Poke: Fishbones → W for long-range harass. Trap Setup: E forward → Fishbones AoE. Execution: W → R on low target. All-in: E between → Pow-Pow autos → W. Cleanup: Get Excited → Fishbones for safe damage.'
+      content: 'UNDER CONSTRUCTION'
     },
     {
       id: 'team_synergies',
       title: 'Teams',
-      content: 'Maintain maximum range with Fishbones. Switch to Pow-Pow for DPS on tanks. Use traps to control space and peel. Ultimate for long-range executes. Play aggressively when excited.'
+      content: 'UNDER CONSTRUCTION'
     },
     // {
     //   id: 'matchups',

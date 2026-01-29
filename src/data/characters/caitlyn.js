@@ -15,11 +15,11 @@ export const caitlyn = {
       title: 'Key Moves',
       description: [],
       moves: [
-        { numericNotation: 'S1', notation: 'Piltover Peacemaker', notationImage: '/key-moves-notation/caitlyn/cait1.png', description: 'Long range piercing shot. Excellent for zoning and poke damage.', video: 'videos/caitlyn/cait1.mp4' },
-        { numericNotation: '2S1', notation: 'Yordle Snap Trap', notationImage: '/key-moves-notation/caitlyn/cait2.png', description: 'Places a trap that immobilizes opponents who step on it. Great for oki and space control.', video: 'videos/caitlyn/cait2.mp4' },
-        { numericNotation: 'S2', notation: '90 Caliber Net', notationImage: '/key-moves-notation/caitlyn/cait3.png', description: 'Fires a net that pushes Caitlyn backwards while slowing the opponent. Combo tool and escape option.', video: 'videos/caitlyn/cait3.mp4' },
-        { numericNotation: '5H', notation: 'Headshot', notationImage: '/key-moves-notation/caitlyn/cait4.png', description: 'Empowered shot that deals bonus damage. Builds up with other attacks.', video: 'videos/caitlyn/cait4.mp4' },
-        { numericNotation: 'j.S1', notation: 'Air Peacemaker', notationImage: '/key-moves-notation/caitlyn/cait5.png', description: 'Air version of Peacemaker. Controls air space effectively.', video: 'videos/caitlyn/cait5.mp4' },
+        { numericNotation: 'S1', notation: 'Piltover Peacemaker', notationImage: '/key-moves-notation/caitlyn/cait1.png', description: 'UNDER CONSTRUCTION', video: 'videos/caitlyn/cait1.mp4' },
+        { numericNotation: '2S1', notation: 'Yordle Snap Trap', notationImage: '/key-moves-notation/caitlyn/cait2.png', description: 'UNDER CONSTRUCTION', video: 'videos/caitlyn/cait2.mp4' },
+        { numericNotation: 'S2', notation: '90 Caliber Net', notationImage: '/key-moves-notation/caitlyn/cait3.png', description: 'UNDER CONSTRUCTION', video: 'videos/caitlyn/cait3.mp4' },
+        { numericNotation: '5H', notation: 'Headshot', notationImage: '/key-moves-notation/caitlyn/cait4.png', description: 'UNDER CONSTRUCTION', video: 'videos/caitlyn/cait4.mp4' },
+        { numericNotation: 'j.S1', notation: 'Air Peacemaker', notationImage: '/key-moves-notation/caitlyn/cait5.png', description: 'UNDER CONSTRUCTION', video: 'videos/caitlyn/cait5.mp4' },
       ]
     },
     {
@@ -41,24 +41,8 @@ export const caitlyn = {
     {
       id: 'team_synergies',
       title: 'Teams',
-      description: '',
+      description: 'UNDER CONSTRUCTION',
       teams: [
-        {
-          pairing: 'Vi',
-          fuseType: 'Freestyle',
-          explanation: 'Classic Piltover duo. Vi can get in while Caitlyn covers with traps and shots.',
-          videos: [
-            { id: 'F3x1-NNy6h4' },
-          ]
-        },
-        {
-          pairing: 'Teemo',
-          fuseType: '2x Assist',
-          explanation: 'Double trap team creates a minefield. Opponents can\'t move safely.',
-          videos: [
-            { id: 'gCDtZgLubqw' },
-          ]
-        },
       ]
     },
     // {
@@ -97,52 +81,5 @@ export const caitlyn = {
     //     },
     //   }
     // },
-    {
-      id: 'top_players',
-      title: 'Top Players',
-      players: [
-        {
-          name: 'Sharpshooter',
-          description: 'Caitlyn main known for perfect trap placement',
-          socials: {
-            twitter: 'https://twitter.com/sharpshooter',
-            twitch: 'https://twitch.tv/sharpshooter'
-          },
-          highlights: [
-            { id: 'F3x1-NNy6h4' },
-          ]
-        },
-      ]
-    },
-    {
-      id: 'guides',
-      title: 'Guides',
-      videos: [
-        { id: 'F3x1-NNy6h4' },
-        { id: '8qmI6OieGnI' },
-      ],
-      textGuides: [
-        {
-          title: 'Caitlyn Fundamentals Guide',
-          author: 'Community',
-          sections: [
-            {
-              heading: 'Overview',
-              content: 'Caitlyn is a long-range zoner who controls space with Peacemaker shots and Yordle Snap Traps. Her goal is to keep opponents at her preferred distance while chipping away at their health.'
-            },
-            {
-              heading: 'Gameplan',
-              content: 'Set up traps at key positions to limit opponent movement. Use Peacemaker to poke and build Headshot stacks. When they try to approach, use 90 Caliber Net to maintain distance.'
-            },
-          ],
-          tips: [
-            'Always have traps on the field for space control',
-            'Headshot stacks are valuable - use them wisely',
-            '90 Caliber Net is your escape - don\'t waste it',
-            'Corner trap setups are devastating'
-          ]
-        },
-      ]
-    },
   ]
 }

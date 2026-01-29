@@ -14,27 +14,25 @@ export const darius =  {
         id: 'key_moves',
         title: 'Key Moves',
         description: [
-          'Darius is a juggernaut who dominates close-range combat through sustained damage and executions.',
-          'He becomes increasingly dangerous as fights continue.',
-          'Perfect for players who enjoy aggressive, in-your-face combat.'
+          ''
         ],
         moves: [
-          { numericNotation: '5P', notation: 'Passive', notationImage: '/key-moves-notation/darius/darius-passive.png', description: 'Hemorrhage - Bleeds enemies, gaining bonus AD at 5 stacks', video: '/videos/darius-passive.mp4' },
-          { numericNotation: '236P', notation: 'Q', notationImage: '/key-moves-notation/darius/darius-q.png', description: 'Decimate - Swing axe in circle, heal from blade hits', video: '/videos/darius-q.mp4' },
-          { numericNotation: '214P', notation: 'W', notationImage: '/key-moves-notation/darius/darius-w.png', description: 'Crippling Strike - Empowered attack that slows', video: '/videos/darius-w.mp4' },
-          { numericNotation: '623P', notation: 'E', notationImage: '/key-moves-notation/darius/darius-e.png', description: 'Apprehend - Pull enemies and gain armor pen', video: '/videos/darius-e.mp4' },
-          { numericNotation: '632146P', notation: 'R', notationImage: '/key-moves-notation/darius/darius-r.png', description: 'Noxian Guillotine - Execute that resets on kill', video: '/videos/darius-r.mp4' }
+          { numericNotation: '5P', notation: 'Passive', notationImage: '/key-moves-notation/darius/darius-passive.png', description: 'UNDER CONSTRUCTION', video: '/videos/darius-passive.mp4' },
+          { numericNotation: '236P', notation: 'Q', notationImage: '/key-moves-notation/darius/darius-q.png', description: 'UNDER CONSTRUCTION', video: '/videos/darius-q.mp4' },
+          { numericNotation: '214P', notation: 'W', notationImage: '/key-moves-notation/darius/darius-w.png', description: 'UNDER CONSTRUCTION', video: '/videos/darius-w.mp4' },
+          { numericNotation: '623P', notation: 'E', notationImage: '/key-moves-notation/darius/darius-e.png', description: 'UNDER CONSTRUCTION', video: '/videos/darius-e.mp4' },
+          { numericNotation: '632146P', notation: 'R', notationImage: '/key-moves-notation/darius/darius-r.png', description: 'UNDER CONSTRUCTION', video: '/videos/darius-r.mp4' }
         ]
       },
       {
         id: 'important_solo_combos',
         title: 'Combos',
-        content: 'All-in: E → W → Auto → Q (blade) → R. Stack Building: Auto → W → Auto → Q → Auto. Reset Chain: R → R → R on multiple low enemies. Zone Control: Q spam to keep enemies at bay. Trade: E → W → Auto → disengage.'
+        content: 'UNDER CONSTRUCTION'
       },
       {
         id: 'team_synergies',
         title: 'Teams',
-        content: 'Build passive stacks before committing ultimate. Position Q for blade hits. Use pull to catch fleeing enemies or interrupt dashes. Save ultimate for executes or high-value targets. Play aggressively once stacked.'
+        content: 'UNDER CONSTRUCTION' 
       },
       // {
       //   id: 'matchups',
