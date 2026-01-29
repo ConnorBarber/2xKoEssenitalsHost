@@ -19,13 +19,15 @@ export const warwick = {
     {
       id: 'key_moves',
       title: 'Key Moves',
-      description: [],
+      description: [
+        'Warwick is a true rushdown character, with a running special and aggression install.',
+        'Best for players who enjoy aggressive gameplay and high damage output.'],
       moves: [
-        { numericNotation: 'S1', notation: 'Jaws of the Beast', notationImage: '/key-moves-notation/warwick/ww1.png', description: 'Lunging bite that heals Warwick. Hold to follow behind the opponent.', video: 'videos/warwick/ww1.mp4' },
-        { numericNotation: 'S2', notation: 'Blood Hunt', notationImage: '/key-moves-notation/warwick/ww2.png', description: 'Activates blood scent, gaining attack speed and movement based on bloodlust stacks.', video: 'videos/warwick/ww2.mp4' },
-        { numericNotation: '2S1', notation: 'Primal Howl', notationImage: '/key-moves-notation/warwick/ww3.png', description: 'Damage reduction that ends with a fear. Great defensive option.', video: 'videos/warwick/ww3.mp4' },
-        { numericNotation: '6S1', notation: 'Infinite Duress', notationImage: '/key-moves-notation/warwick/ww4.png', description: 'Long range leap that suppresses the opponent. Full combo starter.', video: 'videos/warwick/ww4.mp4' },
-        { numericNotation: '5H', notation: 'Savage Claw', notationImage: '/key-moves-notation/warwick/ww5.png', description: 'Heavy claw swipe with great range. Builds bloodlust stacks.', video: 'videos/warwick/ww5.mp4' },
+        { numericNotation: 'S1', notation: 'blabla', notationImage: '/key-moves-notation/warwick/warwick1.png', description: 'Unreactable overhead. Not really, but its fast.', video: 'videos/warwick/ww1.mp4' },
+        { numericNotation: 'S1+j', notation: 'blabla', notationImage: '/key-moves-notation/warwick/warwick2.png', description: 'Activates blood scent, gaining attack speed and movement based on bloodlust stacks.', video: 'videos/warwick/ww2.mp4' },
+        { numericNotation: '2S2', notation: 'blabla', notationImage: '/key-moves-notation/warwick/warwick3.png', description: 'Best anti-air in the game', video: 'videos/warwick/ww3.mp4' },
+        { numericNotation: '[S1] or [6S1]', notation: 'blabla', notationImage: '/key-moves-notation/warwick/warwick4.png', description: 'Can run through projectiles and exit into leap', video: 'videos/warwick/ww4.mp4' },
+        { numericNotation: 'Bloodlust 6S1', notation: 'blabla', notationImage: '/key-moves-notation/warwick/warwick5.png', description: 'Crossup while in bloodlust', video: 'videos/warwick/ww5.mp4' },
       ]
     },
     {
@@ -33,16 +35,29 @@ export const warwick = {
       title: 'Combos',
       description: [],
       combos: [
-        { purpose: 'BnB', numericNotation: 'M H S1 66 M H 2H j.M j.H j.S1', notationImage: '/combo-notation/warwick/ww-combo-1.png', video: 'videos/warwick/ww-combo-1.mp4' },
-        { purpose: 'Blood Hunt Active', numericNotation: 'S2 L M H S1 66 L M H 2H j.H j.S1', notationImage: '/combo-notation/warwick/ww-combo-2.png', video: 'videos/warwick/ww-combo-2.mp4' },
-        { purpose: 'Infinite Duress Starter', numericNotation: '6S1 M H 2H j.M j.H 66 j.H j.S2', notationImage: '/combo-notation/warwick/ww-combo-3.png', video: 'videos/warwick/ww-combo-3.mp4' },
-        { purpose: 'Anti Air Starter', numericNotation: '2H j.M j.H S1 66 j.M j.H j.S2', notationImage: '/combo-notation/warwick/ww-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' },
+        { purpose: 'BnB', numericNotation: 'M> H> [2S1]> M> H> j.L> j.M> j.H> 2H> j.M> j.H> j.S1', notationImage: '/combo-notation/warwick/warwick-combo-1.png', video: 'videos/warwick/ww-combo-1.mp4' },
+        { purpose: 'BnB on Crouchers', numericNotation: 'M> H> 3H> d.2S1> L> L> M> 2H> j.M> j.H> j.S1', notationImage: '/combo-notation/warwick/warwick-combo-2.png', video: 'videos/warwick/ww-combo-2.mp4' },
+        { purpose: 'Side Swap', numericNotation: 'M> H> 3H> d.2S1> L> L> M> 2H> j.M> j.H> j.S2', notationImage: '/combo-notation/warwick/warwick-combo-3.png', video: 'videos/warwick/ww-combo-3.mp4' },
+        { purpose: 'Corner Combo', numericNotation: 'M> H> 2H> [2S1]> L> 2M> M> H> [2S1]> M> 6S2> 2S2', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' },
+        { purpose: 'Fury', numericNotation: 'Any combo but loop 6S2> 66> S1 at the end', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' }
       ],
       comboEnders: [
         { purpose: 'Healing Oki', numericNotation: 'j.H S1 2T', notationImage: '/combo-notation/warwick/ww-ender-1.png', video: 'videos/warwick/ww-ender-1.mp4' },
         { purpose: 'Fear Setup', numericNotation: 'j.H 2S1 2T', notationImage: '/combo-notation/warwick/ww-ender-2.png', video: 'videos/warwick/ww-ender-2.mp4' },
         { purpose: 'Max Dmg', numericNotation: 'j.H j.S2 TAG', notationImage: '/combo-notation/warwick/ww-ender-3.png', video: 'videos/warwick/ww-ender-3.mp4' },
-      ]
+      ],
+      //between combos and enders
+        description2: [
+        ],
+        comboEnders: [
+          { purpose: 'Oki', numericNotation: '2S2 or S1 Super', notationImage: '/combo-notation/ekko/combo-enders/ekko-ender1.png', video: 'videos/ekko/combo-enders/ekko-ender1.mp4' },
+          { purpose: 'Blood', numericNotation: '5S2x1 or x3 and S2 Super', notationImage: '/combo-notation/ekko/combo-enders/ekko-ender2.png', video: 'videos/ekko/combo-enders/ekko-ender2.mp4' },
+        ],
+        //below everything
+        description3: [
+          'Warwick is a ',
+          "Mastering his key moves will open up more combo routes and mixup potential.",
+        ],
     },
     {
       id: 'team_synergies',
@@ -51,17 +66,41 @@ export const warwick = {
       teams: [
         {
           pairing: 'Ekko',
-          fuseType: '2x Assist',
-          explanation: 'Ekko timewinder loops build full bloodlust for Warwick easily. Devastating damage.',
+          fuseType: 'Freestyle',
+          explanation: 'Best synergy for Warwick. High damaging and able to get max blood off any interaction.',
           videos: [
             { id: 'gCDtZgLubqw' },
             { id: 'EXbUrEpVoRw' }
           ]
         },
         {
-          pairing: 'Darius',
+          pairing: 'Yasuo',
           fuseType: 'Freestyle',
-          explanation: 'Double bruiser team with incredible sustain and damage. Very hard to kill.',
+          explanation: 'Not as good a team as with Ekko but more fun. Great crossup and mixups, with extremely high damage.',
+          videos: [
+            { id: 'F3x1-NNy6h4' },
+          ]
+        },
+        {
+          pairing: 'Jinx',
+          fuseType: 'Freestyle',
+          explanation: 'Amazing neutral control, and a full screen projectile to help warwick on approach.',
+          videos: [
+            { id: 'F3x1-NNy6h4' },
+          ]
+        },
+        {
+          pairing: 'Vi',
+          fuseType: 'Double Down',
+          explanation: 'Super high damaging rush down team.',
+          videos: [
+            { id: 'F3x1-NNy6h4' },
+          ]
+        },
+        {
+          pairing: 'Illaoi',
+          fuseType: '2x Assist',
+          explanation: 'Not as strong as the others but has hidden synergy potential. Amazing corner pressure.',
           videos: [
             { id: 'F3x1-NNy6h4' },
           ]
@@ -114,6 +153,16 @@ export const warwick = {
           socials: {
             twitter: 'https://twitter.com/bloodmoon',
             twitch: 'https://twitch.tv/bloodmoon'
+          },
+          highlights: [
+            { id: 'F3x1-NNy6h4' },
+          ]
+        },
+        {
+          name: 'K7',
+          description: 'Warwick specialist with aggressive playstyle',
+          socials: {
+            youtube: 'https://www.youtube.com/@K7Showoff'
           },
           highlights: [
             { id: 'F3x1-NNy6h4' },
