@@ -35,11 +35,11 @@ export const warwick = {
       title: 'Combos',
       description: [],
       combos: [
-        { purpose: 'BnB', numericNotation: 'M> H> [2S1]> M> H> j.L> j.M> j.H> 2H> j.M> j.H> j.S1', notationImage: '/combo-notation/warwick/warwick-combo-1.png', video: 'videos/warwick/ww-combo-1.mp4' },
-        { purpose: 'BnB on Crouchers', numericNotation: 'M> H> 3H> d.2S1> L> L> M> 2H> j.M> j.H> j.S1', notationImage: '/combo-notation/warwick/warwick-combo-2.png', video: 'videos/warwick/ww-combo-2.mp4' },
-        { purpose: 'Side Swap', numericNotation: 'M> H> 3H> d.2S1> L> L> M> 2H> j.M> j.H> j.S2', notationImage: '/combo-notation/warwick/warwick-combo-3.png', video: 'videos/warwick/ww-combo-3.mp4' },
-        { purpose: 'Corner Combo', numericNotation: 'M> H> 2H> [2S1]> L> 2M> M> H> [2S1]> M> 6S2> 2S2', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' },
-        { purpose: 'Fury', numericNotation: 'Any combo but loop 6S2> 66> S1 at the end', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' }
+        { purpose: 'BnB', numericNotation: 'M > H > [2S1] > M > H > j.L > j.M > j.H > 2H > j.M > j.H > j.S1', notationImage: '/combo-notation/warwick/warwick-combo-1.png', video: 'videos/warwick/ww-combo-1.mp4' },
+        { purpose: 'BnB on Crouchers', numericNotation: 'M > H > 3H > d.2S1 > L > L > M > 2H > j.M > j.H > j.S1', notationImage: '/combo-notation/warwick/warwick-combo-2.png', video: 'videos/warwick/ww-combo-2.mp4' },
+        { purpose: 'Side Swap', numericNotation: 'M > H > 3H > d.2S1 > L > L > M > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/warwick/warwick-combo-3.png', video: 'videos/warwick/ww-combo-3.mp4' },
+        { purpose: 'Corner Combo', numericNotation: 'M > H > 2H > [2S1] > L > 2M > M > H > [2S1] > M > 6S2 > 2S2', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' },
+        { purpose: 'Fury', numericNotation: 'Any combo but loop 6S2 > 66 > S1 at the end', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' }
       ],
       comboEnders: [
         { purpose: 'Healing Oki', numericNotation: 'j.H S1 2T', notationImage: '/combo-notation/warwick/ww-ender-1.png', video: 'videos/warwick/ww-ender-1.mp4' },
