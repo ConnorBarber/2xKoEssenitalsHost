@@ -73,7 +73,7 @@ export const yasuo = {
             fuseType: 'Double Down',
             explanation: 'If playing double down, Teemo is the best parter as both of Yasuo\'s supers can combo into shroom super. If Yas does S1 super then Teemo can tag, setup shrooms or bush, and still have time for S2 super.',
             videos: [
-              { id: 'F3x1-NNy6h4' },
+              { id: 'vbYldiiFJXM' },
             ]
           },
           {
@@ -81,8 +81,7 @@ export const yasuo = {
             fuseType: 'Freeestyle',
             explanation: '2 best characters who both love mix. Nuff said.',
             videos: [
-              { id: 'gCDtZgLubqw' },
-              { id: 'EXbUrEpVoRw' }
+              { id: 'dQSYp2J6Rjz0CnOC' }
             ]
           },
           {
@@ -90,7 +89,7 @@ export const yasuo = {
             fuseType: 'Freestyle',
             explanation: 'Same concept as Ekko/Yas but not as good (but more fun)',
             videos: [
-              { id: '8qmI6OieGnI' }
+              { id: 'h-ZHdkLoXRs' }
             ]
           },
           {
@@ -98,7 +97,7 @@ export const yasuo = {
             fuseType: 'Freestyle',
             explanation: 'Better than WW/Yas but not as good as Ekko/Yas',
             videos: [
-              { id: '8qmI6OieGnI' }
+              { id: 'UQh6_KCmLNs' }
             ]
           },
         ]
@@ -274,28 +273,22 @@ export const yasuo = {
             name: 'K7',
             description: '',
             socials: {
-              twitter: 'https://twitter.com/Zando',
+              twitter: 'https://x.com/K7_Showoff',
               youtube: 'https://www.youtube.com/@K7Showoff',
-              twitch: 'http://www.twitch.tv/Zando'
+              twitch: 'https://www.twitch.tv/k7_showoff'
             },
             highlights: [
-              { id: 'F3x1-NNy6h4' },
-              { id: 'GHhFvO0TAW0' },
-              { id: 'mR92xVB7sT0' }
+              { id: 'y_vDGrsBAho' }
             ]
           },
           {
             name: 'Wawa',
             description: '',
             socials: {
-              twitter: 'https://x.com/HikariNYC',
-              youtube: 'https://www.youtube.com/@WawaFG',
-              twitch: 'https://t.co/4sYjxDdnAn'
+              twitter: 'https://x.com/Wawa_FGC',
             },
             highlights: [
-              { id: 'K6YIcxSAKz8' },
-              { id: '6dFSUmYA2Lw' },
-              { id: '4fIa3CZNLZI' }
+              { id: 'ch2znM-c0B4' }
             ]
           },
         ]
@@ -305,13 +298,13 @@ export const yasuo = {
         title: 'Guides',
         videos: [
           { 
-            id: 'ZP_cp2Jl57k', 
+            id: 'j5O4_u2gpf4', 
           },
           { 
-            id: 'linj99CyhAg', 
+            id: 'VnePKY8Z6SA', 
           },
           { 
-            id: 'zA72QlZbKjY', 
+            id: 'HqfXDWA701A', 
           },
         ],
       },
