@@ -73,7 +73,6 @@ export const vi = {
             fuseType: 'Double Down or Freeestyle',
             explanation: 'If you are able to combo into the corner, ending in air S1, you can call WW before going into S2 super, tag to him, and land 2 of his 2S2 during/after the super, giving him full blood instantly',
             videos: [
-              { id: 'F3x1mVda0vgIFVk' },
                { id: 'HHG4Cgu7uaw' }
             ]
           },
@@ -287,7 +286,7 @@ export const vi = {
               twitch: 'http://www.twitch.tv/Zando'
             },
             highlights: [
-              { id: 'F3x1-ySJqFTu4CDQ' }
+              { id: 'EZ2mbmn7nvM' }
             ]
           },
           {
