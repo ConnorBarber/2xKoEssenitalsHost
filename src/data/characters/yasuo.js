@@ -20,7 +20,10 @@ export const yasuo = {
         id: 'key_moves',
         title: 'Key Moves',
         description: [
-          ''
+          "Yasuo is a popular point character with a stance mechanic and strong left right mixups.",
+          "Yasuo's stance is activated by 2S1, which changes several of his normals and grants access to new moves.",
+          "This samurai also excels with high damaging combos, a strong neutral game, and great mobility.",
+          "Overall, Yasuo is a versatile character that can fit into many team compositions and playstyles. However, he operates best as a point character to maximize his mixup and pressure potential.",
         ],
         moves: [
           { numericNotation: 'S1', notation: 'blabla', notationImage: '/key-moves-notation/yasuo/yasuo1.png', description: 'Also knwon as Hasagi, this move is super fast for it\'s range. 2 hitting to break armor. Max range combo with assist or into S1 super', video: 'videos/ekko/key-moves/ekko-key1.mp4' },
@@ -81,7 +84,7 @@ export const yasuo = {
             fuseType: 'Freeestyle',
             explanation: '2 best characters who both love mix. Nuff said.',
             videos: [
-              { id: 'dQSYp2J6Rjz0CnOC' }
+              { id: 'PvIOTBU538Y' }
             ]
           },
           {
