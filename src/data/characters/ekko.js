@@ -287,6 +287,15 @@ export const ekko = {// Ekko Data Starts Here
               { id: '4fIa3CZNLZI' }
             ]
           },
+          {
+            name: 'Bleed',
+            socials: {
+            },
+            highlights: [
+              { id: 'bSJgmmHctq8' }
+            ]
+            
+          }
         ]
       },
       {
@@ -302,6 +311,9 @@ export const ekko = {// Ekko Data Starts Here
           { 
             id: 'zA72QlZbKjY', 
           },
+          {
+            id: 'VU5eCzvIko4'
+          }
         ],
       },
     ]
