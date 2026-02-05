@@ -26,11 +26,32 @@ export const jinx = {
         { numericNotation: '4S2', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx6.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key7.mp4' },
       ]
     },
-    {
-      id: 'important_solo_combos',
-      title: 'Combos',
-      content: 'UNDER CONSTRUCTION'
-    },
+{
+        id: 'important_solo_combos',
+        title: 'Combos',
+        //above both tables
+        description: [
+
+        ],
+        combos: [
+          { purpose: 'BnB', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combos/jinx-combo-1.mp4' },
+          { purpose: 'Side Swap', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combos/jinx-combo-2.mp4' },
+          { purpose: 'Jump In', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combos/jinx-combo-3.mp4' },
+          { purpose: 'Corner Combo', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combos/jinx-combo-4.mp4' },
+        ],
+        //between combos and enders
+        description2: [
+        ],
+        comboEnders: [
+          { purpose: 'Oki', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender1.mp4' },
+          { purpose: 'Limit Strike', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender2.mp4' },
+          { purpose: 'Damage', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender3.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender4.mp4' },
+        ],
+        //below everything
+        description3: [
+        ],
+      },
     {
       id: 'team_synergies',
       title: 'Teams',
