@@ -17,11 +17,13 @@ export const jinx = {
         ''
       ],
       moves: [
-        { numericNotation: '5P', notation: 'Passive', notationImage: '/key-moves-notation/jinx/jinx-passive.png', description: 'UNDER CONSTRUCTION', video: '/videos/jinx-passive.mp4' },
-        { numericNotation: '236P', notation: 'Q', notationImage: '/key-moves-notation/jinx/jinx-q.png', description: 'UNDER CONSTRUCTION', video: '/videos/jinx-q.mp4' },
-        { numericNotation: '214P', notation: 'W', notationImage: '/key-moves-notation/jinx/jinx-w.png', description: 'UNDER CONSTRUCTION', video: '/videos/jinx-w.mp4' },
-        { numericNotation: '623P', notation: 'E', notationImage: '/key-moves-notation/jinx/jinx-e.png', description: 'UNDER CONSTRUCTION', video: '/videos/jinx-e.mp4' },
-        { numericNotation: '632146P', notation: 'R', notationImage: '/key-moves-notation/jinx/jinx-r.png', description: 'UNDER CONSTRUCTION', video: '/videos/jinx-r.mp4' }
+        { numericNotation: '5M', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx1.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key1.mp4' },
+        { numericNotation: '3L', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx2.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key2.mp4' },
+        { numericNotation: '66M', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx3.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key3.mp4' },
+        { numericNotation: 'j.S2', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx4.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key4.mp4' },
+        { numericNotation: 'j.2H', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx5.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key5.mp4' },
+        { numericNotation: '2S1', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx6.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key6.mp4' },
+        { numericNotation: '4S2', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx6.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key7.mp4' },
       ]
     },
     {
