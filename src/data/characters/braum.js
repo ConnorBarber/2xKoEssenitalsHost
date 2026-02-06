@@ -1,5 +1,6 @@
 export const braum = {
   name: 'Braum',
+  isComplete: false,
   archetype: 'bruiser',
   stats: {
     range: 2,

@@ -1,5 +1,6 @@
 export const jinx = {
   name: 'Jinx',
+  isComplete: false,
   archetype: 'Zoner',
   stats: {
     range: 4,

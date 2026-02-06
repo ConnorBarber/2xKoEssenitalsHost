@@ -1,5 +1,6 @@
 export const blitzcrank = {
   name: 'Blitzcrank',
+  isComplete: false,
   archetype: 'Grappler',
   stats: {
     range: 3,

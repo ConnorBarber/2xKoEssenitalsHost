@@ -1,5 +1,6 @@
 export const illaoi = {
   name: 'Illaoi',
+  isComplete: false,
   archetype: 'bruiser',
   stats: {
     range: 3,

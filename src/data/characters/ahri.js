@@ -1,5 +1,6 @@
 export const ahri = {
   name: 'Ahri',
+  isComplete: false,
   archetype: 'rushdown',
   stats: {
     range: 3,

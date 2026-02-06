@@ -1,5 +1,6 @@
 export const ekko = {// Ekko Data Starts Here
     name: 'Ekko',
+    isComplete: true,
     archetype: 'mix up',
     stats: {
       range: 3,

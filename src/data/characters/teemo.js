@@ -1,5 +1,6 @@
 export const teemo = {
   name: 'Teemo',
+  isComplete: false,
   archetype: 'trap',
   stats: {
     range: 4,
