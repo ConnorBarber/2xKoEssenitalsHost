@@ -22,11 +22,14 @@ export const teemo = {
       title: 'Key Moves',
       description: [],
       moves: [
-        { numericNotation: 'S1', notation: 'Blinding Dart', notationImage: '/key-moves-notation/teemo/teemo1.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo1.mp4' },
-        { numericNotation: 'S2', notation: 'Toxic Shot', notationImage: '/key-moves-notation/teemo/teemo2.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo2.mp4' },
-        { numericNotation: '2S1', notation: 'Mushroom Plant', notationImage: '/key-moves-notation/teemo/teemo3.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo3.mp4' },
-        { numericNotation: 'j.S1', notation: 'Air Dart', notationImage: '/key-moves-notation/teemo/teemo4.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo4.mp4' },
-        { numericNotation: '66', notation: 'Move Quick', notationImage: '/key-moves-notation/teemo/teemo5.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo5.mp4' },
+        { numericNotation: 'L(LL)', notation: 'Projectile normal that can be used for: grounded keepout, dart badge, and combos', notationImage: '/key-moves-notation/teemo/teemo1.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo1.mp4' },
+        { numericNotation: '2L', notation: 'Teemo\'s fastest button(NOTE: ONLY WORKS POINT BLANK), and a low', notationImage: '/key-moves-notation/teemo/teemo2.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo2.mp4' },
+        { numericNotation: '5M', notation: 'Teemo\'s fastest button with good range(8 frames + better range than 2L), and a combo starter', notationImage: '/key-moves-notation/teemo/teemo3.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo3.mp4' },
+        { numericNotation: '2M', notation: 'Forward advancing low, and combo starter(NOTE: First hit is mid and 2 follow ups are low)', notationImage: '/key-moves-notation/teemo/teemo4.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo4.mp4' },
+        { numericNotation: '2H', notation: 'Universal Anti Air', notationImage: '/key-moves-notation/teemo/teemo5.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo5.mp4' },
+        { numericNotation: 'j.L', notation: 'Diagonal poke tool, used for keepout, combos. and approach', notationImage: '/key-moves-notation/teemo/teemo5.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo5.mp4' },
+        { numericNotation: 'S2 (j.S2)', notation: 'Shroom traps used to build mushroom meter, combo, camp/zoning keepout, and oki', notationImage: '/key-moves-notation/teemo/teemo5.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo5.mp4' },
+        { numericNotation: 'j.M', notation: 'Multi-hitting jump normal. Very active and deceptively big hitbox beneath and very easy to confirm.', notationImage: '/key-moves-notation/teemo/teemo5.png', description: 'UNDER CONSTRUCTION', video: 'videos/teemo/teemo5.mp4' },
       ]
     },
     {
@@ -34,10 +37,12 @@ export const teemo = {
       title: 'Combos',
       description: [],
       combos: [
-        { purpose: 'BnB', numericNotation: 'L M H 2H j.M j.H j.S1 66 j.H 2T', notationImage: '/combo-notation/teemo/teemo-combo-1.png', video: 'videos/teemo/teemo-combo-1.mp4' },
-        { purpose: 'Mushroom Setup', numericNotation: 'L M H 2S1 66 M H 2H j.M j.H j.S2', notationImage: '/combo-notation/teemo/teemo-combo-2.png', video: 'videos/teemo/teemo-combo-2.mp4' },
-        { purpose: 'Corner Poison Loop', numericNotation: 'S2 L M H S1 66 L M H 2H j.H j.S2', notationImage: '/combo-notation/teemo/teemo-combo-3.png', video: 'videos/teemo/teemo-combo-3.mp4' },
-        { purpose: 'Anti Air Starter', numericNotation: '2H j.L j.M j.H 66 j.M j.H j.S1', notationImage: '/combo-notation/teemo/teemo-combo-4.png', video: 'videos/teemo/teemo-combo-4.mp4' },
+        { purpose: 'Easy BnB', numericNotation: 'L M H 2H j.M j.H j.S1 66 j.H 2T', notationImage: '/combo-notation/teemo/teemo-combo-1.png', video: 'videos/teemo/teemo-combo-1.mp4' },
+        { purpose: 'BnB', numericNotation: 'M > HH > j.LLL > j.d.M(1 hit only) > M > H > j.LLL > j.2MMM > j.2H > 3H > S1+L', notationImage: '/combo-notation/teemo/teemo-combo-1.png', video: 'videos/teemo/teemo-combo-2.mp4' },
+        { purpose: 'Corner Carry', numericNotation: 'HM > HH > {2H} > j.6S1 > M > {2H} > j.6S1 > M > {2H} > [6S1] > Super(S1 super in the open, S2 on wall slump)', notationImage: '/combo-notation/teemo/teemo-combo-2.png', video: 'videos/teemo/teemo-combo-2.mp4' },
+        { purpose: 'Tag Launcher', numericNotation: 'M > HH > j.LLL > j.d.M(1 hit only) > M > H > j.LLL > j.2MMM > j.2H > 3H > T', notationImage: '/combo-notation/teemo/teemo-combo-3.png', video: 'videos/teemo/teemo-combo-3.mp4' },
+        { purpose: 'Jump In', numericNotation: 'j.L > j.M > M > HH > j.LLL > j.d.M(1 hit only) > M > H > j.LLL > j.2MMM > j.2H > 3H > S1+L', notationImage: '/combo-notation/teemo/teemo-combo-4.png', video: 'videos/teemo/teemo-combo-4.mp4' },
+        { purpose: 'Corner Combo', numericNotation: 'j.L > j.M > M > HH > j.LLL > j.d.M(1 hit only) > M > H > j.LLL > j.2MMM > j.2H > 3H > S1+L', notationImage: '/combo-notation/teemo/teemo-combo-4.png', video: 'videos/teemo/teemo-combo-4.mp4' },      
       ],
       comboEnders: [
         { purpose: 'Oki', numericNotation: 'j.H 2S1 2T', notationImage: '/combo-notation/teemo/teemo-ender-1.png', video: 'videos/teemo/teemo-ender-1.mp4' },
