@@ -17,13 +17,13 @@ export const jinx = {
         ''
       ],
       moves: [
-        { numericNotation: '5M', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx1.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key1.mp4' },
-        { numericNotation: '3L', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx2.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key2.mp4' },
-        { numericNotation: '66M', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx3.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key3.mp4' },
-        { numericNotation: 'j.S2', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx4.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key4.mp4' },
-        { numericNotation: 'j.2H', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx5.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key5.mp4' },
-        { numericNotation: '2S1', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx6.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key6.mp4' },
-        { numericNotation: '4S2', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx6.png', description: 'DESCRIPTION', video: 'videos/jinx/key-moves/jinx-key7.mp4' },
+        { numericNotation: '5M', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx1.png', description: 'Her main poke and combo starter, she gets most of her damage starting from this move. Always combos into 5H even from the very tip and is generally the button you want to be pressing all the time on the ground.', video: 'videos/jinx/key-moves/jinx-key1.mp4' },
+        { numericNotation: '3L', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx2.png', description: 'Surprisingly, a good poke and can low-profile some stuff like projectiles and normals that don\'t hit low to the ground. Also, one of her only good ways to catch retreating guard.', video: 'videos/jinx/key-moves/jinx-key2.mp4' },
+        { numericNotation: '66M', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx3.png', description: 'An amazing poke and normal to challenge your opponent. It hits low, making it good at catching a retreating guard from an assist call and catching people dashing in neutral.', video: 'videos/jinx/key-moves/jinx-key3.mp4' },
+        { numericNotation: 'j.S2', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx4.png', description: 'Falling air rocket, and to some extent ground rocket are her main tools to be using in neutral. Jinx really doesn\'t want to be on the ground that much because rocket is so strong. You mainly use it to zone without being so committal, but you can use it to keep your assists safe or to approach after firing.', video: 'videos/jinx/key-moves/jinx-key4.mp4' },
+        { numericNotation: 'j.2H', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx5.png', description: 'Because you jump so much, you want to have a way to mix up what you are doing in the air. This button helps with that a lot, it changes your momentem instantly and on hit you can get a full combo into trap mix. Even if it doesn\'t hit your opponent has to guess if u will do it again that can beat their anti-air or go for a j.L or j.M that gives you better pressure.', video: 'videos/jinx/key-moves/jinx-key5.mp4' },
+        { numericNotation: '2S1', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx6.png', description: 'Clappy is a very important part of her gameplan for oki, zoning, and movement. With the new buffs in patch 1.1.1 you basically always want to set up Clappy on every knockdown other than specialized set-ups.', video: 'videos/jinx/key-moves/jinx-key6.mp4' },
+        { numericNotation: '4S2', notation: 'blabla', notationImage: '/key-moves-notation/jinx/jinx7.png', description: 'Big zap gives you combos from full screen off of her projectiles and stray hits. It also beats most non-super projectiles outright.', video: 'videos/jinx/key-moves/jinx-key7.mp4' },
       ]
     },
 {
@@ -34,19 +34,19 @@ export const jinx = {
 
         ],
         combos: [
-          { purpose: 'BnB', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combos/jinx-combo-1.mp4' },
-          { purpose: 'Side Swap', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combos/jinx-combo-2.mp4' },
-          { purpose: 'Jump In', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combos/jinx-combo-3.mp4' },
-          { purpose: 'Corner Combo', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combos/jinx-combo-4.mp4' },
-        ],
+          { purpose: 'BnB', numericNotation: 'LMH > 2H >  j.H >  j.2H > falling j.h > 2H > d.j.[H] > j.2S2 > j.S2 > 3H', notationImage: '/combo-notation/jinx/jinx-combo1.png', video: 'videos/jinx/combos/jinx-combo-1.mp4' },
+          { purpose: 'Side Swap', numericNotation: 'LMH > 2H > j.H > j.2H > falling > j.h > 2H > j.[H]', notationImage: '/combo-notation/jinx/jinx-combo2.png', video: 'videos/jinx/combos/jinx-combo-2.mp4' },
+          { purpose: 'Jump In', numericNotation: 'Same as BnB', notationImage: '/combo-notation/jinx/jinx-combo3.png', video: 'videos/jinx/combos/jinx-combo-3.mp4' },
+          { purpose: 'Corner Combo', numericNotation: 'LMH > 2H > j.[H] > j.2s2 > j.s2 > 5[H] > 2s1 > 5M > 2s2 > land 6s1 > 2s1 > super jump j.H > j.2H >  j.[H]', notationImage: '/combo-notation/jinx/jinx-combo4.png', video: 'videos/jinx/combos/jinx-combo-4.mp4' },
+        ],  
         //between combos and enders
         description2: [
         ],
         comboEnders: [
-          { purpose: 'Oki', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender1.mp4' },
-          { purpose: 'Limit Strike', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender2.mp4' },
-          { purpose: 'Damage', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender3.mp4' },
-          { purpose: 'Tag Launcher', numericNotation: 'PLACEHOLDER', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender4.mp4' },
+          { purpose: 'Oki', numericNotation: 'j.[H] or 3H > 2S1', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender1.mp4' },
+          { purpose: 'Limit Strike', numericNotation: 'j.2H', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender2.mp4' },
+          { purpose: 'Damage', numericNotation: '2S2 > j.S1 > S2+M', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender3.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: '2m(1) > 5H > 2T', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender4.mp4' },
         ],
         //below everything
         description3: [
