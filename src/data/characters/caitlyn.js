@@ -1,5 +1,6 @@
 export const caitlyn = {
   name: 'Caitlyn',
+  isComplete: false,
   archetype: 'Zoner',
   stats: {
     range: 5,

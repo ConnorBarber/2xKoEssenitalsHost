@@ -1,5 +1,6 @@
 export const yasuo = {
   name: 'Yasuo',
+  isComplete: false,
   archetype: 'all rounder', // e.g., Rushdown, Grappler, Zoner, etc.
   stats: {
     range: 3,

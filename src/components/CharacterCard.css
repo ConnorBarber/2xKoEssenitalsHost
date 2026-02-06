@@ -5,6 +5,20 @@
   padding: 2rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  position: relative;
+}
+
+.wip-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(255, 193, 7, 0.85);
+  color: #1b1d1f;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .character-card:hover {

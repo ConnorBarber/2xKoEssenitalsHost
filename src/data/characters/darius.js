@@ -1,5 +1,6 @@
 export const darius =  {
     name: 'Darius',
+    isComplete: false,
     archetype: 'all rounder',
     stats: {
       range: 3,
