@@ -83,9 +83,9 @@ export const teemo = {
         },
       ]
     },
-      {
-        id: 'top_players',
-        title: 'Top Players',
+    {
+      id: 'top_players',
+      title: 'Top Players',
         players: [
           {
             name: 'Inzem',
@@ -116,9 +116,9 @@ export const teemo = {
           },
         ]
       },
-      {
-        id: 'guides',
-        title: 'Guides',
+    {
+      id: 'guides',
+      title: 'Guides',
         videos: [
           { 
             id: '2gEht2i_bDk', 
