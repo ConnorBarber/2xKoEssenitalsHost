@@ -10,6 +10,12 @@ export const jinx = {
     ease: 4
   },
   heroImageOffset: { desktop: -164, mobile: -63 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
+  guideAuthor: {
+    name: 'YoTerrako', // Author name to display
+    youtube: 'https://www.youtube.com/@YoTerrako', // YouTube channel URL (leave empty if none)
+    twitter: 'https://x.com/TerrAkoFGC', // Twitter/X profile URL (leave empty if none)
+    twitch: '', // Twitch channel URL (leave empty if none)
+  },
   tabs: [
     {
       id: 'key_moves',
