@@ -62,7 +62,7 @@ export const teemo = {
           fuseType: 'Double Down',
           explanation: 'yasuo covers teemo\'s bad matchups(jinx, illaoi, caitlyn), and they can double down super together for both mix and dmg(ex: tornado first 3 hits into megashroom)',
           videos: [
-            { id: 'F3x1-NNy6h4' },
+            { id: 'd075s3HPm_0' },
           ]
         },
         {
@@ -70,7 +70,7 @@ export const teemo = {
           fuseType: '2x Assit or Double Down',
           explanation: 'These two characters both have great 2x Assist utitility. Illaoi enhances Teemo\'s corner pressure with intense lockdown, and her S2 super or super assist + megashroom can lock down the field for keepout',
           videos: [
-            { id: 'gCDtZgLubqw' },
+            { id: 'VLNHxkOnoJ4' },
           ]
         },
         {
@@ -78,7 +78,7 @@ export const teemo = {
           fuseType: 'Double Down or Freestyle',
           explanation: 'This team is not the strongest team, but if you want full zoning abilities, it grants all angles of coverage. Jinx gives teemo full screen zoning power, and additional items to clutter the field for keepout.',
           videos: [
-            { id: 'gCDtZgLubqw' },
+            { id: 'E6FLPVTxYGs' },
           ]
         },
       ]
@@ -88,25 +88,30 @@ export const teemo = {
         title: 'Top Players',
         players: [
           {
-            name: 'Zando',
+            name: 'Inzem',
             description: '',
             socials: {
-              twitter: 'https://twitter.com/Zando',
-              youtube: 'https://www.youtube.com/@Zando',
-              twitch: 'http://www.twitch.tv/Zando'
+              twitch: 'https://www.twitch.tv/inzemm'
             },
             highlights: [
-              { id: 'EZ2mbmn7nvM' }
+              { id: '4FypBAwMOV4' }
             ]
           },
           {
-            name: 'Blaizzy',
+            name: 'Globo',
             description: '',
             socials: {
-              twitch: 'https://www.twitch.tv/blaizzy'
+              twitch: 'https://www.twitch.tv/2xko'
             },
             highlights: [
-              { id: 'S3CxJx9olO0' }
+              { id: 'fniPaEENBhA' }
+            ]
+          },
+          {
+            name: 'Yosep',
+            description: 'No socials available, but look Yosep up on YouTube for some of the best Teemo gameplay out there',
+            highlights: [
+              { id: 'bTebq4JPYPw' }
             ]
           },
         ]
@@ -116,13 +121,13 @@ export const teemo = {
         title: 'Guides',
         videos: [
           { 
-            id: 'Ie8m5VuaXGA', 
+            id: '2gEht2i_bDk', 
           },
           { 
-            id: 'tZLOSgLZFE4', 
+            id: 'Ov6IWCJsV54', 
           },
           { 
-            id: 'tZd52GhWjgA', 
+            id: 'iH5Ubk3yyyU', 
           },
         ],
       },
