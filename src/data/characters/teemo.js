@@ -20,7 +20,12 @@ export const teemo = {
     {
       id: 'key_moves',
       title: 'Key Moves',
-      description: [],
+     description: [
+          "Teemo is a character for those that enjoy: traps, unique movement, and trolling",
+          "He has tons of mechanics unique to him, like his badges(darts, shrooms, and slingshot), which he builds up to full power by using these moves.",
+          "Teemo also has the ability to double jump/glide, turn invisible within his 2s2 bush, and the ability to burn the bush and use its flame to fly higher",
+          "If you want to play a character that requires time and effort, but is unique and plays their own gameplan, Teemo is for you."
+        ],
       moves: [
         { numericNotation: 'L(LL)', notation: 'Projectile normal that can be used for: grounded keepout, dart badge, and combos', notationImage: '/key-moves-notation/teemo/teemo1.png', description: 'Projectile normal that can be used for: grounded keepout, dart badge, and combos	', video: 'videos/teemo/teemo1.mp4' },
         { numericNotation: '2L', notation: 'Teemo\'s fastest button(NOTE: ONLY WORKS POINT BLANK), and a low', notationImage: '/key-moves-notation/teemo/teemo2.png', description: 'Teemo\'s fastest button(NOTE: ONLY WORKS POINT BLANK), and a low	', video: 'videos/teemo/teemo2.mp4' },
