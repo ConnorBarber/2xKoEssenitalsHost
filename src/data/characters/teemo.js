@@ -45,11 +45,11 @@ export const teemo = {
         { purpose: 'Corner Combo/Oki', numericNotation: 'M > HH > {2H} > j.5S1 > M > {2H} > j.5S1 > 6S1 > S2+L > 2S2 > j.2H	', notationImage: '/combo-notation/teemo/teemo-combo-6.png', video: 'videos/teemo/teemo-combo-6.mp4' },      
       ],
       comboEnders: [
-        { purpose: 'Oki', numericNotation: 'j.H', notationImage: '/combo-notation/teemo/teemo-ender-1.png', video: 'videos/teemo/teemo-ender-1.mp4' },
-        { purpose: 'Limit Strike	', numericNotation: 'H or 6S1', notationImage: '/combo-notation/teemo/teemo-ender-2.png', video: 'videos/teemo/teemo-ender-2.mp4' },
-        { purpose: 'Damage', numericNotation: 'S1+L', notationImage: '/combo-notation/teemo/teemo-ender-3.png', video: 'videos/teemo/teemo-ender-3.mp4' },
-        {purpose: 'Hard Tag', numericNotation: 'S2+L > Hard Tag', notationImage: '/combo-notation/teemo/teemo-ender-4.png', video: 'videos/teemo/teemo-ender-4.mp4' },
-        {purpose: 'Tag Launcher', numericNotation: '3H for OTG, 6S1 in corner > T', notationImage: '/combo-notation/teemo/teemo-ender-5.png', video: 'videos/teemo/teemo-ender-5.mp4' },
+        { purpose: 'Oki', numericNotation: 'j.H', notationImage: '/combo-notation/teemo/combo-enders/teemo-ender-1.png', video: 'videos/teemo/teemo-ender-1.mp4' },
+        { purpose: 'Limit Strike	', numericNotation: 'H or 6S1', notationImage: '/combo-notation/teemo/combo-enders/teemo-ender-2.png', video: 'videos/teemo/teemo-ender-2.mp4' },
+        { purpose: 'Damage', numericNotation: 'S1+L', notationImage: '/combo-notation/teemo/combo-enders/teemo-ender-3.png', video: 'videos/teemo/teemo-ender-3.mp4' },
+        {purpose: 'Hard Tag', numericNotation: 'S2+L > Hard Tag', notationImage: '/combo-notation/teemo/combo-enders/teemo-ender-4.png', video: 'videos/teemo/teemo-ender-4.mp4' },
+        {purpose: 'Tag Launcher', numericNotation: '3H for OTG, 6S1 in corner > T', notationImage: '/combo-notation/teemo/combo-enders/teemo-ender-5.png', video: 'videos/teemo/teemo-ender-5.mp4' },
       ]
     },
     {
