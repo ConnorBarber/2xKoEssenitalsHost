@@ -9,23 +9,25 @@ function TopPlayersTab({ tabData }) {
           <div key={index} className="player-card">
             <h4>{player.name}</h4>
             <p>{player.description}</p>
-            <div className="social-links">
-              {player.socials.twitter && (
-                <a href={player.socials.twitter} target="_blank" rel="noopener noreferrer" className="social-link twitter">
-                  <i className="fab fa-twitter"></i>
-                </a>
-              )}
-              {player.socials.youtube && (
-                <a href={player.socials.youtube} target="_blank" rel="noopener noreferrer" className="social-link youtube">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              )}
-              {player.socials.twitch && (
-                <a href={player.socials.twitch} target="_blank" rel="noopener noreferrer" className="social-link twitch">
-                  <i className="fab fa-twitch"></i>
-                </a>
-              )}
-            </div>
+            {player.socials && (
+              <div className="social-links">
+                {player.socials.twitter && (
+                  <a href={player.socials.twitter} target="_blank" rel="noopener noreferrer" className="social-link twitter">
+                    <i className="fab fa-twitter"></i>
+                  </a>
+                )}
+                {player.socials.youtube && (
+                  <a href={player.socials.youtube} target="_blank" rel="noopener noreferrer" className="social-link youtube">
+                    <i className="fab fa-youtube"></i>
+                  </a>
+                )}
+                {player.socials.twitch && (
+                  <a href={player.socials.twitch} target="_blank" rel="noopener noreferrer" className="social-link twitch">
+                    <i className="fab fa-twitch"></i>
+                  </a>
+                )}
+              </div>
+            )}
             {player.highlights && player.highlights.length > 0 && (
               <div className="highlights-section">
                 <h5>Highlights</h5>
