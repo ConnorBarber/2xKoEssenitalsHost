@@ -10,142 +10,152 @@ export const illaoi = {
     ease: 3
   },
   heroImageOffset: { desktop: -57, mobile: -28 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
+ guideAuthor: {
+    name: 'Quicksand_FGC', // Author name to display
+    youtube: 'https://www.youtube.com/@Quicksand_FGC', // YouTube channel URL (leave empty if none)
+    twitter: 'https://x.com/Quicksand_FGC', // Twitter/X profile URL (leave empty if none)
+    twitch: '', // Twitch channel URL (leave empty if none)
+  },
   tabs: [
-    {
-      id: 'key_moves',
-      title: 'Key Moves',
-      description: [
-      ],
-      moves: [
-        { numericNotation: '5P', notation: 'Passive', notationImage: '/key-moves-notation/illaoi/illaoi-passive.png', description: 'UNDER CONSTRUCTION', video: '/videos/illaoi-passive.mp4' },
-        { numericNotation: '236P', notation: 'Q', notationImage: '/key-moves-notation/illaoi/illaoi-q.png', description: 'UNDER CONSTRUCTION', video: '/videos/illaoi-q.mp4' },
-        { numericNotation: '214P', notation: 'W', notationImage: '/key-moves-notation/illaoi/illaoi-w.png', description: 'UNDER CONSTRUCTION', video: '/videos/illaoi-w.mp4' },
-        { numericNotation: '623P', notation: 'E', notationImage: '/key-moves-notation/illaoi/illaoi-e.png', description: 'UNDER CONSTRUCTION', video: '/videos/illaoi-e.mp4' },
-        { numericNotation: '632146P', notation: 'R', notationImage: '/key-moves-notation/illaoi/illaoi-r.png', description: 'UNDER CONSTRUCTION', video: '/videos/illaoi-r.mp4' }
-      ]
-    },
-    {
-      id: 'important_solo_combos',
-      title: 'Combos',
-      content: 'UNDER CONSTRUCTION'
-    },
-    {
-      id: 'team_synergies',
-      title: 'Teams',
-      content: 'UNDER CONSTRUCTION'
-    },
-    // {
-    //   id: 'matchups',
-    //   title: 'Matchups',
-    //   matchups: {
-    //     'Ahri': {
-    //       difficulty: 'Hard',
-    //       difficultyClass: 'hard',
-    //       overview: [
-    //         'Ahri is one of Illaoi\'s worst matchups. Her mobility makes it nearly impossible to land Test of Spirit, and she can dodge your tentacle slams with ease.',
-    //         'This matchup is about patience and setup. Try to force her into areas with multiple tentacles. If she gets greedy for CS, that\'s when you can land E. Save your ultimate for when she commits Spirit Rush, but she can usually dash away before you get value.'
-    //       ],
-    //       keyPoints: [
-    //         'Her mobility makes landing E very difficult',
-    //         'She can dodge tentacle slams easily',
-    //         'Force her into tentacle zones for CS',
-    //         'She usually escapes before you get R value'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Braum': {
-    //       difficulty: 'Hard',
-    //       difficultyClass: 'hard',
-    //       overview: [
-    //         'Braum\'s shield and mobility make him frustrating for Illaoi. He can block your Test of Spirit with Unbreakable, removing your primary trading tool.',
-    //         'Try to bait his shield before using E. His Stand Behind Me helps his team avoid your tentacles. Don\'t waste ultimate on him alone - he\'s too tanky. Focus on landing E when his shield is down and controlling zones his team needs to enter.'
-    //       ],
-    //       keyPoints: [
-    //         'His shield blocks your E',
-    //         'His W helps team avoid tentacles',
-    //         'Don\'t waste R on him alone',
-    //         'Bait shield before using E'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Darius': {
-    //       difficulty: 'Medium',
-    //       difficultyClass: 'medium',
-    //       overview: [
-    //         'This is a juggernaut duel that depends on positioning and tentacle setup. Both of you want extended fights, so it comes down to whose setup is better.',
-    //         'Land your E before he can stack passive. Fight in areas with multiple tentacles. Your ultimate gives you more tentacles, which can outvalue his passive if positioned well. Dodge his Q outer ring. Whoever gets their setup first usually wins.'
-    //       ],
-    //       keyPoints: [
-    //         'Juggernaut duel - setup matters most',
-    //         'Land E before he stacks passive',
-    //         'Fight in tentacle zones',
-    //         'Dodge his Q outer ring'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Ekko': {
-    //       difficulty: 'Hard',
-    //       difficultyClass: 'hard',
-    //       overview: [
-    //         'Ekko\'s mobility is a major problem for Illaoi. He can dodge your abilities easily and poke you down from range while staying safe.',
-    //         'This matchup requires prediction over reaction. Place tentacles where he\'s likely to dash to. If you land E, commit hard immediately before he escapes. His ultimate resets bad trades, so you need to zone him first. Never chase him - make him come to you.'
-    //       ],
-    //       keyPoints: [
-    //         'His mobility makes hitting abilities hard',
-    //         'Predict his dashes, don\'t react',
-    //         'Commit hard if E lands',
-    //         'Never chase him'
-    //       ],
-    //       videos: [
-    //         { id: 'illaekko' }
-    //       ]
-    //     },
-    //     'Jinx': {
-    //       difficulty: 'Hard',
-    //       difficultyClass: 'hard',
-    //       overview: [
-    //         'Jinx can poke you from outside your effective range with Fishbones, making it hard to get value. She has no mobility but her range keeps her safe.',
-    //         'You need to land E to have any threat on her. Use Flash + E if necessary. Her Flame Chompers can stop your engage. Once you get on top of her with ultimate, she dies, but getting there is the challenge. Force her to come to you for objectives.'
-    //       ],
-    //       keyPoints: [
-    //         'She outranges you significantly',
-    //         'Need Flash + E to reach her',
-    //         'Her traps stop your engage',
-    //         'Force her to come to you'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Vi': {
-    //       difficulty: 'Easy',
-    //       difficultyClass: 'easy',
-    //       overview: [
-    //         'Vi engages into you, which is exactly what you want as Illaoi. When she commits with her ultimate, she\'s stuck in your zone where your tentacles can smash her.',
-    //         'Bait her to engage when you\'re in a tentacle zone. Once she commits R, immediately use your ultimate and W to destroy her with tentacle slams. She\'s tanky but your percent health damage and multiple tentacles overwhelm her quickly.'
-    //       ],
-    //       keyPoints: [
-    //         'She engages into your ideal range',
-    //         'Bait her engage in tentacle zones',
-    //         'R immediately when she commits',
-    //         'Your % damage beats her tankiness'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Yasuo': {
-    //       difficulty: 'Hard',
-    //       difficultyClass: 'hard',
-    //       overview: [
-    //         'Yasuo\'s mobility with Sweeping Blade makes him very difficult to hit with your abilities. He can dash around your tentacles and poke safely.',
-    //         'Try to fight when there are fewer minions for him to dash through. His Wind Wall doesn\'t block your abilities since they\'re not projectiles, which is good. Land E when he\'s committed to a dash pattern. Place tentacles to cover multiple dash paths.'
-    //       ],
-    //       keyPoints: [
-    //         'His dashes make him very hard to hit',
-    //         'Wind Wall doesn\'t block your abilities',
-    //         'Fight with fewer minions around',
-    //         'Cover multiple dash paths with tentacles'
-    //       ],
-    //       videos: []
-    //     }
-    //   }
-    // }
+      {
+        id: 'key_moves',
+        title: 'Key Moves',
+        description: [
+          "Vi is a rushdown character with the ability to swiftly move in, as well as bait and punish with 6S1.",
+          "Vi's 6S1 (Sway) is a great movement tool, but also can lead into her iconic Electrics. These are timing based attacks that can be performed after a 6S1, and if timed correctly for damage and pressure.",
+          "Overall, Vi is fast, aggressive, and thrives on getting in the opponent's face to keep them on the defensive.",
+        ],
+        moves: [
+          { numericNotation: '5M/2M', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi.png', description: 'Illaoi\'s mediums are very good. 5M and 2M help you approach while maintaining pressure from a good distance', video: 'videos/illaoi/key-moves/illaoi-key1.mp4' },
+          { numericNotation: '6S1', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi2.png', description: 'This move has a huge hitbox and hurtbox but clears projectiles and traps. Use it to approach zoners like Jinx, Teemo and Caitlyn, or just to throw a large button to control space on the screen', video: 'videos/illaoi/key-moves/illaoi-key2.mp4' },
+          { numericNotation: 'S2 super', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi3.png', description: 'High vertical reaching Anti-air, often very safe on block', video: 'videos/illaoi/key-moves/illaoi-key3.mp4' },
+          { numericNotation: 'j.S2', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi4.png', description: 'Safest poke/combo starter normal in neutral	', video: 'videos/illaoi/key-moves/illaoi-key4.mp4' },
+          { numericNotation: 'S1 super', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' },   
+          { numericNotation: '6S2', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' },   
+          { numericNotation: '4S1/1S1', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' },   
+          { numericNotation: '2S2', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' }   
+        ]
+      },
+      {
+        id: 'important_solo_combos',
+        title: 'Combos',
+        //above both tables
+        description: [
+
+        ],
+        combos: [
+          { purpose: 'BnB', numericNotation: 'M > H > 6S1 > L > {M} > 6S1 > {M} > {H} > 6S1 > {M} > 6S1 > {M} > 6S1 > {L} > M > H > 2S2 > S2+M', notationImage: '/combo-notation/illaoi/illaoi-combo-1.png', video: 'videos/illaoi/combos/illaoi-combo-1.mp4' },
+          { purpose: 'Corner Combo', numericNotation: 'M > H > 6S1 > L > {M} > 6S1 > [L] > {M} > 6S1 > [L] > {M} > 6S1 > [L] > 6S1 > L > M > H > 2S2 > S2+M', notationImage: '/combo-notation/illaoi/illaoi-combo-2.png', video: 'videos/illaoi/combos/illaoi-combo-2.mp4' },
+          { purpose: 'Limit Strike', numericNotation: 'M > H > 6S1 > L > M > 6S1 > {M} > {H} > 6S1 > {M} > 6S1 > {M} > {H}', notationImage: '/combo-notation/illaoi/illaoi-combo-3.png', video: 'videos/illaoi/combos/illaoi-combo-3.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: '2M > H > 6S1 > L > {M} > 6S1 > {L} > S1 > Dash > L > M > 2H > Jump > {j.S1} > 2M > Tag launch', notationImage: '/combo-notation/illaoi/illaoi-combo-4.png', video: 'videos/illaoi/combos/illaoi-combo-4.mp4' },
+          { purpose: 'Jump In', numericNotation: 'j.H> M > H > 6S1 > L > {M} > 6S1 >/*{M}*\/> {H} <*/> 6S1 <*/>{M}*\/> 6S1 <*/>{H}*\/> 6S1 <*/>{L}*\/> M <*/> H', notationImage: '/combo-notation/illaoi/illaoi-combo-5.png', video: 'videos/illaoi/combos/illaoi-combo-5.mp4' },
+          { purpose: 'Fury', numericNotation: 'M <*/> H <*/> 6S1 <*/> L <*/> {M} <*/> 6S1 <*/> {M} <*/> {H} <*/> 6S1 <*/> {M} <*/> 6S1 >>{M}> 6S1>{L}> M>H>Fury>Dash>H>H>S1>Dash cancel>H>2H>Jump>jH>jS1>Dash cancel>2S2>S1+S3', notationImage: '/combo-notation/illaoi/illaoi-combo-6.png', video: 'videos/illaoi/combos/illaoi-combo-6.mp4' }
+        ],
+        //between combos and enders
+        description2: [
+        ],
+        comboEnders: [
+          { purpose: 'For Oki', numericNotation: '6S1+H', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder1.png', video: 'videos/illaoi/combo-enders/illaoi-ender1.mp4' },
+          { purpose: 'Limit Strike', numericNotation: 'S2, 6S1+[H]', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder2.png', video: 'videos/illaoi/combo-enders/illaoi-ender2.mp4' },
+          { purpose: 'Damage and Super Followups', numericNotation: '2S2', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder3.png', video: 'videos/illaoi/combo-enders/illaoi-ender3.mp4' },
+          { purpose: 'Assist Setups', numericNotation: 'S1/Charge S1', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder4.png', video: 'videos/illaoi/combo-enders/illaoi-ender4.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: 'Charge jS1 > Tag Launch', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder5.png', video: 'videos/illaoi/combo-enders/illaoi-ender5.mp4' },
+        ],
+        //below everything
+        description3: [
+          'Choose your combo ender based on the situation. Vi has to think on her feet',
+          "Her BNB route has great corner carry and also works in the corner. Fall back on it when you arent sure what to do.",
+        ],
+      },
+      {
+        id: 'team_synergies',
+        title: 'Teams',
+        description: '',
+        teams: [
+          {
+            pairing: 'Warwick',
+            fuseType: 'Double Down or Freeestyle',
+            explanation: 'If you are able to combo into the corner, ending in air S1, you can call WW before going into S2 super, tag to him, and land 2 of his 2S2 during/after the super, giving him full blood instantly',
+            videos: [
+               { id: 'HHG4Cgu7uaw' }
+            ]
+          },
+          {
+            pairing: 'Ekko or Yasuo',
+            fuseType: 'Freeestyle or 2x Assist',
+            explanation: 'Using Vi\'s double forward sway, in combination with these characters inherent ability to cross to the otherside open up many sandwhich opportunities for both characters',
+            videos: [
+              { id: 'SxOSBAEJYMY' }
+            ]
+          },
+          {
+            pairing: 'Illaoi or Jinx',
+            fuseType: '2x Assist',
+            explanation: 'Using Vi\'s forward Assist + Back assist, you get an anti-air assist that can be nearly anywhere on the screen quite quickly',
+            videos: [
+              { id: 'DCBAFBurj9c' }
+            ]
+          },
+          {
+            pairing: 'Darius',
+            fuseType: 'Double Down',
+            explanation: 'After a Vi combo, ending in S2 Super, tagging to Darius, he is able to tac on a lot of damage with his S2 specials and his own S2 super before Vi\'s ends',
+            videos: [
+              { id: 'j5ErgwxieV0' }
+            ]
+          },
+          {
+            pairing: 'Ahri',
+            fuseType: 'Freestyle',
+            explanation: 'The best ground movement plus the best air movement lets you be real tricky with how you approach and opens potential sandwhich options with Vi\'s Sway and charge S1 tag',
+            videos: [
+              { id: 'ptCethbZVNA' }
+            ]
+          },
+        ]
+      },
+      {
+        id: 'top_players',
+        title: 'Top Players',
+        players: [
+          {
+            name: 'Zando',
+            description: '',
+            socials: {
+              twitter: 'https://twitter.com/Zando',
+              youtube: 'https://www.youtube.com/@Zando',
+              twitch: 'http://www.twitch.tv/Zando'
+            },
+            highlights: [
+              { id: 'EZ2mbmn7nvM' }
+            ]
+          },
+          {
+            name: 'Blaizzy',
+            description: '',
+            socials: {
+              twitch: 'https://www.twitch.tv/blaizzy'
+            },
+            highlights: [
+              { id: 'S3CxJx9olO0' }
+            ]
+          },
+        ]
+      },
+      {
+        id: 'guides',
+        title: 'Guides',
+        videos: [
+          { 
+            id: 'Ie8m5VuaXGA', 
+          },
+          { 
+            id: 'tZLOSgLZFE4', 
+          },
+          { 
+            id: 'tZd52GhWjgA', 
+          },
+        ],
+      },
   ]
 };
