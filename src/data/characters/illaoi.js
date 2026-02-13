@@ -21,9 +21,6 @@ export const illaoi = {
         id: 'key_moves',
         title: 'Key Moves',
         description: [
-          "Vi is a rushdown character with the ability to swiftly move in, as well as bait and punish with 6S1.",
-          "Vi's 6S1 (Sway) is a great movement tool, but also can lead into her iconic Electrics. These are timing based attacks that can be performed after a 6S1, and if timed correctly for damage and pressure.",
-          "Overall, Vi is fast, aggressive, and thrives on getting in the opponent's face to keep them on the defensive.",
         ],
         moves: [
           { numericNotation: '5M/2M', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi.png', description: 'Illaoi\'s mediums are very good. 5M and 2M help you approach while maintaining pressure from a good distance', video: 'videos/illaoi/key-moves/illaoi-key1.mp4' },
