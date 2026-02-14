@@ -1,6 +1,6 @@
 export const teemo = {
   name: 'Teemo',
-  isComplete: false,
+  isComplete: true,
   archetype: 'trap',
   stats: {
     range: 4,
@@ -40,7 +40,12 @@ export const teemo = {
     {
       id: 'important_solo_combos',
       title: 'Combos',
-      description: [],
+      //above both tables
+        description: [
+          "Teemo has a TON of combo routes and different considerations to choose from when picking combbos. Which badge do you need yo build? Are you close to a corner? Do you need raw damage?",
+          "Due to this, the combos listed are meant to teach certain techniques rather than be the BEST routes.",
+          "So when learning these combos focus on: single hit him, partial charging 2H for shroom loops, and setting up traps during S2+M(Megashroom). Once you have these techniques down, check out the guide lists for more optimal combos."
+        ],
       combos: [
         { purpose: 'Easy BnB', numericNotation: 'M > H > 2H > j.LLL > j.MMM > j.2H > 3H > S1+L', notationImage: '/combo-notation/teemo/teemo-combo-1.png', video: 'videos/teemo/combos/teemo-combo-1.mp4' },
         { purpose: 'BnB', numericNotation: 'M > HH > j.LLL > j.d.M(1 hit only) > H > j.LLL > j.2MMM > j.2H > 3H > S1+L', notationImage: '/combo-notation/teemo/teemo-combo-2.png', video: 'videos/teemo/combos/teemo-combo-2.mp4' },
