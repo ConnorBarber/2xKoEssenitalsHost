@@ -26,11 +26,11 @@ export const vi = {
           "Overall, Vi is fast, aggressive, and thrives on getting in the opponent's face to keep them on the defensive.",
         ],
         moves: [
-          { numericNotation: '6S1 and 4S1', notation: 'blabla', notationImage: '/key-moves-notation/vi/vi1.png', description: 'Forward/Back 6S1, key explosive movement in neutral', video: 'videos/vi/key-moves/vi-key1.mp4' },
-          { numericNotation: 'S1', notation: 'blabla', notationImage: '/key-moves-notation/vi/vi2.png', description: 'Fast, long reaching special to catch people lacking', video: 'videos/vi/key-moves/vi-key2.mp4' },
-          { numericNotation: '2S2', notation: 'blabla', notationImage: '/key-moves-notation/vi/vi3.png', description: 'High vertical reaching Anti-air, often very safe on block', video: 'videos/vi/key-moves/vi-key3.mp4' },
-          { numericNotation: '2M', notation: 'blabla', notationImage: '/key-moves-notation/vi/vi4.png', description: 'Safest poke/combo starter normal in neutral	', video: 'videos/vi/key-moves/vi-key4.mp4' },
-          { numericNotation: '2S1', notation: 'blabla', notationImage: '/key-moves-notation/vi/vi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/vi/key-moves/vi-key5.mp4' }   
+          { numericNotation: '6S1 and 4S1', notation: '', notationImage: '/key-moves-notation/vi/vi1.png', description: 'Forward/Back 6S1, key explosive movement in neutral', video: 'videos/vi/key-moves/vi-key1.mp4' },
+          { numericNotation: 'S1', notation: '', notationImage: '/key-moves-notation/vi/vi2.png', description: 'Fast, long reaching special to catch people lacking', video: 'videos/vi/key-moves/vi-key2.mp4' },
+          { numericNotation: '2S2', notation: '', notationImage: '/key-moves-notation/vi/vi3.png', description: 'High vertical reaching Anti-air, often very safe on block', video: 'videos/vi/key-moves/vi-key3.mp4' },
+          { numericNotation: '2M', notation: '', notationImage: '/key-moves-notation/vi/vi4.png', description: 'Safest poke/combo starter normal in neutral	', video: 'videos/vi/key-moves/vi-key4.mp4' },
+          { numericNotation: '2S1', notation: '', notationImage: '/key-moves-notation/vi/vi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/vi/key-moves/vi-key5.mp4' }   
         ]
       },
       {
