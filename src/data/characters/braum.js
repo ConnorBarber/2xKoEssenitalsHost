@@ -18,12 +18,12 @@ export const braum = {
          
         ],
         moves: [
-          { numericNotation: 'S2, 2S2 and j.S2', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko1.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: '5M', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko2.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: 'S1 and 2S1', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko3.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: 'j.66', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko4.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: 'j.2H', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko5.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-        { numericNotation: '6S1', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko6.png', description: 'UNDER CONSTRUCTIONe', video: 'videos/ekko/illaekko.mp4' }
+          { numericNotation: 'S2, 2S2 and j.S2', notation: '', notationImage: '/key-moves-notation/ekko/ekko1.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
+          { numericNotation: '5M', notation: '', notationImage: '/key-moves-notation/ekko/ekko2.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
+          { numericNotation: 'S1 and 2S1', notation: '', notationImage: '/key-moves-notation/ekko/ekko3.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
+          { numericNotation: 'j.66', notation: '', notationImage: '/key-moves-notation/ekko/ekko4.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
+          { numericNotation: 'j.2H', notation: '', notationImage: '/key-moves-notation/ekko/ekko5.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
+        { numericNotation: '6S1', notation: '', notationImage: '/key-moves-notation/ekko/ekko6.png', description: 'UNDER CONSTRUCTIONe', video: 'videos/ekko/illaekko.mp4' }
         ]
       },
     {

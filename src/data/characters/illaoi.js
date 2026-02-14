@@ -23,14 +23,14 @@ export const illaoi = {
         description: [
         ],
         moves: [
-          { numericNotation: '5M/2M', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi.png', description: 'Illaoi\'s mediums are very good. 5M and 2M help you approach while maintaining pressure from a good distance', video: 'videos/illaoi/key-moves/illaoi-key1.mp4' },
-          { numericNotation: '6S1', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi2.png', description: 'This move has a huge hitbox and hurtbox but clears projectiles and traps. Use it to approach zoners like Jinx, Teemo and Caitlyn, or just to throw a large button to control space on the screen', video: 'videos/illaoi/key-moves/illaoi-key2.mp4' },
-          { numericNotation: 'S2 super', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi3.png', description: 'High vertical reaching Anti-air, often very safe on block', video: 'videos/illaoi/key-moves/illaoi-key3.mp4' },
-          { numericNotation: 'j.S2', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi4.png', description: 'Safest poke/combo starter normal in neutral	', video: 'videos/illaoi/key-moves/illaoi-key4.mp4' },
-          { numericNotation: 'S1 super', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' },   
-          { numericNotation: '6S2', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' },   
-          { numericNotation: '4S1/1S1', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' },   
-          { numericNotation: '2S2', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' }   
+          { numericNotation: '5M/2M', notation: '', notationImage: '/key-moves-notation/illaoi/illaoi.png', description: 'Illaoi\'s mediums are very good. 5M and 2M help you approach while maintaining pressure from a good distance', video: 'videos/illaoi/key-moves/illaoi-key1.mp4' },
+          { numericNotation: '6S1', notation: '', notationImage: '/key-moves-notation/illaoi/illaoi2.png', description: 'This move has a huge hitbox and hurtbox but clears projectiles and traps. Use it to approach zoners like Jinx, Teemo and Caitlyn, or just to throw a large button to control space on the screen', video: 'videos/illaoi/key-moves/illaoi-key2.mp4' },
+          { numericNotation: 'S2 super', notation: '', notationImage: '/key-moves-notation/illaoi/illaoi3.png', description: 'High vertical reaching Anti-air, often very safe on block', video: 'videos/illaoi/key-moves/illaoi-key3.mp4' },
+          { numericNotation: 'j.S2', notation: '', notationImage: '/key-moves-notation/illaoi/illaoi4.png', description: 'Safest poke/combo starter normal in neutral	', video: 'videos/illaoi/key-moves/illaoi-key4.mp4' },
+          { numericNotation: 'S1 super', notation: '', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' },   
+          { numericNotation: '6S2', notation: '', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' },   
+          { numericNotation: '4S1/1S1', notation: '', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' },   
+          { numericNotation: '2S2', notation: '', notationImage: '/key-moves-notation/illaoi/illaoi5.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi-key5.mp4' }   
         ]
       },
       {

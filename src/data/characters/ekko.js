@@ -27,12 +27,12 @@ export const ekko = {// Ekko Data Starts Here
           "Overall, his normals are very solid, with a special mention to his 5M, which has great range and speed.",
         ],
         moves: [
-          { numericNotation: 'S2, 2S2 and j.S2', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko1.png', description: 'Replay is a core mechanic in most of his combos and a tool for being safe in neutral', video: 'videos/ekko/key-moves/ekko-key1.mp4' },
-          { numericNotation: '5M', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko2.png', description: 'One of the best 5Ms in the game. Reaches far and fast', video: 'videos/ekko/key-moves/ekko-key2.mp4' },
-          { numericNotation: 'S1 and 2S1', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko3.png', description: 'Timewinder is an important option for covering the screen on the ground or against jump ins. Remember you can hit your timewinder with Ekko\'s heavy moves to throw it at your opponent.', video: 'videos/ekko/key-moves/ekko-key3.mp4' },
-          { numericNotation: 'j.66', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko4.png', description: 'Amazing air mobility tool, useful for baiting anti airs and for crossing up at hard to predict angles', video: 'videos/ekko/key-moves/ekko-key4.mp4' },
-          { numericNotation: 'j.2H', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko5.png', description: 'By itself or with his air dash, this move can be an easy crossup overhead that goes into a full combo', video: 'videos/ekko/key-moves/ekko-key5.mp4' },
-        { numericNotation: '6S1', notation: 'blabla', notationImage: '/key-moves-notation/ekko/ekko6.png', description: 'Risky move to use alone, but using it right before tagging out is an easy way to get ekko in with freestyle or just use him as a fake projectile', video: 'videos/ekko/key-moves/ekko-key6.mp4' }
+          { numericNotation: 'S2, 2S2 and j.S2', notation: '', notationImage: '/key-moves-notation/ekko/ekko1.png', description: 'Replay is a core mechanic in most of his combos and a tool for being safe in neutral', video: 'videos/ekko/key-moves/ekko-key1.mp4' },
+          { numericNotation: '5M', notation: '', notationImage: '/key-moves-notation/ekko/ekko2.png', description: 'One of the best 5Ms in the game. Reaches far and fast', video: 'videos/ekko/key-moves/ekko-key2.mp4' },
+          { numericNotation: 'S1 and 2S1', notation: '', notationImage: '/key-moves-notation/ekko/ekko3.png', description: 'Timewinder is an important option for covering the screen on the ground or against jump ins. Remember you can hit your timewinder with Ekko\'s heavy moves to throw it at your opponent.', video: 'videos/ekko/key-moves/ekko-key3.mp4' },
+          { numericNotation: 'j.66', notation: '', notationImage: '/key-moves-notation/ekko/ekko4.png', description: 'Amazing air mobility tool, useful for baiting anti airs and for crossing up at hard to predict angles', video: 'videos/ekko/key-moves/ekko-key4.mp4' },
+          { numericNotation: 'j.2H', notation: '', notationImage: '/key-moves-notation/ekko/ekko5.png', description: 'By itself or with his air dash, this move can be an easy crossup overhead that goes into a full combo', video: 'videos/ekko/key-moves/ekko-key5.mp4' },
+        { numericNotation: '6S1', notation: '', notationImage: '/key-moves-notation/ekko/ekko6.png', description: 'Risky move to use alone, but using it right before tagging out is an easy way to get ekko in with freestyle or just use him as a fake projectile', video: 'videos/ekko/key-moves/ekko-key6.mp4' }
         ]
       },
       {
