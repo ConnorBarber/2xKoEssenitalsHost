@@ -33,7 +33,7 @@ export const illaoi = {
           { numericNotation: '6S2', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi6.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi6.mp4' },   
           { numericNotation: '4S1/1S1', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi7.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi7.mp4' },   
           { numericNotation: '2S2', notation: 'blabla', notationImage: '/key-moves-notation/illaoi/illaoi8.png', description: 'Vi\'s 4 frame counter, easy to use on defense against auto-piloters', video: 'videos/illaoi/key-moves/illaoi8.mp4' }   
-        ]
+        ],
       },
       {
         id: 'important_solo_combos',
