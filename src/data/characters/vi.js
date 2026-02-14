@@ -1,6 +1,6 @@
 export const vi = {
   name: 'Vi',
-  isComplete: false,
+  isComplete: true,
   archetype: 'Rushdown',
   stats: {
     range: 1,
