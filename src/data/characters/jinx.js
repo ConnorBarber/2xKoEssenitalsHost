@@ -43,7 +43,6 @@ export const jinx = {
         combos: [
           { purpose: 'BnB', numericNotation: 'LMH > 2H >  j.H >  j.2H > falling j.h > 2H > d.j.[H] > j.2S2 > j.S2 > 3H', notationImage: '/combo-notation/jinx/jinx-combo1.png', video: 'videos/jinx/combos/jinx-combo-1.mp4' },
           { purpose: 'Side Swap', numericNotation: 'LMH > 2H > j.H > j.2H > falling > j.h > 2H > j.[H]', notationImage: '/combo-notation/jinx/jinx-combo2.png', video: 'videos/jinx/combos/jinx-combo-2.mp4' },
-          { purpose: 'Jump In', numericNotation: 'Same as BnB', notationImage: '/combo-notation/jinx/jinx-combo3.png', video: 'videos/jinx/combos/jinx-combo-3.mp4' },
           { purpose: 'Corner Combo', numericNotation: 'LMH > 2H > j.[H] > j.2s2 > j.s2 > 5[H] > 2s1 > 5M > 2s2 > land 6s1 > 2s1 > super jump j.H > j.2H >  j.[H]', notationImage: '/combo-notation/jinx/jinx-combo4.png', video: 'videos/jinx/combos/jinx-combo-4.mp4' },
         ],  
         //between combos and enders
@@ -69,7 +68,7 @@ export const jinx = {
             fuseType: 'Double Down',
             explanation: 'Double zoner team, its strengths are keeping people out with amazing zoning patterns and good chip. Teemo gives Jinx good damage, better tools for zoning, and easy ways to get in with super tag. He also makes up for Jinx\'s lack of mix by having an instant overhead and amazing layers of high-low with his float, and j.M. Teemo\'s pick-ups with mushrooms are also really good for this team and can keep Jinx really safe after things like overhead and minigun. Though the same way, doubling up on your strengths is good, you also have double the downsides. Teemo\'s defence isn\'t the best, and getting caught out when you don\'t have an assist or something on screen is also really bad for the team. Overall, the team is really annoying to fight and really good to play and farm some funny rage quit clips.',
             videos: [
-               { id: '' }
+               { id: 'wVhgjSjGnBQ' }
             ]
           },
           {
@@ -77,7 +76,7 @@ export const jinx = {
             fuseType: 'Freeestyle',
             explanation: 'Timebomb, a classic team that, like most good teams, has Ekko on it. Ekko kinda just does everything right now. Crazy good mix, really good neutral, fast and tricky, and a lot of other things. With this team, Jinx gives Ekko really good Neutal with her rocket assist, and knockdowns can become even scarier with trap assist oki. The whole team has really good assists with rocket assist from Jinx and Ekko Cronostrike and Timewinder. Jinx can give Ekko really easy ways to skip neutral and fly past projectiles with roll and zap. Zap also gives Ekko combos from full screen. Minigun is also good in this team because it lockdowns for a long time and lets Ekko charge clone or get ready for some really good midscreen mix-ups while still being able to be a demon in the corner with Ekko\'s, solo lob mix. Overall Jinx doesn\'t really give Ekko much he doesn\'t already have, but just like a healthy couple. Jinx just enhances everything Ekko does, and Ekko gives Jinx everything she needs to be good.',
             videos: [
-              { id: '' }
+              { id: 'GgH3maTkxH8' }
             ]
           },
           {
@@ -85,7 +84,7 @@ export const jinx = {
             fuseType: '2x Assist',
             explanation: 'Father and Daughter duo, Warwick Jinx is a really good win neutral team. Jinx\'s double rocket assist is really good for running it down with Warwick, while Warwick gives Jinx some really good assists that help her neutral be even more annoying, and a DP assist that can catch a lot of people trying to punish Jinx for doing grounded rocket. This team is simple but effective. Warwick leap or dash up 5M in neutral with Jinx rockets backing you up, so you can\'t get punished, and 5s1 that does your taxes, you kinda can\'t go wrong with this team. Overall, they work really well together and can be pushed to further heights.',
             videos: [
-              { id: '' }
+              { id: 'Z7M_sRz1k8E' }
             ]
           },
           {
@@ -93,7 +92,7 @@ export const jinx = {
             fuseType: 'Freestyle',
             explanation: 'Windbomb, as some like to call it. Probably Jinx\'s best team, or at least her most pushed team. Yasuo gives Jinx much-needed mix and offensive control that she lacks solo. Windwall lets her not worry about any other projectiles, and every 6 seconds, she can control the whole screen for a small amount of time while pushing off anyone trying to zone the zoner. Yasuo also loves the rocket assist, letting him not worry about running in for a while. This team is surprisingly keep-away based. Yasuo doesn\'t need to rush in like Ekko or Ahri do to make his gameplan work well because windwall is so strong. Overall good team and they work well together, giving some really nice on-block offence with Yasuo\'s sideswaps.',
             videos: [
-              { id: '' }
+              { id: 'wLDT-O4A9-g' }
             ]
           },
         ],
