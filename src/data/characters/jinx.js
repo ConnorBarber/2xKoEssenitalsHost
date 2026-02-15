@@ -50,10 +50,10 @@ export const jinx = {
         description2: [
         ],
         comboEnders: [
-          { purpose: 'Oki', numericNotation: 'j.[H] or 3H > 2S1', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender1.mp4' },
-          { purpose: 'Limit Strike', numericNotation: 'j.2H', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender2.mp4' },
-          { purpose: 'Damage', numericNotation: '2S2 > j.S1 > S2+M', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender3.mp4' },
-          { purpose: 'Tag Launcher', numericNotation: '2m(1) > 5H > 2T', notationImage: '', video: 'videos/jinx/combo-enders/jinx-ender4.mp4' },
+          { purpose: 'Oki', numericNotation: 'j.[H] or 3H > 2S1', notationImage: '/combo-notation/jinx/combo-enders/jinx-ender1.png', video: 'videos/jinx/combo-enders/jinx-ender1.mp4' },
+          { purpose: 'Limit Strike', numericNotation: 'j.2H', notationImage: '/combo-notation/jinx/combo-enders/jinx-ender2.png', video: 'videos/jinx/combo-enders/jinx-ender2.mp4' },
+          { purpose: 'Damage', numericNotation: '2S2 > j.S1 > S2+M', notationImage: '/combo-notation/jinx/combo-enders/jinx-ender3.png', video: 'videos/jinx/combo-enders/jinx-ender3.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: '2m(1) > 5H > 2T', notationImage: '/combo-notation/jinx/combo-enders/jinx-ender4.png', video: 'videos/jinx/combo-enders/jinx-ender4.mp4' },
         ],
         //below everything
         description3: [
