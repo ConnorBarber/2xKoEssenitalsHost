@@ -55,10 +55,10 @@ export const yasuo = {
         description2: [
         ],
         comboEnders: [
-          { purpose: 'Airtech Oki', numericNotation: 'j.S2, 2S1, L', notationImage: '/combo-notation/yasuo/combo-enders/yasuo-comboEnder-1.png', video: 'videos/yasuo/combo-enders/yasuo-comboEnder-1.mp4' },
-          { purpose: 'Limit Strike', numericNotation: '2S1, 2H, [6S1], 2S1, H', notationImage: '/combo-notation/yasuo/combo-enders/yasuo-comboEnder-2.png', video: 'videos/yasuo/combo-enders/yasuo-comboEnder-2.mp4' },
-          { purpose: 'Windwall Oki', numericNotation: 'j.S2, 4S2', notationImage: '/combo-notation/yasuo/combo-enders/yasuo-comboEnder-3.png', video: 'videos/yasuo/combo-enders/yasuo-comboEnder-3.mp4' },
-          { purpose: 'Tag Launcher', numericNotation: '2S1, 2H, [6S1], 2S1, 2S1, 2T', notationImage: '/combo-notation/yasuo/combo-enders/yasuo-comboEnder-4.png', video: 'videos/yasuo/combo-enders/yasuo-comboEnder-4.mp4' },
+          { purpose: 'Airtech Oki', numericNotation: 'j.S2, 2S1, L', notationImage: '/combo-notation/yasuo/combo-enders/yasuo-comboEnder-1.png', video: 'videos/yasuo/combo-enders/yasuo-ender1.mp4' },
+          { purpose: 'Limit Strike', numericNotation: '2S1, 2H, [6S1], 2S1, H', notationImage: '/combo-notation/yasuo/combo-enders/yasuo-comboEnder-2.png', video: 'videos/yasuo/combo-enders/yasuo-ender2.mp4' },
+          { purpose: 'Windwall Oki', numericNotation: 'j.S2, 4S2', notationImage: '/combo-notation/yasuo/combo-enders/yasuo-comboEnder-3.png', video: 'videos/yasuo/combo-enders/yasuo-ender3.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: '2S1, 2H, [6S1], 2S1, 2S1, 2T', notationImage: '/combo-notation/yasuo/combo-enders/yasuo-comboEnder-4.png', video: 'videos/yasuo/combo-enders/yasuo-ender4.mp4' },
           
         ],
         //below everything
