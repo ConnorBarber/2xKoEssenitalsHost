@@ -4,10 +4,14 @@ function YTVideo({ id, fallbackTitle, fallbackAuthor, variant = 'large', isFirst
   const [title, setTitle] = useState(fallbackTitle || 'Loading...')
   const [author, setAuthor] = useState(fallbackAuthor || '')
 
+  // Extract base video ID (without timestamp params) for thumbnails
+  // Handles formats like: "dQw4w9WgXcQ?t=120", "dQw4w9WgXcQ&t=120", etc.
+  const baseVideoId = id.split(/[?&]/)[0]
+
   useEffect(() => {
     const fetchVideoData = async () => {
       try {
-        const res = await fetch(`https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${id}&format=json`)
+        const res = await fetch(`https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${baseVideoId}&format=json`)
         const data = await res.json()
         setTitle(data.title)
         setAuthor(data.author_name)
@@ -18,7 +22,7 @@ function YTVideo({ id, fallbackTitle, fallbackAuthor, variant = 'large', isFirst
     }
 
     fetchVideoData()
-  }, [id, fallbackTitle, fallbackAuthor])
+  }, [baseVideoId, fallbackTitle, fallbackAuthor])
 
   const handleClick = () => {
     window.open(`https://www.youtube.com/watch?v=${id}`, '_blank', 'noopener,noreferrer')
@@ -32,10 +36,10 @@ function YTVideo({ id, fallbackTitle, fallbackAuthor, variant = 'large', isFirst
         <div className="video-guide-card video-guide-featured" onClick={handleClick}>
           <div className="video-guide-thumbnail">
             <img 
-              src={`https://img.youtube.com/vi/${id}/maxresdefault.jpg`}
+              src={`https://img.youtube.com/vi/${baseVideoId}/maxresdefault.jpg`}
               alt={title}
               onError={(e) => {
-                e.target.src = `https://img.youtube.com/vi/${id}/hqdefault.jpg`
+                e.target.src = `https://img.youtube.com/vi/${baseVideoId}/hqdefault.jpg`
               }}
             />
             <div className="video-guide-play-icon">
@@ -58,10 +62,10 @@ function YTVideo({ id, fallbackTitle, fallbackAuthor, variant = 'large', isFirst
         <div className="video-guide-card video-guide-list-item" onClick={handleClick}>
           <div className="video-guide-thumbnail">
             <img 
-              src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`}
+              src={`https://img.youtube.com/vi/${baseVideoId}/mqdefault.jpg`}
               alt={title}
               onError={(e) => {
-                e.target.src = `https://img.youtube.com/vi/${id}/hqdefault.jpg`
+                e.target.src = `https://img.youtube.com/vi/${baseVideoId}/hqdefault.jpg`
               }}
             />
             <div className="video-guide-play-icon">
@@ -86,10 +90,10 @@ function YTVideo({ id, fallbackTitle, fallbackAuthor, variant = 'large', isFirst
     <div className="video-guide-card" onClick={handleClick}>
       <div className="video-guide-thumbnail">
         <img 
-          src={`https://img.youtube.com/vi/${id}/mqdefault.jpg`}
+          src={`https://img.youtube.com/vi/${baseVideoId}/mqdefault.jpg`}
           alt={title}
           onError={(e) => {
-            e.target.src = `https://img.youtube.com/vi/${id}/hqdefault.jpg`
+            e.target.src = `https://img.youtube.com/vi/${baseVideoId}/hqdefault.jpg`
           }}
         />
         <div className="video-guide-play-icon">
