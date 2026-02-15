@@ -24,11 +24,11 @@ export const warwick = {
         'Warwick is a true rushdown character, with a running special and aggression install.',
         'Best for players who enjoy aggressive gameplay and high damage output.'],
       moves: [
-        { numericNotation: 'S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick1.png', description: 'Unreactable overhead. Not really, but its fast.', video: 'videos/warwick/ww1.mp4' },
-        { numericNotation: 'S1+j', notation: '', notationImage: '/key-moves-notation/warwick/warwick2.png', description: 'Activates blood scent, gaining attack speed and movement based on bloodlust stacks.', video: 'videos/warwick/ww2.mp4' },
-        { numericNotation: '2S2', notation: '', notationImage: '/key-moves-notation/warwick/warwick3.png', description: 'Best anti-air in the game', video: 'videos/warwick/ww3.mp4' },
-        { numericNotation: '[S1] or [6S1]', notation: '', notationImage: '/key-moves-notation/warwick/warwick4.png', description: 'Can run through projectiles and exit into leap', video: 'videos/warwick/ww4.mp4' },
-        { numericNotation: 'Bloodlust 6S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick5.png', description: 'Crossup while in bloodlust', video: 'videos/warwick/ww5.mp4' },
+        { numericNotation: 'S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick1.png', description: 'Unreactable overhead. Not really, but its fast.', video: 'videos/warwick/warwick1.mp4' },
+        { numericNotation: 'S1+j', notation: '', notationImage: '/key-moves-notation/warwick/warwick2.png', description: 'Strike/throw and plus if blocked.', video: 'videos/warwick/warwick2.mp4' },
+        { numericNotation: '2S2', notation: '', notationImage: '/key-moves-notation/warwick/warwick3.png', description: 'Best anti-air in the game', video: 'videos/warwick/warwick3.mp4' },
+        { numericNotation: '[S1] or [6S1]', notation: '', notationImage: '/key-moves-notation/warwick/warwick4.png', description: 'Can run through projectiles and exit into leap', video: 'videos/warwick/warwick4.mp4' },
+        { numericNotation: 'Bloodlust 6S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick5.png', description: 'Crossup while in bloodlust', video: 'videos/warwick/warwick5.mp4' },
       ]
     },
     {
@@ -43,16 +43,16 @@ export const warwick = {
         { purpose: 'Fury', numericNotation: 'Any combo but loop 6S2 > 66 > S1 at the end', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' }
       ],
       comboEnders: [
-        { purpose: 'Healing Oki', numericNotation: 'j.H S1 2T', notationImage: '/combo-notation/warwick/ww-ender-1.png', video: 'videos/warwick/ww-ender-1.mp4' },
-        { purpose: 'Fear Setup', numericNotation: 'j.H 2S1 2T', notationImage: '/combo-notation/warwick/ww-ender-2.png', video: 'videos/warwick/ww-ender-2.mp4' },
-        { purpose: 'Max Dmg', numericNotation: 'j.H j.S2 TAG', notationImage: '/combo-notation/warwick/ww-ender-3.png', video: 'videos/warwick/ww-ender-3.mp4' },
+        { purpose: 'Healing Oki', numericNotation: 'j.H S1 2T', notationImage: '/combo-notation/warwick/ww-ender-1.png', video: 'videos/warwick/warwick-ender1.mp4' },
+        { purpose: 'Fear Setup', numericNotation: 'j.H 2S1 2T', notationImage: '/combo-notation/warwick/ww-ender-2.png', video: 'videos/warwick/warwick-ender2.mp4' },
+        { purpose: 'Max Dmg', numericNotation: 'j.H j.S2 TAG', notationImage: '/combo-notation/warwick/ww-ender-3.png', video: 'videos/warwick/warwick-ender3.mp4' },
       ],
       //between combos and enders
         description2: [
         ],
         comboEnders: [
-          { purpose: 'Oki', numericNotation: '2S2 or S1 Super', notationImage: '/combo-notation/ekko/combo-enders/ekko-ender1.png', video: 'videos/ekko/combo-enders/ekko-ender1.mp4' },
-          { purpose: 'Blood', numericNotation: '5S2x1 or x3 and S2 Super', notationImage: '/combo-notation/ekko/combo-enders/ekko-ender2.png', video: 'videos/ekko/combo-enders/ekko-ender2.mp4' },
+          { purpose: 'Oki', numericNotation: '2S2 or S1 Super', notationImage: '/combo-notation/warwick/warwick-ender1.png', video: 'videos/warwick/warwick-ender1.mp4' },
+          { purpose: 'Blood', numericNotation: '5S2x1 or x3 and S2 Super', notationImage: '/combo-notation/warwick/warwick-ender2.png', video: 'videos/warwick/warwick-ender2.mp4' },
         ],
         //below everything
         description3: [
