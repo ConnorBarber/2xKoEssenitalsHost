@@ -46,7 +46,7 @@ export const vi = {
           { purpose: 'Limit Strike', numericNotation: 'M > H > 6S1 > L > M > 6S1 > {M} > {H} > 6S1 > {M} > 6S1 > {M} > {H}', notationImage: '/combo-notation/vi/vi-combo-3.png', video: 'videos/vi/combos/vi-combo-3.mp4' },
           { purpose: 'Tag Launcher', numericNotation: '2M > H > 6S1 > L > {M} > 6S1 > {L} > S1 > Dash > L > M > 2H > Jump > {j.S1} > 2M > Tag launch', notationImage: '/combo-notation/vi/vi-combo-4.png', video: 'videos/vi/combos/vi-combo-4.mp4' },
           { purpose: 'Jump In', numericNotation: 'j.H> M > H > 6S1 > L > {M} > 6S1 >{M} > {H} > 6S1 > {M} > 6S1 > {H} > 6S1 > {L} > M > H', notationImage: '/combo-notation/vi/vi-combo-5.png', video: 'videos/vi/combos/vi-combo-5.mp4' },
-          { purpose: 'Fury', numericNotation: 'M > H > 6S1 > L > {M} > 6S1 > {M} > {H} > 6S1 > {M} > 6S1 >>{M}> 6S1>{L}> M>H>Fury>Dash>H>H>S1>Dash cancel>H>2H>Jump>jH>jS1>Dash cancel>2S2>S1+S3', notationImage: '/combo-notation/vi/vi-combo-6.png', video: 'videos/vi/combos/vi-combo-6.mp4' }
+          { purpose: 'Fury', numericNotation: 'M > H > 6S1 > L > {M} > 6S1 > {M} > {H} > 6S1 > {M} > 6S1 > {M} > 6S1 > {L} > M > H > Fury > Dash > H > H > S1 > Dash cancel > H > 2H > Jump > jH > jS1 > Dash cancel > 2S2 > S1+S3', notationImage: '/combo-notation/vi/vi-combo-6.png', video: 'videos/vi/combos/vi-combo-6.mp4' }
         ],
         //between combos and enders
         description2: [
@@ -282,8 +282,7 @@ export const vi = {
             name: 'Zando',
             description: '',
             socials: {
-              twitter: 'https://twitter.com/Zando',
-              youtube: 'https://www.youtube.com/@Zando',
+              twitter: 'https://x.com/zandowastaken',
               twitch: 'http://www.twitch.tv/Zando'
             },
             highlights: [

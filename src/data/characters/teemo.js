@@ -111,7 +111,6 @@ export const teemo = {
             name: 'Globo',
             description: '',
             socials: {
-              twitch: 'https://www.twitch.tv/2xko'
             },
             highlights: [
               { id: 'fniPaEENBhA' }
@@ -119,7 +118,7 @@ export const teemo = {
           },
           {
             name: 'Yosep',
-            description: 'No socials available, but look Yosep up on YouTube for some of the best Teemo gameplay out there',
+            description: 'No socials available, but look Yosep up on YouTube for some of the best Teemo/Illaoi gameplay out there',
             highlights: [
               { id: 'bTebq4JPYPw' }
             ]

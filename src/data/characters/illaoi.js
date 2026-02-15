@@ -43,27 +43,27 @@ export const illaoi = {
 
         ],
         combos: [
-          { purpose: 'BnB', numericNotation: '2M>M>H>2S2>66>M>H>j.M>j.H>j.S1>2M>M>H>2H>j.M>j.H>j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-1.png', video: 'videos/illaoi/combos/illaoi-combo-1.mp4' },
-          { purpose: 'Corner Carry', numericNotation: '2M>5M>5H>2S2>66>66>5M>5H>j.L>j.M>j.H>j.S1>[2H]>2H>j.M>j.H>j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-2.png', video: 'videos/illaoi/combos/illaoi-combo-2.mp4' },
-          { purpose: 'Side Swap', numericNotation: '2M>M>H>2S2>66>M>H>j.M>j.H>j.S1>66>5L>5M>5H>j.M>j.H>j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-3.png', video: 'videos/illaoi/combos/illaoi-combo-3.mp4' },
-          { purpose: 'Jump In', numericNotation: 'j.[H]>2M>M>H>2S2>66>M>H>j.M>j.H>j.S1>2M>M>H>2H>j.M>j.H>j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-4.png', video: 'videos/illaoi/combos/illaoi-combo-4.mp4' },
-          { purpose: 'Crossup Jump In', numericNotation: 'j.[2H]>2M>M>H>2S2>66>M>H>j.M>j.H>j.S1>2M>M>H>2H>j.M>j.H>j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-5.png', video: 'videos/illaoi/combos/illaoi-combo-5.mp4' },
-          { purpose: 'Corner Combo (Medium)', numericNotation: '2M>5H>2S2>[2H].c>j.S1>[2H]>66>5M>5H>2H>j.M>j.H>j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-6.png', video: 'videos/illaoi/combos/illaoi-combo-6.mp4' },
-          { purpose: 'Corner Combo (HARD)', numericNotation: '2M>5M>5H>2S2>66>5M>5H>2H>j.L>j.L>j.L>j.L>j.S2>j.H>j.S1>2H>2S1>[2H].c>j.H>j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-7.png', video: 'videos/illaoi/combos/illaoi-combo-7.mp4' },
-          { purpose: 'Fury', numericNotation: '2M>5M>5H>2S2.c>Fury>66>5M>5H>j.M>j.H>j.S2.c>66.c>5L>2S1>[2H].c>j.H>j.S2>Super', notationImage: '/combo-notation/illaoi/illaoi-combo-8.png', video: 'videos/illaoi/combos/illaoi-combo-8.mp4' },
-          { purpose: 'Grab Combo', numericNotation: 'Grab>[2H]>66>2H>j.M>j.H>j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-9.png', video: 'videos/illaoi/combos/illaoi-combo-9.mp4' },
-          { purpose: 'Air Grab Combo', numericNotation: 'Air Grab>[2H]>66>2H>j.M>j.H>j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-10.png', video: 'videos/illaoi/combos/illaoi-combo-10.mp4' }
+          { purpose: 'BnB', numericNotation: '2M > M > H > 2S2 > 66 > M > H > j.M > j.H > j.S1 > 2M > M > H > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-1.png', video: 'videos/illaoi/combos/illaoi-combo-1.mp4' },
+          { purpose: 'Corner Carry', numericNotation: '2M > 5M > 5H > 2S2 > 66 > 66 > 5M > 5H > j.L > j.M > j.H > j.S1 > [2H] > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-2.png', video: 'videos/illaoi/combos/illaoi-combo-2.mp4' },
+          { purpose: 'Side Swap', numericNotation: '2M > M > H > 2S2 > 66 > M > H > j.M > j.H > j.S1 > 66 > 5L > 5M > 5H > j.M > j.H > j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-3.png', video: 'videos/illaoi/combos/illaoi-combo-3.mp4' },
+          { purpose: 'Jump In', numericNotation: 'j.[H] > 2M > M > H > 2S2 > 66 > M > H > j.M > j.H > j.S1 > 2M > M > H > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-4.png', video: 'videos/illaoi/combos/illaoi-combo-4.mp4' },
+          { purpose: 'Crossup Jump In', numericNotation: 'j.[2H] > 2M > M > H > 2S2 > 66 > M > H > j.M > j.H > j.S1 > 2M > M > H > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-5.png', video: 'videos/illaoi/combos/illaoi-combo-5.mp4' },
+          { purpose: 'Corner Combo (Medium)', numericNotation: '2M > 5H > 2S2 > [2H].c > j.S1 > [2H] > 66 > 5M > 5H > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-6.png', video: 'videos/illaoi/combos/illaoi-combo-6.mp4' },
+          { purpose: 'Corner Combo (HARD)', numericNotation: '2M > 5M > 5H > 2S2 > 66 > 5M > 5H > 2H > j.L > j.L > j.L > j.L > j.S2 > j.H > j.S1 > 2H > 2S1 > [2H].c > j.H > j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-7.png', video: 'videos/illaoi/combos/illaoi-combo-7.mp4' },
+          { purpose: 'Fury', numericNotation: '2M > 5M > 5H > 2S2.c > Fury > 66 > 5M > 5H > j.M > j.H > j.S2.c > 66.c > 5L > 2S1 > [2H].c > j.H > j.S2 > Super', notationImage: '/combo-notation/illaoi/illaoi-combo-8.png', video: 'videos/illaoi/combos/illaoi-combo-8.mp4' },
+          { purpose: 'Grab Combo', numericNotation: 'Grab > [2H] > 66 > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-9.png', video: 'videos/illaoi/combos/illaoi-combo-9.mp4' },
+          { purpose: 'Air Grab Combo', numericNotation: 'Air Grab > [2H] > 66 > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/illaoi/illaoi-combo-10.png', video: 'videos/illaoi/combos/illaoi-combo-10.mp4' }
         ],
         //between combos and enders
         description2: [
         ],
         comboEnders: [
-          { purpose: 'For Oki', numericNotation: 'S2+M', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder1.png', video: 'videos/illaoi/combo-enders/illaoi-ender1.mp4' },
-          { purpose: 'Limit Strike', numericNotation: '2S1', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder2.png', video: 'videos/illaoi/combo-enders/illaoi-ender2.mp4' },
-          { purpose: 'Damage', numericNotation: 'S1+L', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder3.png', video: 'videos/illaoi/combo-enders/illaoi-ender3.mp4' },
-          { purpose: 'Assist Setups', numericNotation: '6S2, j.S2', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder4.png', video: 'videos/illaoi/combo-enders/illaoi-ender4.mp4' },
-          { purpose: 'Tag Launcher', numericNotation: '2S1/j.S1 > T', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder5.png', video: 'videos/illaoi/combo-enders/illaoi-ender5.mp4' },
-          { purpose: 'Wall Bounce Limit Strike', numericNotation: '[2H]', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder6.png', video: 'videos/illaoi/combo-enders/illaoi-ender6.mp4' },
+          { purpose: 'For Oki', numericNotation: 'S2+M', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder1.png', video: 'videos/illaoi/combo-enders/illaoi-ender-1.mp4' },
+          { purpose: 'Limit Strike', numericNotation: '2S1', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder2.png', video: 'videos/illaoi/combo-enders/illaoi-ender-2.mp4' },
+          { purpose: 'Damage', numericNotation: 'S1+L', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder3.png', video: 'videos/illaoi/combo-enders/illaoi-ender-3.mp4' },
+          { purpose: 'Assist Setups', numericNotation: '6S2, j.S2', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder4.png', video: 'videos/illaoi/combo-enders/illaoi-ender-4.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: '2S1/j.S1 > T', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder5.png', video: 'videos/illaoi/combo-enders/illaoi-ender-5.mp4' },
+          { purpose: 'Wall Bounce Limit Strike', numericNotation: '[2H]', notationImage: '/combo-notation/illaoi/combo-enders/illaoi-comboEnder6.png', video: 'videos/illaoi/combo-enders/illaoi-ender-6.mp4' },
         ],
         //below everything
         description3: [
@@ -81,7 +81,7 @@ export const illaoi = {
           {
             pairing: 'Ekko',
             fuseType: 'Freeestyle',
-            explanation: 'this team abuses Illaoi\'s 2[S2] together with Ekko\'s 6S1 or j.S2 to easily approach the opponent while being very annoying to deal with. Illaoi\'s tentacle pressure also empowers Ekko to be the mixup monster that he wants to be',
+            explanation: 'This team abuses Illaoi\'s 2[S2] together with Ekko\'s 6S1 or j.S2 to easily approach the opponent while being very annoying to deal with. Illaoi\'s tentacle pressure also empowers Ekko to be the mixup monster that he wants to be',
             videos: [
                { id: 'HHG4Cgu7uaw' }
             ]
@@ -120,7 +120,7 @@ export const illaoi = {
           },
           {
             name: 'Yosep',
-            description: 'No socials available, but look Yosep up on YouTube for some of the best Teemo gameplay out there',
+            description: 'No socials available, but look Yosep up on YouTube for some of the best Illaoi/Teemo gameplay out there',
             highlights: [
               { id: 'bTebq4JPYPw' }
             ]
