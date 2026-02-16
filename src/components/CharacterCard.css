@@ -8,17 +8,29 @@
   position: relative;
 }
 
-.wip-badge {
+.coming-soon-badge {
   position: absolute;
   top: 8px;
   right: 8px;
-  background: rgba(255, 193, 7, 0.85);
-  color: #1b1d1f;
+  background: rgba(128, 128, 128, 0.9);
+  color: #fff;
   font-size: 0.65rem;
   font-weight: 700;
   padding: 2px 6px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+
+.character-card.coming-soon {
+  opacity: 0.5;
+  filter: grayscale(70%);
+}
+
+.character-card.coming-soon:hover {
+  opacity: 0.75;
+  filter: grayscale(40%);
+  border-color: #888;
+  box-shadow: 0 5px 20px rgba(128, 128, 128, 0.3);
 }
 
 .character-card:hover {

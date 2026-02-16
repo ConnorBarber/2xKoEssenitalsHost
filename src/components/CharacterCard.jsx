@@ -1,12 +1,13 @@
 import './CharacterCard.css'
 
 function CharacterCard({ character, onClick, image, isSelected }) {
+  const cardClasses = `character-card ${isSelected ? 'selected' : ''} ${!character.isComplete ? 'coming-soon' : ''}`;
   
   return (
-    <div className={`character-card ${isSelected ? 'selected' : ''}`} onClick={() => onClick(character)}>
+    <div className={cardClasses} onClick={() => onClick(character)}>
       {!character.isComplete && (
-        <span className="wip-badge" title="Guide in progress">
-          <i className="fas fa-wrench"></i> WIP
+        <span className="coming-soon-badge">
+          Coming Soon
         </span>
       )}
       <div className="character-icon">

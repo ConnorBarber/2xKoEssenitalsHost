@@ -15,8 +15,8 @@ import { yasuo } from './yasuo.js';
 // Re-export individual characters for direct imports
 export { ahri, blitzcrank, braum, caitlyn, darius, ekko, illaoi, jinx, teemo, vi, warwick, yasuo };
 
-// Export the combined array for backwards compatibility
-export const charactersData = [
+// Export the combined array, sorted with complete characters first
+const allCharacters = [
   ahri,
   blitzcrank,
   braum,
@@ -30,3 +30,11 @@ export const charactersData = [
   warwick,
   yasuo
 ];
+
+export const charactersData = allCharacters.sort((a, b) => {
+  // Complete characters first, then alphabetical within each group
+  if (a.isComplete === b.isComplete) {
+    return a.name.localeCompare(b.name);
+  }
+  return b.isComplete - a.isComplete;
+});
