@@ -110,6 +110,12 @@ const CharacterGuide = forwardRef(({ character, onClose }, ref) => {
         </div>
       </div>
 
+      {!character.isComplete && (
+        <div className="wip-guide-banner">
+          <span>🚧 This guide is still in progress - content coming soon!</span>
+        </div>
+      )}
+
       <div className="tabs">
         {character.tabs.map((tab, index) => (
           <button
