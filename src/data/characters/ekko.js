@@ -43,13 +43,19 @@ export const ekko = {// Ekko Data Starts Here
 
         ],
         combos: [
-          { purpose: 'BnB', numericNotation: 'M > H > S2 > S2 > S1+L > 2H > S1 > 2S2 > [2H] > [j.H] > j.d.S1 > S2 > H > 2T', notationImage: '/combo-notation/ekko/ekko-combo-1.png', video: 'videos/ekko/combos/ekko-combo-1.mp4' },
-          { purpose: 'Corner Combo', numericNotation: 'M > H > S2 > S2 > S1+L > 66 > j.H > j.S2 > H > 2H > j.H > j.S2', notationImage: '/combo-notation/ekko/ekko-combo-2.png', video: 'videos/ekko/combos/ekko-combo-2.mp4' },
-          { purpose: 'Side Swap', numericNotation: 'M > H > 2H > j.M > j.H > j.S2 > 66 > L > M > H > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/ekko/ekko-combo-3.png', video: 'videos/ekko/combos/ekko-combo-3.mp4' },
-          { purpose: 'Anti Air starter', numericNotation: '2H > j.M > j.H > 66 > j.H > j.S2 > 2M > 5M > 5H > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/ekko/ekko-combo-4.png', video: 'videos/ekko/combos/ekko-combo-4.mp4' },
+          { purpose: 'BnB (easy, roll optional for side swap)', numericNotation: 'M > H > S2 > S2 > S1 + L > 2H > 2S1 > [j.H] > 2S2 > 2T', notationImage: '/combo-notation/ekko/IMAGE', video: 'videos/ekko/combos/ekko-combo-5.mp4' },
+          { purpose: "BnB (needs screen space, doesn't work close to corner)", numericNotation: 'M > H > S2 > S2 > S1+L > 2H > S1 > 2S2 > [2H] > [j.H] > j.d.S1 > S2 > H > 2T', notationImage: '/combo-notation/ekko/ekko-combo-1.png', video: 'videos/ekko/combos/ekko-combo-1.mp4' },
+          { purpose: '2 bar mid screen', numericNotation: 'M > H > S2 > S2 > S1+L > 2H > 2S1 > [j.H] > [2S2] > S1+L > S2 > 2T', notationImage: '/combo-notation/ekko/IMAGE', video: 'videos/ekko/combos/ekko-combo-6.mp4' },
+          { purpose: 'Corner BnB (easy)', numericNotation: 'M > H > S2 > S2 > S1+L > 66 > j.H > j.S2 > H > 2H > j.H > j.S2', notationImage: '/combo-notation/ekko/ekko-combo-2.png', video: 'videos/ekko/combos/ekko-combo-2.mp4' },
+          { purpose: 'Corner BnB', numericNotation: 'M > H > S2 > S2 > L > H > S2 > 2S2 > [j.S2] > L > M > H > 6S1 > 2S2 > 6S1 > S2+L', notationImage: '/combo-notation/ekko/IMAGE', video: 'videos/ekko/combos/ekko-combo-7.mp4' },
+          { purpose: 'Corner BnB into launcher', numericNotation: 'M > H > S2 > S2 > L > H > S2 > 2S2 > [j.S2] > L > M > H > S1+L > S2 > j.M > j.S2 > H > 2T', notationImage: '/combo-notation/ekko/IMAGE', video: 'videos/ekko/combos/ekko-combo-8.mp4' },
+          { purpose: 'Corner 2 bar combo', numericNotation: 'M > H > S2 > S2 > L > H > S2 > 2S2 > [j.S2] > L > M > H > S1+L > S2 > j.M > j.S2 > 6S1 (two hits only) > S1+L > 2S2 > 2T', notationImage: '/combo-notation/ekko/IMAGE', video: 'videos/ekko/combos/ekko-combo-9.mp4' },
+          { purpose: 'Side swap', numericNotation: 'M > H > 2H > j.M > j.H > j.S2 > 66 > L > M > H > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/ekko/ekko-combo-3.png', video: 'videos/ekko/combos/ekko-combo-3.mp4' },
+          { purpose: 'Anti air starter', numericNotation: '2H > j.M > j.H > 66 > j.H > j.S2 > 2M > 5M > 5H > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/ekko/ekko-combo-4.png', video: 'videos/ekko/combos/ekko-combo-4.mp4' },
         ],
         //between combos and enders
         description2: [
+          "Some Ekko combos (like his BnB) need a lot of screen space to work. If you don't have that space you can always opt for the corner BnB.",
         ],
         comboEnders: [
           { purpose: 'Limit Strike into S2 super', numericNotation: 'j.S2 > 2S1 > S2+L', notationImage: '/combo-notation/ekko/combo-enders/ekko-ender1.png', video: 'videos/ekko/combo-enders/ekko-ender1.mp4' },
@@ -58,8 +64,8 @@ export const ekko = {// Ekko Data Starts Here
         ],
         //below everything
         description3: [
-          'Generally Ekko wants to end his combos in a limit strike, or another way where he can safely set up his S2 super for continued pressure.',
-          "His BNB route also naturally leads to a tag launcher (2T) which is a great way to switch to your other character if needed.",
+          'Generally Ekko wants to end his combos in the corner, with a limit strike or setting up up his S2 super for continued pressure.',
+          "His BnB route also naturally leads to a tag launcher (2T) which is a great way to switch to your other character if you are mid screen, since Ekko's best combo enders work better in the corner.",
         ],
       },
       {
