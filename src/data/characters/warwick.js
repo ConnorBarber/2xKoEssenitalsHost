@@ -24,11 +24,11 @@ export const warwick = {
         'Warwick is a true rushdown character, with a running special and aggression install.',
         'Best for players who enjoy aggressive gameplay and high damage output.'],
       moves: [
-        { numericNotation: 'S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick1.png', description: 'Unreactable overhead. Not really, but its fast.', video: 'videos/warwick/warwick1.mp4' },
-        { numericNotation: 'S1+j', notation: '', notationImage: '/key-moves-notation/warwick/warwick2.png', description: 'Strike/throw and plus if blocked.', video: 'videos/warwick/warwick2.mp4' },
-        { numericNotation: '2S2', notation: '', notationImage: '/key-moves-notation/warwick/warwick3.png', description: 'Best anti-air in the game', video: 'videos/warwick/warwick3.mp4' },
-        { numericNotation: '[S1] or [6S1]', notation: '', notationImage: '/key-moves-notation/warwick/warwick4.png', description: 'Can run through projectiles and exit into leap', video: 'videos/warwick/warwick4.mp4' },
-        { numericNotation: 'Bloodlust 6S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick5.png', description: 'Crossup while in bloodlust', video: 'videos/warwick/warwick5.mp4' },
+        { numericNotation: 'S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick1.png', description: 'Unreactable overhead. Not really, but its fast.', video: 'videos/warwick/key-moves/warwick1.mp4' },
+        { numericNotation: 'S1+j', notation: '', notationImage: '/key-moves-notation/warwick/warwick2.png', description: 'Strike/throw and plus if blocked.', video: 'videos/warwick/key-moves/warwick2.mp4' },
+        { numericNotation: '2S2', notation: '', notationImage: '/key-moves-notation/warwick/warwick3.png', description: 'Best anti-air in the game', video: 'videos/warwick/key-moves/warwick3.mp4' },
+        { numericNotation: '[S1] or [6S1]', notation: '', notationImage: '/key-moves-notation/warwick/warwick4.png', description: 'Can run through projectiles and exit into leap', video: 'videos/warwick/key-moves/warwick4.mp4' },
+        { numericNotation: 'Bloodlust 6S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick5.png', description: 'Crossup while in bloodlust', video: 'videos/warwick/key-moves/warwick5.mp4' },
       ]
     },
     {

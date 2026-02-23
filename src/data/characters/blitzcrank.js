@@ -10,124 +10,147 @@ export const blitzcrank = {
     ease: 3
   },
   heroImageOffset: { desktop: -296, mobile: -100 },
+    guideAuthor: {
+    name: 'Quicksand_FGC', // Author name to display
+    youtube: 'https://www.youtube.com/@Quicksand_FGC', // YouTube channel URL (leave empty if none)
+    twitter: 'https://x.com/Quicksand_FGC', // Twitter/X profile URL (leave empty if none)
+    twitch: '', // Twitch channel URL (leave empty if none)
+  },
   tabs: [
-    {
-      id: 'key_moves',
-      title: 'Key Moves',
-      description: [],
-      moves: [
-        { numericNotation: 'S1', notation: 'Rocket Grab', notationImage: '/key-moves-notation/blitzcrank/blitz1.png', description: 'UNDER CONSTRUCTION', video: 'videos/blitzcrank/blitz1.mp4' },
-        { numericNotation: '5H', notation: 'Power Fist', notationImage: '/key-moves-notation/blitzcrank/blitz2.png', description: 'UNDER CONSTRUCTION', video: 'videos/blitzcrank/blitz2.mp4' },
-        { numericNotation: '2S1', notation: 'Low Grab', notationImage: '/key-moves-notation/blitzcrank/blitz3.png', description: 'UNDER CONSTRUCTION', video: 'videos/blitzcrank/blitz3.mp4' },
-        { numericNotation: 'S2', notation: 'Overdrive', notationImage: '/key-moves-notation/blitzcrank/blitz4.png', description: 'UNDER CONSTRUCTION', video: 'videos/blitzcrank/blitz4.mp4' },
-        { numericNotation: '6H', notation: 'Static Field', notationImage: '/key-moves-notation/blitzcrank/blitz5.png', description: 'UNDER CONSTRUCTION', video: 'videos/blitzcrank/blitz5.mp4' },
-      ]
-    },
-    {
-      id: 'important_solo_combos',
-      title: 'Combos',
-      description: [],
-      combos: [
-        { purpose: 'BnB', numericNotation: 'S1 5M 5H 2H j.M j.H j.S2', notationImage: '/combo-notation/blitzcrank/blitz-combo-1.png', video: 'videos/blitzcrank/blitz-combo-1.mp4' },
-        { purpose: 'Corner Combo', numericNotation: 'S1 5M 5H S2 5M 5H 2H j.M j.H 2T', notationImage: '/combo-notation/blitzcrank/blitz-combo-2.png', video: 'videos/blitzcrank/blitz-combo-2.mp4' },
-        { purpose: 'Overdrive Extension', numericNotation: 'S1 S2 66 5M 5H 66 5M 5H 2H j.H j.S2', notationImage: '/combo-notation/blitzcrank/blitz-combo-3.png', video: 'videos/blitzcrank/blitz-combo-3.mp4' },
-        { purpose: 'Anti Air Starter', numericNotation: '2H j.M j.H 66 j.M j.H j.S2 2T', notationImage: '/combo-notation/blitzcrank/blitz-combo-4.png', video: 'videos/blitzcrank/blitz-combo-4.mp4' },
-      ],
-      comboEnders: [
-        { purpose: 'Oki', numericNotation: 'j.H j.S2 2T', notationImage: '/combo-notation/blitzcrank/blitz-ender-1.png', video: 'videos/blitzcrank/blitz-ender-1.mp4' },
-        { purpose: 'Limit Strike', numericNotation: 'H 2H j.M j.H j.S2', notationImage: '/combo-notation/blitzcrank/blitz-ender-2.png', video: 'videos/blitzcrank/blitz-ender-2.mp4' },
-        { purpose: 'Max Dmg', numericNotation: '6H TAG', notationImage: '/combo-notation/blitzcrank/blitz-ender-3.png', video: 'videos/blitzcrank/blitz-ender-3.mp4' },
-      ]
-    },
-    {
-      id: 'team_synergies',
-      title: 'Teams',
-      description: 'UNDER CONSTRUCTION',
-      teams: [
-      ]
-    },
-    // {
-    //   id: 'matchups',
-    //   title: 'Matchups',
-    //   matchups: {
-    //     'Ahri': {
-    //       difficulty: 'Hard',
-    //       difficultyClass: 'hard',
-    //       overview: [
-    //         'Ahri\'s mobility makes it very difficult to land hooks. Her Spirit Rush can easily dodge your Rocket Grab attempts.',
-    //         'Focus on baiting out her dashes before committing to hooks. Use Static Field to catch her when she dashes in.'
-    //       ],
-    //       keyPoints: [
-    //         'Difficult to land hooks due to her mobility',
-    //         'Bait her dashes before throwing grabs',
-    //         'Static Field catches aggressive dash-ins',
-    //         'Patience is key in this matchup'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Darius': {
-    //       difficulty: 'Easy',
-    //       difficultyClass: 'easy',
-    //       overview: [
-    //         'Darius lacks mobility to avoid your hooks consistently. Once grabbed, he takes full damage.',
-    //         'Keep distance and fish for hooks. Your grab range outranges his pull.'
-    //       ],
-    //       keyPoints: [
-    //         'Your range advantage is massive',
-    //         'He cannot escape your hooks easily',
-    //         'Avoid melee range at all costs',
-    //         'Full combo every successful grab'
-    //       ],
-    //       videos: []
-    //     },
-    //   }
-    // },
-    // {
-    //   id: 'top_players',
-    //   title: 'Top Players',
-    //   players: [
-    //     {
-    //       name: 'HookMaster',
-    //       description: 'Known for incredible hook accuracy',
-    //       socials: {
-    //         twitter: 'https://twitter.com/hookmaster',
-    //         twitch: 'https://twitch.tv/hookmaster'
-    //       },
-    //       highlights: [
-    //         { id: 'F3x1-NNy6h4' },
-    //       ]
-    //     },
-    //   ]
-    // },
-    // {
-    //   id: 'guides',
-    //   title: 'Guides',
-    //   videos: [
-    //     { id: 'F3x1-NNy6h4' },
-    //     { id: '8qmI6OieGnI' },
-    //   ],
-    //   textGuides: [
-    //     {
-    //       title: 'Blitzcrank Fundamentals Guide',
-    //       author: 'Community',
-    //       sections: [
-    //         {
-    //           heading: 'Overview',
-    //           content: 'Blitzcrank is a grappler character focused on landing his signature Rocket Grab to start combos. His gameplay revolves around conditioning opponents and finding openings for devastating hooks.'
-    //         },
-    //         {
-    //           heading: 'Gameplan',
-    //           content: 'Control neutral with the threat of your grab. Use movement and feints to make your hooks unpredictable. Once you land a grab, convert into maximum damage combos.'
-    //         },
-    //       ],
-    //       tips: [
-    //         'Mix up your grab timing to stay unpredictable',
-    //         'Overdrive extends your combo potential significantly',
-    //         'Static Field is great for catching jump-ins',
-    //         'Your grab has incredible range - use it'
-    //       ]
-    //     },
-    //   ]
-    // },
+      {
+        id: 'key_moves',
+        title: 'Key Moves',
+        description: [
+          "Blitzcrank is the resident 2xKo grappler, with a unique steam mechanic and big damage combos",
+          "Blitz\'s steam mechanic is built up when using his 6S2, 2S2, and S1 Super. Once Blitz has steam he has enhanced moves, speed, and damage, along with one hit of armor on his command grabs. Steam is vital to making this character playable.",
+          "Blitz has a simple gameplan and simple buttons, allowing for easy pick up and play. However, he becomes harder the higher you climb and requires good fundamentals.",
+        ],
+        moves: [
+          { numericNotation: '5M', notation: '', notationImage: '/key-moves-notation/blitzcrank/blitzcrank1.png', description: 'Main Neutral Poke tool, disjointed enough to challenge with', video: 'videos/blitzcrank/key-moves/blitzcrank1.mp4' },
+          { numericNotation: '5H', notation: '', notationImage: '/key-moves-notation/blitzcrank/blitzcrank2.png', description: 'Large hit box to throw at opponents at even greater range, and stuff approaches', video: 'videos/blitzcrank/key-moves/blitzcrank2.mp4' },
+          { numericNotation: '5L', notation: '', notationImage: '/key-moves-notation/blitzcrank/blitzcrank3.png', description: 'Fastest button at 7 frames. Key for punishes, mashing out, and stagger pressure', video: 'videos/blitzcrank/key-moves/blitzcrank3.mp4' },
+          { numericNotation: 'S2', notation: '', notationImage: '/key-moves-notation/blitzcrank/blitzcrank4.png', description: 'Rocket Punch is useful for destroying projectiles, stopping jumps, and provides a wall bounce if it hits aerial targets', video: 'videos/blitzcrank/key-moves/blitzcrank4.mp4' },
+          { numericNotation: 'S1 and j.S1', notation: '', notationImage: '/key-moves-notation/blitzcrank/blitzcrank5.png', description: 'Rocket Grab allows Blitz to yank enemies in close, and start his strike/throw mix.j.S1 is the air version of S1 and allows for Blitz to get a hit grab. In steam both options allow follow ups on hit.', video: 'videos/blitzcrank/key-moves/blitzcrank5.mp4' },   
+          { numericNotation: '{S1}', notation: '', notationImage: '/key-moves-notation/blitzcrank/blitzcrank5.png', description: 'Holding S1 lets Blitz start cranking, and builld steam. Backdash to cancel out of this move, it makes it a great bait, as opponents will approach when they see you cranking.', video: 'videos/blitzcrank/key-moves/blitzcrank5.mp4' },   
+          { numericNotation: '2S1', notation: '', notationImage: '/key-moves-notation/blitzcrank/blitzcrank5.png', description: 'This is the anti air version of the grab, allowing blitz to rip opponents out of the sky if unsafely jumping', video: 'videos/blitzcrank/key-moves/blitzcrank5.mp4' }, 
+          { numericNotation: '2S2 and j.2S2', notation: '', notationImage: '/key-moves-notation/blitzcrank/blitzcrank5.png', description: 'These are the 2 most important command grabs for Blitz and is what makes him a grappler. Both can combo into super in the corner, and in steam can combo into S2 super anywhere on screen for big damage.', video: 'videos/blitzcrank/key-moves/blitzcrank5.mp4' }, 
+          { numericNotation: '2L and 2M', notation: '', notationImage: '/key-moves-notation/blitzcrank/blitzcrank5.png', description: 'Blitz has 2 lows, which are of vital importance to his mix, due to his weak block strings you will rely on these simple tools.', video: 'videos/blitzcrank/key-moves/blitzcrank5.mp4' },  
+        ]
+      },
+      {
+        id: 'important_solo_combos',
+        title: 'Combos',
+        //above both tables
+        description: [
+         'Blitz combos are not challenging and there is 1 combo that is practically used for everything, all that changes is your ender.',
+          "When playing Blitz, it is vital to master his BnB rejump, as it can be used at all points of the stage, has great corner carry, and is universal on the cast."
+        ],
+        combos: [
+          { purpose: 'Easy BnB', numericNotation: 'L > M > H > 2H > j.L > j.M > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-1.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-1.mp4' },
+          { purpose: 'BnB and Corner Carry', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-2.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-2.mp4' },
+          { purpose: 'BnB with steam', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.2S2 > S1+L', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-3.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-3.mp4' },
+          { purpose: 'M+H(Throw Combo)Tag Launcher', numericNotation: 'wr.H > T', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-4.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-4.mp4' },
+          { purpose: 'M+H(Throw Combo)Get Steam', numericNotation: 'wr.H > S1+L', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-6.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-6.mp4' },
+          { purpose: 'Fury', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > j.2H > Fury > land > 2H > j.H > j.S1 ->-> wr.H > S1+L', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-6.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-6.mp4' },     
+        ],
+        //between combos and enders
+        description2: [
+        ],
+        comboEnders: [
+          { purpose: 'Oki and Steam', numericNotation: 'S1+L', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder1.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender1.mp4' },
+          { purpose: 'Limit Strike', numericNotation: 'S2, {j.2H},  {j.H}', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder2.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender2.mp4' },
+          { purpose: 'Damage, when Steamed', numericNotation: 'S2+M(hold to spend steam)', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder3.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender3.mp4' },
+          { purpose: 'Hard Tag', numericNotation: '{j.H} > [T]', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder4.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender4.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: 'wr.H > T, {j.H} > T', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder5.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender5.mp4' },
+          { purpose: 'Air Grab Reset', numericNotation: '5L', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder6.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender6.mp4' },
+        ],
+        //below everything
+        description3: [
+          'Choosing a proper Blitz ender depends on what resources you have and what resouces you need(steam, super, etc), but all do damage.',
+        ],
+      },
+      {
+        id: 'team_synergies',
+        title: 'Teams',
+        description: '',
+        teams: [
+          {
+            pairing: 'Braum',
+            fuseType: 'Double Down',
+            explanation: 'The Big Boys Squad, this team uses Braum assist to shield up while Blitz engages in shenanigans. Also, with Double Down, both can get their upgrades(Steam for Blitz and Unbreakable for Braum) off either super. In the corner they have immense pressure and not to mention damage.',
+            videos: [
+               { id: 'HHG4Cgu7uaw' }
+            ]
+          },
+          {
+            pairing: 'Yasuo',
+            fuseType: 'Freeestyle',
+            explanation: 'Yasuo being such a strong point character and Blitz being such a strong assist character makes for a great pairing. This also allows Blitz access to left/right mix, which he usually has none.',
+            videos: [
+              { id: 'SxOSBAEJYMY' }
+            ]
+          },
+          {
+            pairing: 'Teemo',
+            fuseType: 'Double Down or Freestyle',
+            explanation: 'A high risk high reward team. Neither do good solo, but together they have oppressive corner pressure, gimmicks, and mental stack ability. Teemo can also OTG after Blitz throws with a tag.',
+            videos: [
+              { id: 'DCBAFBurj9c' }
+            ]
+          },          
+        ]
+      },
+      {
+        id: 'top_players',
+        title: 'Top Players',
+        players: [
+          {
+            name: 'Tate',
+            description: '',
+            socials: {
+              twitter: 'https://x.com/zandowastaken',
+              twitch: 'http://www.twitch.tv/Zando'
+            },
+            highlights: [
+              { id: 'EZ2mbmn7nvM' }
+            ]
+          },
+          {
+            name: 'TTurtle',
+            description: '',
+            socials: {
+              twitch: 'https://www.twitch.tv/blaizzy'
+            },
+            highlights: [
+              { id: 'S3CxJx9olO0' }
+            ]
+          },
+          {
+            name: 'Vall3y',
+            description: '',
+            socials: {
+              twitch: 'https://www.twitch.tv/vall3y'
+            },
+            highlights: [
+              { id: 'S3CxJx9olO0' }
+            ]
+          },
+        ]
+      },
+      {
+        id: 'guides',
+        title: 'Guides',
+        videos: [
+          { 
+            id: 'IHTr25KGyiM', 
+          },
+          { 
+            id: 'Yj3lOumwBxs', 
+          },
+          { 
+            id: 'zTpfCUJB1CA', 
+          },
+        ],
+      },
   ]
-}
+};

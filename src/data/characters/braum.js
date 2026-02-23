@@ -10,142 +10,313 @@ export const braum = {
     ease: 4
   },
   heroImageOffset: { desktop: -82, mobile: -35 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
+  guideAuthor: {
+    name: '', // Author name to display
+    twitter: 'https://x.com/Mrchupy01', // Twitter/X profile URL (leave empty if none)
+    twitch: '', // Twitch channel URL (leave empty if none)
+  },
   tabs: [
-    {
+      {
         id: 'key_moves',
         title: 'Key Moves',
         description: [
-         
+          "Braum is a true tank character, with a shield to defend allies and super armor for himself.",
+          "His focus is on achieving his Unbreakable state, which grants him one hit of armor, allowing him to power through attacking enemies and steal his turns back",
+          "Theis and his ability to dish out majorly high damage, makes Braum a unique and fun character who truly unlocks with their win condition."
         ],
         moves: [
-          { numericNotation: 'S2, 2S2 and j.S2', notation: '', notationImage: '/key-moves-notation/ekko/ekko1.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: '5M', notation: '', notationImage: '/key-moves-notation/ekko/ekko2.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: 'S1 and 2S1', notation: '', notationImage: '/key-moves-notation/ekko/ekko3.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: 'j.66', notation: '', notationImage: '/key-moves-notation/ekko/ekko4.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: 'j.2H', notation: '', notationImage: '/key-moves-notation/ekko/ekko5.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-        { numericNotation: '6S1', notation: '', notationImage: '/key-moves-notation/ekko/ekko6.png', description: 'UNDER CONSTRUCTIONe', video: 'videos/ekko/illaekko.mp4' }
+          { numericNotation: '5M', notation: '', notationImage: '/key-moves-notation/braum/braum1.png', description: 'Main poke to get your pressure started', video: 'videos/braum/key-moves/braum-key1.mp4' },
+          { numericNotation: '2M', notation: '', notationImage: '/key-moves-notation/braum/braum2.png', description: 'Also a good poke only been a frame slower then 5M making it 15 frames but reaches slight further then 5M', video: 'videos/braum/key-moves/braum-key2.mp4' },
+          { numericNotation: '6S1 or [6S1]', notation: '', notationImage: '/key-moves-notation/braum/braum3.png', description: 'Your only projectile can be good to catch something fullscreen or to throw it out with no charge during a blockstring', video: 'videos/braum/key-moves/braum-key3.mp4' },
+          { numericNotation: '6S1', notation: '', notationImage: '/key-moves-notation/braum/braum4.png', description: '6s1 can OTG a knockdown opponent after his 3H for his BNBs', video: 'videos/braum/key-moves/braum-key4.mp4' },
+          { numericNotation: '[6S1]', notation: '', notationImage: '/key-moves-notation/braum/braum5.png', description: '6S1 is fast and can recover in time in some situations, and they can also interrupt your opponent while you\'re getting hit', video: 'videos/braum/key-moves/braum-key5.mp4' },   
+          { numericNotation: 'S2', notation: '', notationImage: '/key-moves-notation/braum/braum6.png', description: 'Is the BRAUM SHIELD, used to protect yourself and assists. Also stops you from being killed by chip.', video: 'videos/braum/key-moves/braum-key6.mp4' },
         ]
       },
-    {
-      id: 'important_solo_combos',
-      title: 'Combos',
-      content: 'UNDER CONSTRUCTION'
-    },
-    {
-      id: 'team_synergies',
-      title: 'Teams',
-      content: 'UNDER CONSTRUCTION'
-    },
-    // {
-    //   id: 'matchups',
-    //   title: 'Matchups',
-    //   matchups: {
-    //     'Ahri': {
-    //       difficulty: 'Easy',
-    //       difficultyClass: 'easy',
-    //       overview: [
-    //         'Braum has the tools to shut down Ahri effectively. Your Unbreakable shield can block both her Orb of Deception and Charm, removing her main damage and crowd control options.',
-    //         'Position your shield to protect yourself and allies from her burst combo. Your passive stun can lock her down if she gets too close. The key is timing your shield correctly and protecting your team from her assassination attempts.'
-    //       ],
-    //       keyPoints: [
-    //         'Your shield completely negates her Q and E',
-    //         'Passive stun can lock her down',
-    //         'Protect your backline from her dives',
-    //         'Time shield for her key abilities'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Darius': {
-    //       difficulty: 'Medium',
-    //       difficultyClass: 'medium',
-    //       overview: [
-    //         'This matchup comes down to whether you can peel for your team before Darius stacks his passive. Your shield doesn\'t help much against his sustained melee damage.',
-    //         'Use your Q to slow him and allow your team to kite. Your passive stun is valuable for stopping his rampage. Save your ultimate to knock him up during critical moments. Don\'t try to 1v1 him when he has passive stacks.'
-    //       ],
-    //       keyPoints: [
-    //         'Your shield doesn\'t help vs melee damage',
-    //         'Use Q slow to enable team kiting',
-    //         'Passive stun is valuable for stopping him',
-    //         'Save R for critical moments'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Ekko': {
-    //       difficulty: 'Hard',
-    //       difficultyClass: 'hard',
-    //       overview: [
-    //         'Ekko\'s mobility and burst damage make this challenging for Braum. While you can block his Timewinder, his blink and multiple dashes make it hard to lock him down.',
-    //         'Focus on protecting your backline from his assassination attempts. Your shield angle is crucial - position it to block his Q while staying close to allies. Your passive can set up kills if you catch him, but his ultimate allows him to escape bad situations.'
-    //       ],
-    //       keyPoints: [
-    //         'His mobility makes him hard to catch',
-    //         'Focus on protecting your carries',
-    //         'Shield angle is crucial',
-    //         'His R lets him escape bad trades'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Illaoi': {
-    //       difficulty: 'Easy',
-    //       difficultyClass: 'easy',
-    //       overview: [
-    //         'Braum does well against Illaoi. Your mobility with Stand Behind Me helps your team avoid her tentacle slams, and your shield can block her Test of Spirit.',
-    //         'Use your shield to block her E, preventing her from pulling spirits. Your ultimate can interrupt her Test of Spirit and zone her. Help your team disengage when she uses her ultimate. Your passive and crowd control prevent her from freely setting up.'
-    //       ],
-    //       keyPoints: [
-    //         'Shield blocks her E spirit pull',
-    //         'W dash helps team avoid tentacles',
-    //         'R interrupts her setup',
-    //         'Help team disengage from her ultimate'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Jinx': {
-    //       difficulty: 'Easy',
-    //       difficultyClass: 'easy',
-    //       overview: [
-    //         'Braum excels at protecting Jinx or fighting against her. If she\'s your ally, you provide perfect peel. If she\'s your enemy, she has no way to deal with your engage and shield.',
-    //         'When fighting against Jinx, your shield blocks her Zap and reduces her poke significantly. Your engage tools can reach her despite her range, and she has no escape from your passive stun chain.'
-    //       ],
-    //       keyPoints: [
-    //         'Shield blocks her W poke',
-    //         'She has no escape from your stun',
-    //         'Easy to reach with W and R',
-    //         'Perfect peel if she\'s your ally'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Vi': {
-    //       difficulty: 'Medium',
-    //       difficultyClass: 'medium',
-    //       overview: [
-    //         'Both champions are engage tanks, making this a skill matchup about who engages better. Vi\'s ultimate goes through your shield, but you can protect your carries from her follow-up.',
-    //         'You can\'t stop her ultimate, but you can shield the damage from her Q and E. Position to bodyblock for your carries after she commits. Your passive can help chain CC her after her engage. Time your shield for her E punches.'
-    //       ],
-    //       keyPoints: [
-    //         'Her R goes through your shield',
-    //         'Shield her Q and E follow-up',
-    //         'Position to bodyblock for carries',
-    //         'Chain CC with your passive'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Yasuo': {
-    //       difficulty: 'Medium',
-    //       difficultyClass: 'medium',
-    //       overview: [
-    //         'Interesting matchup where both champions have defensive tools. Your shield and his Wind Wall create a strategic standoff, while your stun can interrupt his aggressive dashes.',
-    //         'Your shield blocks his Q poke, but he can dash around to reposition. Your passive stun is excellent for stopping his dash chains. Protect your team from his tornado knockups, and save your ultimate to peel him off your carries.'
-    //       ],
-    //       keyPoints: [
-    //         'Shield blocks his Q projectiles',
-    //         'Passive stun stops his dash chains',
-    //         'Protect team from his knockups',
-    //         'Both have strong defensive tools'
-    //       ],
-    //       videos: []
-    //     }
-    //   }
-    // }
+      {
+        id: 'important_solo_combos',
+        title: 'Combos',
+        //above both tables
+        description: [
+
+        ],
+        combos: [
+          { purpose: 'Midscreen BnB', numericNotation: '5M 5H 6H>6H [S2] 5M 5H>5H S2>S2', notationImage: '/combo-notation/braum/braum-combo-1.png', video: 'videos/braum/combos/brombo1.mp4' },
+          { purpose: 'BnB Close to Corner', numericNotation: '5M 5H 6H>6H [S2] 5M 2H>2H [6S1] 2H>2H J.S2 6H S2>S2', notationImage: '/combo-notation/braum/braum-combo-2.png', video: 'videos/braum/combos/brombo2.mp4' },
+          { purpose: 'Alternate Midscreen', numericNotation: '5M 5H 3H 6S1 Dash 5M 2H>2H [S2] 5M S2>S2', notationImage: '/combo-notation/braum/braum-combo-3.png', video: 'videos/braum/combos/braum-combo-3.mp4' },
+          { purpose: 'Side Swap', numericNotation: '5M 5H S1 micro dash [6H] Dash Cancel [6S1] 5M S2>S2', notationImage: '/combo-notation/braum/braum-combo-4.png', video: 'videos/braum/combos/brombo4.mp4' },
+          { purpose: 'Unbreakable Midscreen Simple', numericNotation: '5M 5H S1 Backdash [6H] dashcancel [6S1] Dash S2>S2', notationImage: '/combo-notation/braum/braum-combo-5.png', video: 'videos/braum/combos/brombo5.mp4' },
+          { purpose: 'Unbreakable Midscreen BnB', numericNotation: '5M 5H 6H [S2] Dash 5M 2H>2H [6S1] 5H 2S2 S2>S2', notationImage: '/combo-notation/braum/braum-combo-6.png', video: 'videos/braum/combos/brombo6.mp4' },
+          { purpose: 'Unbreakable Corner to Corner', numericNotation: '5M 5H 6H [S2] Dash 5M 2H>2H [6S1] 5H 2S2 S2>S2', notationImage: '/combo-notation/braum/braum-combo-7.png', video: 'videos/braum/combos/brombo7.mp4' },
+          { purpose: 'Unbreakable Command Grab', numericNotation: '2S1 DASH JUMP 5M S2>S2', notationImage: '/combo-notation/braum/braum-combo-8.png', video: 'videos/braum/combos/brombo8.mp4' },    
+        
+        ],
+        //between combos and enders
+        description2: [
+        ],
+        comboEnders: [
+          { purpose: 'For Oki', numericNotation: '6S1+H', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder1.png', video: 'videos/braum/combo-enders/braum-ender1.mp4' },
+          { purpose: 'Limit Strike', numericNotation: 'S2, 6S1+[H]', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder2.png', video: 'videos/braum/combo-enders/braum-ender2.mp4' },
+          { purpose: 'Damage and Super Followups', numericNotation: '2S2', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder3.png', video: 'videos/braum/combo-enders/braum-ender3.mp4' },
+          { purpose: 'Assist Setups', numericNotation: 'S1/Charge S1', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder4.png', video: 'videos/braum/combo-enders/braum-ender4.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: 'Charge jS1 > Tag Launch', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder5.png', video: 'videos/braum/combo-enders/braum-ender5.mp4' },
+        ],
+        //below everything
+        description3: [
+          ''
+        ],
+      },
+      {
+        id: 'team_synergies',
+        title: 'Teams',
+        description: '',
+        teams: [
+          {
+            pairing: 'Warwick',
+            fuseType: 'Double Down or Freeestyle',
+            explanation: 'If you are able to combo into the corner, ending in air S1, you can call WW before going into S2 super, tag to him, and land 2 of his 2S2 during/after the super, giving him full blood instantly',
+            videos: [
+               { id: 'HHG4Cgu7uaw' }
+            ]
+          },
+          {
+            pairing: 'Ekko or Yasuo',
+            fuseType: 'Freeestyle or 2x Assist',
+            explanation: 'Using Vi\'s double forward sway, in combination with these characters inherent ability to cross to the otherside open up many sandwhich opportunities for both characters',
+            videos: [
+              { id: 'SxOSBAEJYMY' }
+            ]
+          },
+          {
+            pairing: 'Illaoi or Jinx',
+            fuseType: '2x Assist',
+            explanation: 'Using Vi\'s forward Assist + Back assist, you get an anti-air assist that can be nearly anywhere on the screen quite quickly',
+            videos: [
+              { id: 'DCBAFBurj9c' }
+            ]
+          },
+          {
+            pairing: 'Darius',
+            fuseType: 'Double Down',
+            explanation: 'After a Vi combo, ending in S2 Super, tagging to Darius, he is able to tac on a lot of damage with his S2 specials and his own S2 super before Vi\'s ends',
+            videos: [
+              { id: 'j5ErgwxieV0' }
+            ]
+          },
+          {
+            pairing: 'Ahri',
+            fuseType: 'Freestyle',
+            explanation: 'The best ground movement plus the best air movement lets you be real tricky with how you approach and opens potential sandwhich options with Vi\'s Sway and charge S1 tag',
+            videos: [
+              { id: 'ptCethbZVNA' }
+            ]
+          },
+        ]
+      },
+      // {
+      //   id: 'matchups',
+      //   title: 'Matchups',
+      //   matchups: {
+      //     'Ahri': {
+      //       difficulty: 'Medium',
+      //       difficultyClass: 'medium',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: [
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //       ]
+      //     },
+      //     'Blitzcrank': {
+      //       difficulty: 'Medium',
+      //       difficultyClass: 'medium',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: [
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //         { id: 'F3x1-NNy6h4' },
+      //       ]
+      //     },
+      //     'Braum': {
+      //       difficulty: 'Hard',
+      //       difficultyClass: 'hard',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Caitlyn': {
+      //       difficulty: 'Hard',
+      //       difficultyClass: 'hard',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Darius': {
+      //       difficulty: 'Medium',
+      //       difficultyClass: 'medium',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Illaoi': {
+      //       difficulty: 'Medium',
+      //       difficultyClass: 'medium',
+      //      overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: [
+      //         { id: 'illaekko' }
+      //       ]
+      //     },
+      //     'Jinx': {
+      //       difficulty: 'Easy',
+      //       difficultyClass: 'easy',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Teemo': {
+      //       difficulty: 'Easy',
+      //       difficultyClass: 'easy',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Vi': {
+      //       difficulty: 'Hard',
+      //       difficultyClass: 'hard',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Warwick': {
+      //       difficulty: 'Hard',
+      //       difficultyClass: 'hard',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: []
+      //     },
+      //     'Yasuo': {
+      //       difficulty: 'Medium',
+      //       difficultyClass: 'medium',
+      //       overview: [
+      //         'Placeholder overview'
+      //       ],
+      //       keyPoints: [
+      //         'Placeholder keypoint 1',
+      //         'Placeholder keypoint 2',
+      //         'Placeholder keypoint 3',
+      //       ],
+      //       videos: [
+      //         { id: '8qmI6OieGnI' }
+      //       ]
+      //     }
+      //   }
+      // },
+      {
+        id: 'top_players',
+        title: 'Top Players',
+        players: [
+          {
+            name: 'Zando',
+            description: '',
+            socials: {
+              twitter: 'https://x.com/zandowastaken',
+              twitch: 'http://www.twitch.tv/Zando'
+            },
+            highlights: [
+              { id: 'EZ2mbmn7nvM' }
+            ]
+          },
+          {
+            name: 'Blaizzy',
+            description: '',
+            socials: {
+              twitch: 'https://www.twitch.tv/blaizzy'
+            },
+            highlights: [
+              { id: 'S3CxJx9olO0' }
+            ]
+          },
+        ]
+      },
+      {
+        id: 'guides',
+        title: 'Guides',
+        videos: [
+          { 
+            id: 'Ie8m5VuaXGA', 
+          },
+          { 
+            id: 'tZLOSgLZFE4', 
+          },
+          { 
+            id: 'tZd52GhWjgA', 
+          },
+        ],
+      },
   ]
 };
