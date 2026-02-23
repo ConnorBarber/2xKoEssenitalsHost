@@ -308,13 +308,13 @@ export const braum = {
         title: 'Guides',
         videos: [
           { 
-            id: 'Ie8m5VuaXGA', 
+            id: 'fhZpm1D5_CY', 
           },
           { 
-            id: 'tZLOSgLZFE4', 
+            id: 'R6zN-R05zSU', 
           },
           { 
-            id: 'tZd52GhWjgA', 
+            id: 'vC_C679p-dQ', 
           },
         ],
       },
