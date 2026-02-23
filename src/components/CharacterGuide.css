@@ -535,6 +535,8 @@
   justify-content: center;
   z-index: 1000;
   animation: fadeIn 0.2s ease;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
 @keyframes fadeIn {
@@ -550,10 +552,13 @@
   background: linear-gradient(135deg, #1b1d1f 0%, #2a2c2e 100%);
   border: 2px solid #bbdf5d;
   border-radius: 0;
-  max-width: 90vw;
+  width: fit-content;
+  max-width: min(1200px, 90vw);
   max-height: 90vh;
-  width: 1200px;
   animation: slideUp 0.3s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes slideUp {
@@ -573,6 +578,7 @@
   align-items: center;
   padding: 1.5rem;
   border-bottom: 1px solid #3a3c3e;
+  flex-shrink: 0;
 }
 
 .video-modal-header h3 {
@@ -589,7 +595,10 @@
 }
 
 .video-player {
-  width: 100%;
+  width: auto;
+  height: auto;
+  max-width: min(1200px, 88vw);
+  max-height: calc(90vh - 80px);
   display: block;
   background-color: #000;
 }
@@ -917,6 +926,29 @@
     font-size: 1.6rem;
     letter-spacing: 0.05em;
   }
+
+  .video-modal-overlay {
+    padding: 0.5rem;
+  }
+
+  .video-modal-content {
+    max-width: 98vw;
+    max-height: 95vh;
+  }
+
+  .video-modal-header {
+    padding: 0.75rem;
+    flex-shrink: 0;
+  }
+
+  .video-modal-header h3 {
+    font-size: 0.85em;
+  }
+
+  .video-player {
+    max-width: 96vw;
+    max-height: calc(95vh - 60px);
+  }
 }
 
 /* Team Synergies Styles */
@@ -1042,6 +1074,28 @@
   .image-modal-content .close-button {
     font-size: 2rem;
     right: 0;
+  }
+
+  .video-modal-content {
+    max-width: 95vw;
+    max-height: 85vh;
+  }
+
+  .video-modal-header {
+    padding: 1rem;
+  }
+
+  .video-modal-header h3 {
+    font-size: 0.95em;
+  }
+
+  .video-player {
+    max-width: 93vw;
+    max-height: calc(85vh - 70px);
+  }
+
+  .video-modal-content.youtube {
+    width: 95vw;
   }
 }
 
