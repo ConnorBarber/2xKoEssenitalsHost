@@ -41,14 +41,14 @@ export const braum = {
 
         ],
         combos: [
-          { purpose: 'Midscreen BnB', numericNotation: '5M 5H 6H>6H [S2] 5M 5H>5H S2>S2', notationImage: '/combo-notation/braum/braum-combo-1.png', video: 'videos/braum/combos/brombo1.mp4' },
-          { purpose: 'BnB Close to Corner', numericNotation: '5M 5H 6H>6H [S2] 5M 2H>2H [6S1] 2H>2H J.S2 6H S2>S2', notationImage: '/combo-notation/braum/braum-combo-2.png', video: 'videos/braum/combos/brombo2.mp4' },
-          { purpose: 'Alternate Midscreen', numericNotation: '5M 5H 3H 6S1 Dash 5M 2H>2H [S2] 5M S2>S2', notationImage: '/combo-notation/braum/braum-combo-3.png', video: 'videos/braum/combos/braum-combo-3.mp4' },
-          { purpose: 'Side Swap', numericNotation: '5M 5H S1 micro dash [6H] Dash Cancel [6S1] 5M S2>S2', notationImage: '/combo-notation/braum/braum-combo-4.png', video: 'videos/braum/combos/brombo4.mp4' },
-          { purpose: 'Unbreakable Midscreen Simple', numericNotation: '5M 5H S1 Backdash [6H] dashcancel [6S1] Dash S2>S2', notationImage: '/combo-notation/braum/braum-combo-5.png', video: 'videos/braum/combos/brombo5.mp4' },
-          { purpose: 'Unbreakable Midscreen BnB', numericNotation: '5M 5H 6H [S2] Dash 5M 2H>2H [6S1] 5H 2S2 S2>S2', notationImage: '/combo-notation/braum/braum-combo-6.png', video: 'videos/braum/combos/brombo6.mp4' },
-          { purpose: 'Unbreakable Corner to Corner', numericNotation: '5M 5H 6H [S2] Dash 5M 2H>2H [6S1] 5H 2S2 S2>S2', notationImage: '/combo-notation/braum/braum-combo-7.png', video: 'videos/braum/combos/brombo7.mp4' },
-          { purpose: 'Unbreakable Command Grab', numericNotation: '2S1 DASH JUMP 5M S2>S2', notationImage: '/combo-notation/braum/braum-combo-8.png', video: 'videos/braum/combos/brombo8.mp4' },    
+          { purpose: 'Midscreen BnB', numericNotation: '5M>5H>6H>6H>[S2]>5M>5H>5H>S2>S2', notationImage: '/combo-notation/braum/brombo1.png', video: 'videos/braum/combos/brombo1.mp4' },
+          { purpose: 'BnB Close to Corner', numericNotation: '5M>5H>6H>6H>[S2]>5M>2H>2H>[6S1]>2H>2H>J.S2>6H>S2>S2', notationImage: '/combo-notation/braum/brombo2.png', video: 'videos/braum/combos/brombo2.mp4' },
+          { purpose: 'Alternate Midscreen', numericNotation: '5M>5H>3H>6S1 Dash 5M>2H>2H>[S2]>5M>S2>S2', notationImage: '/combo-notation/braum/brombo3.png', video: 'videos/braum/combos/braum-combo-3.mp4' },
+          { purpose: 'Side Swap', numericNotation: '5M>5H>S1 micro dash [6H] Dash [6S1]>5M S2>S2', notationImage: '/combo-notation/braum/brombo4.png', video: 'videos/braum/combos/brombo4.mp4' },
+          { purpose: 'Unbreakable Midscreen Simple', numericNotation: '5M>5H>S1 Backdash [6H] Dash [6S1] Dash S2>S2', notationImage: '/combo-notation/braum/brombo5.png', video: 'videos/braum/combos/brombo5.mp4' },
+          { purpose: 'Unbreakable Midscreen BnB', numericNotation: '5M>5H>6H>[S2] Dash 5M>2H>2H>[6S1]>5H>2S2>S2>S2', notationImage: '/combo-notation/braum/brombo6.png', video: 'videos/braum/combos/brombo6.mp4' },
+          { purpose: 'Unbreakable Corner to Corner', numericNotation: '5M>5H 6H>[S2] Dash 5M>2H>2H>[6S1]>5H>2S2>S2>S2', notationImage: '/combo-notation/braum/brombo7.png', video: 'videos/braum/combos/brombo7.mp4' },
+          { purpose: 'Unbreakable Command Grab', numericNotation: '2S1 DASH JUMP 5M>S2>S2', notationImage: '/combo-notation/braum/brombo8.png', video: 'videos/braum/combos/brombo8.mp4' },    
         
         ],
         //between combos and enders
@@ -113,169 +113,6 @@ export const braum = {
           },
         ]
       },
-      // {
-      //   id: 'matchups',
-      //   title: 'Matchups',
-      //   matchups: {
-      //     'Ahri': {
-      //       difficulty: 'Medium',
-      //       difficultyClass: 'medium',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: [
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //       ]
-      //     },
-      //     'Blitzcrank': {
-      //       difficulty: 'Medium',
-      //       difficultyClass: 'medium',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: [
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //       ]
-      //     },
-      //     'Braum': {
-      //       difficulty: 'Hard',
-      //       difficultyClass: 'hard',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Caitlyn': {
-      //       difficulty: 'Hard',
-      //       difficultyClass: 'hard',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Darius': {
-      //       difficulty: 'Medium',
-      //       difficultyClass: 'medium',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Illaoi': {
-      //       difficulty: 'Medium',
-      //       difficultyClass: 'medium',
-      //      overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: [
-      //         { id: 'illaekko' }
-      //       ]
-      //     },
-      //     'Jinx': {
-      //       difficulty: 'Easy',
-      //       difficultyClass: 'easy',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Teemo': {
-      //       difficulty: 'Easy',
-      //       difficultyClass: 'easy',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Vi': {
-      //       difficulty: 'Hard',
-      //       difficultyClass: 'hard',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Warwick': {
-      //       difficulty: 'Hard',
-      //       difficultyClass: 'hard',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Yasuo': {
-      //       difficulty: 'Medium',
-      //       difficultyClass: 'medium',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: [
-      //         { id: '8qmI6OieGnI' }
-      //       ]
-      //     }
-      //   }
-      // },
       {
         id: 'top_players',
         title: 'Top Players',
