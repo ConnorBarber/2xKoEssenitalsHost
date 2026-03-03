@@ -1,6 +1,6 @@
 export const braum = {
   name: 'Braum',
-  isComplete: false,
+  isComplete: true,
   archetype: 'bruiser',
   stats: {
     range: 2,
@@ -25,12 +25,12 @@ export const braum = {
           "Theis and his ability to dish out majorly high damage, makes Braum a unique and fun character who truly unlocks with their win condition."
         ],
         moves: [
-          { numericNotation: '5M', notation: '', notationImage: '/key-moves-notation/braum/braum1.png', description: 'Main poke to get your pressure started', video: 'videos/braum/key-moves/braum-key1.mp4' },
-          { numericNotation: '2M', notation: '', notationImage: '/key-moves-notation/braum/braum2.png', description: 'Also a good poke only been a frame slower then 5M making it 15 frames but reaches slight further then 5M', video: 'videos/braum/key-moves/braum-key2.mp4' },
-          { numericNotation: '6S1 or [6S1]', notation: '', notationImage: '/key-moves-notation/braum/braum3.png', description: 'Your only projectile can be good to catch something fullscreen or to throw it out with no charge during a blockstring', video: 'videos/braum/key-moves/braum-key3.mp4' },
-          { numericNotation: '6S1', notation: '', notationImage: '/key-moves-notation/braum/braum4.png', description: '6s1 can OTG a knockdown opponent after his 3H for his BNBs', video: 'videos/braum/key-moves/braum-key4.mp4' },
-          { numericNotation: '[6S1]', notation: '', notationImage: '/key-moves-notation/braum/braum5.png', description: '6S1 is fast and can recover in time in some situations, and they can also interrupt your opponent while you\'re getting hit', video: 'videos/braum/key-moves/braum-key5.mp4' },   
-          { numericNotation: 'S2', notation: '', notationImage: '/key-moves-notation/braum/braum6.png', description: 'Is the BRAUM SHIELD, used to protect yourself and assists. Also stops you from being killed by chip.', video: 'videos/braum/key-moves/braum-key6.mp4' },
+          { numericNotation: '5M', notation: '', notationImage: '/key-moves-notation/braum/braum1.png', description: 'Main poke to get your pressure started', video: 'videos/braum/key-moves/braum1.mp4' },
+          { numericNotation: '2M', notation: '', notationImage: '/key-moves-notation/braum/braum2.png', description: 'Also a good poke only been a frame slower then 5M making it 15 frames but reaches slight further then 5M', video: 'videos/braum/key-moves/braum2.mp4' },
+          { numericNotation: '6S1 or [6S1]', notation: '', notationImage: '/key-moves-notation/braum/braum3.png', description: 'Your only projectile can be good to catch something fullscreen or to throw it out with no charge during a blockstring', video: 'videos/braum/key-moves/braum3.mp4' },
+          { numericNotation: '6S1', notation: '', notationImage: '/key-moves-notation/braum/braum4.png', description: '6s1 can OTG a knockdown opponent after his 3H for his BNBs', video: 'videos/braum/key-moves/braum4.mp4' },
+          { numericNotation: '[6S1]', notation: '', notationImage: '/key-moves-notation/braum/braum5.png', description: '6S1 is fast and can recover in time in some situations, and they can also interrupt your opponent while you\'re getting hit', video: 'videos/braum/key-moves/braum5.mp4' },   
+          { numericNotation: 'S2', notation: '', notationImage: '/key-moves-notation/braum/braum6.png', description: 'Is the BRAUM SHIELD, used to protect yourself and assists. Also stops you from being killed by chip.', video: 'videos/braum/key-moves/braum6.mp4' },
         ]
       },
       {
@@ -55,11 +55,9 @@ export const braum = {
         description2: [
         ],
         comboEnders: [
-          { purpose: 'For Oki', numericNotation: '6S1+H', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder1.png', video: 'videos/braum/combo-enders/braum-ender1.mp4' },
-          { purpose: 'Limit Strike', numericNotation: 'S2, 6S1+[H]', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder2.png', video: 'videos/braum/combo-enders/braum-ender2.mp4' },
-          { purpose: 'Damage and Super Followups', numericNotation: '2S2', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder3.png', video: 'videos/braum/combo-enders/braum-ender3.mp4' },
-          { purpose: 'Assist Setups', numericNotation: 'S1/Charge S1', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder4.png', video: 'videos/braum/combo-enders/braum-ender4.mp4' },
-          { purpose: 'Tag Launcher', numericNotation: 'Charge jS1 > Tag Launch', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder5.png', video: 'videos/braum/combo-enders/braum-ender5.mp4' },
+          { purpose: 'For Immediate Oki', numericNotation: 'S1+L', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder1.png', video: 'videos/braum/combo-enders/braumEnder1.mp4' },
+          { purpose: 'For Unbreakable', numericNotation: 'S2>S2', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder3.png', video: 'videos/braum/combo-enders/braumEnder2.mp4' },
+          { purpose: 'For Dmg and Unbreakable', numericNotation: 'S2+M', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder4.png', video: 'videos/braum/combo-enders/braumEnder3.mp4' },``
         ],
         //below everything
         description3: [
@@ -72,45 +70,29 @@ export const braum = {
         description: '',
         teams: [
           {
-            pairing: 'Warwick',
-            fuseType: 'Double Down or Freeestyle',
-            explanation: 'If you are able to combo into the corner, ending in air S1, you can call WW before going into S2 super, tag to him, and land 2 of his 2S2 during/after the super, giving him full blood instantly',
-            videos: [
-               { id: 'HHG4Cgu7uaw' }
-            ]
-          },
-          {
-            pairing: 'Ekko or Yasuo',
-            fuseType: 'Freeestyle or 2x Assist',
-            explanation: 'Using Vi\'s double forward sway, in combination with these characters inherent ability to cross to the otherside open up many sandwhich opportunities for both characters',
-            videos: [
-              { id: 'SxOSBAEJYMY' }
-            ]
-          },
-          {
-            pairing: 'Illaoi or Jinx',
-            fuseType: '2x Assist',
-            explanation: 'Using Vi\'s forward Assist + Back assist, you get an anti-air assist that can be nearly anywhere on the screen quite quickly',
-            videos: [
-              { id: 'DCBAFBurj9c' }
-            ]
-          },
-          {
             pairing: 'Darius',
-            fuseType: 'Double Down',
-            explanation: 'After a Vi combo, ending in S2 Super, tagging to Darius, he is able to tac on a lot of damage with his S2 specials and his own S2 super before Vi\'s ends',
+            fuseType: '2x Assist',
+            explanation: 'This team is about simple gameplans and high damage. Braum shield + Amazing Darius assist = safe wall bounce combos. Use your fundamentals to win neutral, force them to the corner, either apply bleed or get unbreakable.',
             videos: [
-              { id: 'j5ErgwxieV0' }
+               { id: 'i_yBJF7k3VE' }
+            ]
+          },
+          {
+            pairing: 'Vi',
+            fuseType: 'Double Down',
+            explanation: 'Once again, Braum is all about simple gameplans. Vi enables wicked strong corner carry, a good neutral, and with charge s1 shenanigans, with Braum shield, plenty of neutral abuse.',
+            videos: [
+              { id: 'gh4td8yIdJk' }
             ]
           },
           {
             pairing: 'Ahri',
             fuseType: 'Freestyle',
-            explanation: 'The best ground movement plus the best air movement lets you be real tricky with how you approach and opens potential sandwhich options with Vi\'s Sway and charge S1 tag',
+            explanation: 'Ahri with her ability to confirm off of many buttons, and carry to the corner, eables braum to get unbreakable. Meanwhile Braum can protect ahri while she abuses multioverhead mix. She also makes up for his slower speed.',
             videos: [
-              { id: 'ptCethbZVNA' }
+              { id: 'HpWFAOu0cuw' }
             ]
-          },
+          },          
         ]
       },
       {
@@ -118,24 +100,33 @@ export const braum = {
         title: 'Top Players',
         players: [
           {
-            name: 'Zando',
+            name: 'Lighwisp',
             description: '',
             socials: {
-              twitter: 'https://x.com/zandowastaken',
-              twitch: 'http://www.twitch.tv/Zando'
+              twitch: 'https://www.twitch.tv/lightwhisp'
             },
             highlights: [
-              { id: 'EZ2mbmn7nvM' }
+              { id: 'mGRc941KzuA' }
             ]
           },
           {
-            name: 'Blaizzy',
-            description: '',
+            name: 'Galliated',
+            description: 'No socials to speak of here, but totally worth looking up Vods for Braum sauce.',
             socials: {
-              twitch: 'https://www.twitch.tv/blaizzy'
+              twitch: ''
             },
             highlights: [
-              { id: 'S3CxJx9olO0' }
+              { id: 'i_yBJF7k3VE' }
+            ]
+          },
+          {
+            name: 'MrChupy',
+            description: 'No socials to speak of here, but totally worth looking up Vods for Braum sauce.',
+            socials: {
+              twitter: 'https://x.com/Mrchupy01'
+            },
+            highlights: [
+              { id: '3XPIISjef70' }
             ]
           },
         ]
