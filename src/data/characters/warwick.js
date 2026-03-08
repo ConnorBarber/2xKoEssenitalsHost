@@ -51,8 +51,8 @@ export const warwick = {
         description2: [
         ],
         comboEnders: [
-          { purpose: 'Oki', numericNotation: '2S2 or S1 Super', notationImage: '/combo-notation/warwick/warwick-ender1.png', video: 'videos/warwick/combo-ender/warwick-ender1.mp4' },
-          { purpose: 'Blood', numericNotation: '5S2x1 or x3 and S2 Super', notationImage: '/combo-notation/warwick/warwick-ender2.png', video: 'videos/warwick/combo-ender/warwick-ender2.mp4' },
+          { purpose: 'Oki', numericNotation: '2S2 or S1 Super', notationImage: '/combo-notation/combbo-enders/warwick/warwick-ender1.png', video: 'videos/warwick/combo-ender/warwick-ender1.mp4' },
+          { purpose: 'Blood', numericNotation: '5S2x1 or S2 Super', notationImage: '/combo-notation/combo-enders/warwick/warwick-ender2.png', video: 'videos/warwick/combo-ender/warwick-ender2.mp4' },
         ],
         //below everything
         description3: [
