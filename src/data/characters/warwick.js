@@ -36,23 +36,23 @@ export const warwick = {
       title: 'Combos',
       description: [],
       combos: [
-        { purpose: 'BnB', numericNotation: 'M > H > [2S1] > M > H > j.L > j.M > j.H > 2H > j.M > j.H > j.S1', notationImage: '/combo-notation/warwick/warwick-combo-1.png', video: 'videos/warwick/ww-combo-1.mp4' },
-        { purpose: 'BnB on Crouchers', numericNotation: 'M > H > 3H > d.2S1 > L > L > M > 2H > j.M > j.H > j.S1', notationImage: '/combo-notation/warwick/warwick-combo-2.png', video: 'videos/warwick/ww-combo-2.mp4' },
-        { purpose: 'Side Swap', numericNotation: 'M > H > 3H > d.2S1 > L > L > M > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/warwick/warwick-combo-3.png', video: 'videos/warwick/ww-combo-3.mp4' },
-        { purpose: 'Corner Combo', numericNotation: 'M > H > 2H > [2S1] > L > 2M > M > H > [2S1] > M > 6S2 > 2S2', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' },
+        { purpose: 'BnB', numericNotation: 'M > H > [2S1] > M > H > j.L > j.M > j.H > 2H > j.M > j.H > j.S1', notationImage: '/combo-notation/warwick/warwick-combo-1.png', video: 'videos/combos/warwick/ww-combo-1.mp4' },
+        { purpose: 'BnB on Crouchers', numericNotation: 'M > H > 3H > d.2S1 > L > L > M > 2H > j.M > j.H > j.S1', notationImage: '/combo-notation/warwick/warwick-combo-2.png', video: 'videos/combos/warwick/ww-combo-2.mp4' },
+        { purpose: 'Side Swap', numericNotation: 'M > H > 3H > d.2S1 > L > L > M > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/warwick/warwick-combo-3.png', video: 'videos/combos/warwick/ww-combo-3.mp4' },
+        { purpose: 'Corner Combo', numericNotation: 'M > H > 2H > [2S1] > L > 2M > M > H > [2S1] > M > 6S2 > 2S2', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/combos/warwick/ww-combo-4.mp4' },
         { purpose: 'Fury', numericNotation: 'Any combo but loop 6S2 > 66 > S1 at the end'}
       ],
       comboEnders: [
-        { purpose: 'Healing Oki', numericNotation: 'j.H S1 2T', notationImage: '/combo-notation/warwick/ww-ender-1.png', video: 'videos/warwick/warwick-ender1.mp4' },
-        { purpose: 'Fear Setup', numericNotation: 'j.H 2S1 2T', notationImage: '/combo-notation/warwick/ww-ender-2.png', video: 'videos/warwick/warwick-ender2.mp4' },
-        { purpose: 'Max Dmg', numericNotation: 'j.H j.S2 TAG', notationImage: '/combo-notation/warwick/ww-ender-3.png', video: 'videos/warwick/warwick-ender3.mp4' },
+        { purpose: 'Healing Oki', numericNotation: 'j.H S1 2T', notationImage: '/combo-notation/warwick/ww-ender-1.png', video: 'videos/warwick/combo-ender/warwick-ender1.mp4' },
+        { purpose: 'Fear Setup', numericNotation: 'j.H 2S1 2T', notationImage: '/combo-notation/warwick/ww-ender-2.png', video: 'videos/warwick/combo-ender/warwick-ender2.mp4' },
+        { purpose: 'Max Dmg', numericNotation: 'j.H j.S2 TAG', notationImage: '/combo-notation/warwick/ww-ender-3.png', video: 'videos/warwick/combo-ender/warwick-ender3.mp4' },
       ],
       //between combos and enders
         description2: [
         ],
         comboEnders: [
-          { purpose: 'Oki', numericNotation: '2S2 or S1 Super', notationImage: '/combo-notation/warwick/warwick-ender1.png', video: 'videos/warwick/warwick-ender1.mp4' },
-          { purpose: 'Blood', numericNotation: '5S2x1 or x3 and S2 Super', notationImage: '/combo-notation/warwick/warwick-ender2.png', video: 'videos/warwick/warwick-ender2.mp4' },
+          { purpose: 'Oki', numericNotation: '2S2 or S1 Super', notationImage: '/combo-notation/warwick/warwick-ender1.png', video: 'videos/warwick/combo-ender/warwick-ender1.mp4' },
+          { purpose: 'Blood', numericNotation: '5S2x1 or x3 and S2 Super', notationImage: '/combo-notation/warwick/warwick-ender2.png', video: 'videos/warwick/combo-ender/warwick-ender2.mp4' },
         ],
         //below everything
         description3: [
