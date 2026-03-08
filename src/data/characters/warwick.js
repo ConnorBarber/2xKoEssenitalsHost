@@ -1,6 +1,6 @@
 export const warwick = {
   name: 'Warwick',
-  isComplete: false,
+  isComplete: true,
   archetype: 'rushdown',
   stats: {
     range: 2,
@@ -40,7 +40,7 @@ export const warwick = {
         { purpose: 'BnB on Crouchers', numericNotation: 'M > H > 3H > d.2S1 > L > L > M > 2H > j.M > j.H > j.S1', notationImage: '/combo-notation/warwick/warwick-combo-2.png', video: 'videos/warwick/ww-combo-2.mp4' },
         { purpose: 'Side Swap', numericNotation: 'M > H > 3H > d.2S1 > L > L > M > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/warwick/warwick-combo-3.png', video: 'videos/warwick/ww-combo-3.mp4' },
         { purpose: 'Corner Combo', numericNotation: 'M > H > 2H > [2S1] > L > 2M > M > H > [2S1] > M > 6S2 > 2S2', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' },
-        { purpose: 'Fury', numericNotation: 'Any combo but loop 6S2 > 66 > S1 at the end', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/warwick/ww-combo-4.mp4' }
+        { purpose: 'Fury', numericNotation: 'Any combo but loop 6S2 > 66 > S1 at the end'}
       ],
       comboEnders: [
         { purpose: 'Healing Oki', numericNotation: 'j.H S1 2T', notationImage: '/combo-notation/warwick/ww-ender-1.png', video: 'videos/warwick/warwick-ender1.mp4' },
@@ -79,7 +79,7 @@ export const warwick = {
           fuseType: 'Freestyle',
           explanation: 'Not as good a team as with Ekko but more fun. Great crossup and mixups, with extremely high damage.',
           videos: [
-            { id: 'F3x1-NNy6h4' },
+            { id: 'F3x1-ZBW8b1xavhg' },
           ]
         },
         {
@@ -87,7 +87,7 @@ export const warwick = {
           fuseType: 'Freestyle',
           explanation: 'Amazing neutral control, and a full screen projectile to help warwick on approach.',
           videos: [
-            { id: 'F3x1-NNy6h4' },
+            { id: 'F3x1-j9zARVOZmUk' },
           ]
         },
         {
@@ -95,78 +95,24 @@ export const warwick = {
           fuseType: 'Double Down',
           explanation: 'Super high damaging rush down team.',
           videos: [
-            { id: 'F3x1-NNy6h4' },
+            { id: 'F3x1-Q8KQu8lFU4o' },
           ]
         },
-        {
-          pairing: 'Illaoi',
-          fuseType: '2x Assist',
-          explanation: 'Not as strong as the others but has hidden synergy potential. Amazing corner pressure.',
-          videos: [
-            { id: 'F3x1-NNy6h4' },
-          ]
-        },
+        
       ]
     },
-    // {
-    //   id: 'matchups',
-    //   title: 'Matchups',
-    //   matchups: {
-    //     'Ahri': {
-    //       difficulty: 'Medium',
-    //       difficultyClass: 'medium',
-    //       overview: [
-    //         'Ahri\'s mobility can be tricky but your sustain helps in extended fights.',
-    //         'Use Blood Hunt speed boost to keep up with her dashes. Infinite Duress can catch her post-dash.'
-    //       ],
-    //       keyPoints: [
-    //         'Sustain helps in longer fights',
-    //         'Blood Hunt keeps you mobile',
-    //         'Infinite Duress catches dashes',
-    //         'Fear can interrupt her combos'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Jinx': {
-    //       difficulty: 'Easy',
-    //       difficultyClass: 'easy',
-    //       overview: [
-    //         'Jinx cannot escape once you get in. Infinite Duress closes the gap instantly.',
-    //         'Your sustain lets you absorb her poke while approaching. Once in, she\'s done.'
-    //       ],
-    //       keyPoints: [
-    //         'She cannot escape your engage',
-    //         'Sustain through her poke',
-    //         'Infinite Duress is a free hit',
-    //         'Fear prevents her from fighting back'
-    //       ],
-    //       videos: []
-    //     },
-    //   }
-    // },
     {
       id: 'top_players',
       title: 'Top Players',
-      players: [
-        {
-          name: 'BloodMoon',
-          description: 'Warwick specialist with aggressive playstyle',
-          socials: {
-            twitter: 'https://twitter.com/bloodmoon',
-            twitch: 'https://twitch.tv/bloodmoon'
-          },
-          highlights: [
-            { id: 'F3x1-NNy6h4' },
-          ]
-        },
+      players: [        
         {
           name: 'K7',
-          description: 'Warwick specialist with aggressive playstyle',
+          description: '',
           socials: {
             youtube: 'https://www.youtube.com/@K7Showoff'
           },
           highlights: [
-            { id: 'F3x1-NNy6h4' },
+            { id: 'F3x1-JYUuusXTpU' },
           ]
         },
       ]
@@ -175,31 +121,10 @@ export const warwick = {
       id: 'guides',
       title: 'Guides',
       videos: [
-        { id: 'F3x1-NNy6h4' },
-        { id: '8qmI6OieGnI' },
+        { id: 'F3x1-aGPcVHRN3ng' },
+        { id: 'pnhh7e6OsXg' },
+        { id: 'S7YMLFy4FKE' },
       ],
-      textGuides: [
-        {
-          title: 'Warwick Fundamentals Guide',
-          author: 'Community',
-          sections: [
-            {
-              heading: 'Overview',
-              content: 'Warwick is an aggressive bruiser who excels at chasing down opponents and sustaining through fights. His Bloodlust mechanic rewards landing hits with increased power.'
-            },
-            {
-              heading: 'Gameplan',
-              content: 'Build bloodlust stacks with attacks, then activate Blood Hunt to become a terrifying pursuer. Use Jaws of the Beast for sustain and Infinite Duress for gap closing.'
-            },
-          ],
-          tips: [
-            'Bloodlust stacks are your power source - build them',
-            'Jaws of the Beast heals more at low health',
-            'Hold S1 to follow behind opponents',
-            'Primal Howl fear sets up free combos'
-          ]
-        },
-      ]
     },
   ]
 }
