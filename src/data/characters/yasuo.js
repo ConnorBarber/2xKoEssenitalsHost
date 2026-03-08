@@ -1,6 +1,6 @@
 export const yasuo = {
   name: 'Yasuo',
-  isComplete: false,
+  isComplete: true,
   archetype: 'all rounder', // e.g., Rushdown, Grappler, Zoner, etc.
   stats: {
     range: 3,
@@ -27,12 +27,12 @@ export const yasuo = {
           "Overall, Yasuo is a versatile character that can fit into many team compositions and playstyles. However, he operates best as a point character to maximize his mixup and pressure potential.",
         ],
         moves: [
-          { numericNotation: 'S1', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo1.png', description: 'Also knwon as Hasagi, this move is super fast for it\'s range. 2 hitting to break armor. Max range combo with assist or into S1 super', video: 'videos/ekko/key-moves/ekko-key1.mp4' },
-          { numericNotation: '4S2', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo2.png', description: 'Great setplay. Use to block projectiles, on knockdown, or to setup full screen neutral skips with your assist character.', video: 'videos/ekko/key-moves/ekko-key2.mp4' },
-          { numericNotation: 'j.S1', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo3.png', description: '"Neutral skip" the move. Use this with an assist call to protect yourself while advancing forward and over enemies', video: 'videos/ekko/key-moves/ekko-key3.mp4' },
-          { numericNotation: 'j.[S1]', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo4.png', description: 'Holding j.S1 angles it downward and leads to a crossup', video: 'videos/ekko/key-moves/ekko-key4.mp4' },
-          { numericNotation: '[6S1]', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo5.png', description: 'Holding the grounded forward slash is also a crossup', video: 'videos/ekko/key-moves/ekko-key5.mp4' },
-           { numericNotation: '2S1', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo6.png', description: 'This puts Yasuo in his stance. Both useful for safe pressure, combos, and simply entering stance on command.', video: 'videos/ekko/key-moves/ekko-key5.mp4' }   
+          { numericNotation: 'S1', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo1.png', description: 'Also knwon as Hasagi, this move is super fast for it\'s range. 2 hitting to break armor. Max range combo with assist or into S1 super', video: 'videos/yasuo/key-moves/yasuo1.mp4' },
+          { numericNotation: '4S2', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo2.png', description: 'Great setplay. Use to block projectiles, on knockdown, or to setup full screen neutral skips with your assist character.', video: 'videos/yasuo/key-moves/yasuo2.mp4' },
+          { numericNotation: 'j.S1', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo3.png', description: '"Neutral skip" the move. Use this with an assist call to protect yourself while advancing forward and over enemies', video: 'videos/yasuo/key-moves/yasuo3.mp4' },
+          { numericNotation: 'j.[S1]', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo4.png', description: 'Holding j.S1 angles it downward and leads to a crossup', video: 'videos/yasuo/key-moves/yasuo4.mp4' },
+          { numericNotation: '[6S1]', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo5.png', description: 'Holding the grounded forward slash is also a crossup', video: 'videos/yasuo/key-moves/yasuo5.mp4' },
+           { numericNotation: '2S1', notation: '', notationImage: '/key-moves-notation/yasuo/yasuo6.png', description: 'This puts Yasuo in his stance. Both useful for safe pressure, combos, and simply entering stance on command.', video: 'videos/yasuo/key-moves/yasuo6.mp4' }   
         ]
       },
       {
@@ -106,169 +106,6 @@ export const yasuo = {
           },
         ]
       },
-      // {
-      //   id: 'matchups',
-      //   title: 'Matchups',
-      //   matchups: {
-      //     'Ahri': {
-      //       difficulty: 'Medium',
-      //       difficultyClass: 'medium',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: [
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //       ]
-      //     },
-      //     'Blitzcrank': {
-      //       difficulty: 'Medium',
-      //       difficultyClass: 'medium',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: [
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //         { id: 'F3x1-NNy6h4' },
-      //       ]
-      //     },
-      //     'Braum': {
-      //       difficulty: 'Hard',
-      //       difficultyClass: 'hard',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Caitlyn': {
-      //       difficulty: 'Hard',
-      //       difficultyClass: 'hard',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Darius': {
-      //       difficulty: 'Medium',
-      //       difficultyClass: 'medium',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Illaoi': {
-      //       difficulty: 'Medium',
-      //       difficultyClass: 'medium',
-      //      overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: [
-      //         { id: 'illaekko' }
-      //       ]
-      //     },
-      //     'Jinx': {
-      //       difficulty: 'Easy',
-      //       difficultyClass: 'easy',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Teemo': {
-      //       difficulty: 'Easy',
-      //       difficultyClass: 'easy',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Vi': {
-      //       difficulty: 'Hard',
-      //       difficultyClass: 'hard',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Warwick': {
-      //       difficulty: 'Hard',
-      //       difficultyClass: 'hard',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: []
-      //     },
-      //     'Yasuo': {
-      //       difficulty: 'Medium',
-      //       difficultyClass: 'medium',
-      //       overview: [
-      //         'Placeholder overview'
-      //       ],
-      //       keyPoints: [
-      //         'Placeholder keypoint 1',
-      //         'Placeholder keypoint 2',
-      //         'Placeholder keypoint 3',
-      //       ],
-      //       videos: [
-      //         { id: '8qmI6OieGnI' }
-      //       ]
-      //     }
-      //   }
-      // },
       {
         id: 'top_players',
         title: 'Top Players',
