@@ -46,23 +46,23 @@ export const blitzcrank = {
           "When playing Blitz, it is vital to master his BnB rejump, as it can be used at all points of the stage, has great corner carry, and is universal on the cast."
         ],
         combos: [
-          { purpose: 'Easy BnB', numericNotation: 'L > M > H > 2H > j.L > j.M > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-1.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-1.mp4' },
-          { purpose: 'BnB and Corner Carry', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-2.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-2.mp4' },
-          { purpose: 'BnB with steam', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.2S2 > S1+L', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-3.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-3.mp4' },
-          { purpose: 'M+H(Throw Combo)Tag Launcher', numericNotation: 'wr.H > T', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-4.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-4.mp4' },
-          { purpose: 'M+H(Throw Combo)Get Steam', numericNotation: 'wr.H > S1+L', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-6.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-6.mp4' },
-          { purpose: 'Fury', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > j.2H > Fury > land > 2H > j.H > j.S1 ->-> wr.H > S1+L', notationImage: '/combo-notation/blitzcrank/blitzcrank-combo-6.png', video: 'videos/blitzcrank/combos/blitzcrank-combo-6.mp4' },     
+          { purpose: 'Easy BnB', numericNotation: 'L > M > H > 2H > j.L > j.M > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitz_combo1.png', video: 'videos/blitzcrank/combos/blitza_combo1.mp4' },
+          { purpose: 'BnB and Corner Carry', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitz_combo2.png', video: 'videos/blitzcrank/combos/blitz_combo2.mp4' },
+          { purpose: 'BnB with steam', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.2S2 > S1+L', notationImage: '/combo-notation/blitz/blitz_combo3.png', video: 'videos/blitzcrank/combos/blitz_combo3.mp4' },
+          { purpose: 'M+H(Throw Combo)Tag Launcher', numericNotation: 'wr.H > T', notationImage: '/combo-notation/blitz/blitz_combo4.png', video: 'videos/blitzcrank/combos/blitz_combo4.mp4' },
+          { purpose: 'M+H(Throw Combo)Get Steam', numericNotation: 'wr.H > S1+L', notationImage: '/combo-notation/blitz/blitz_combo5.png', video: 'videos/blitzcrank/combos/blitz_combo5.mp4' },
+          { purpose: 'Fury', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > j.2H > Fury > land > 2H > j.H > j.S1 ->-> wr.H > S1+L', notationImage: '/combo-notation/blitz/blitz_combo6.png', video: 'videos/blitzcrank/combos/blitz_combo6.mp4' },     
         ],
         //between combos and enders
         description2: [
         ],
         comboEnders: [
-          { purpose: 'Oki and Steam', numericNotation: 'S1+L', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder1.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender1.mp4' },
-          { purpose: 'Limit Strike', numericNotation: 'S2, {j.2H},  {j.H}', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder2.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender2.mp4' },
-          { purpose: 'Damage, when Steamed', numericNotation: 'S2+M(hold to spend steam)', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder3.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender3.mp4' },
-          { purpose: 'Hard Tag', numericNotation: '{j.H} > [T]', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder4.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender4.mp4' },
-          { purpose: 'Tag Launcher', numericNotation: 'wr.H > T, {j.H} > T', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder5.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender5.mp4' },
-          { purpose: 'Air Grab Reset', numericNotation: '5L', notationImage: '/combo-notation/blitzcrank/combo-enders/blitzcrank-comboEnder6.png', video: 'videos/blitzcrank/combo-enders/blitzcrank-ender6.mp4' },
+          { purpose: 'Oki and Steam', numericNotation: 'S1+L', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder1.png', video: 'videos/blitz/combo-enders/blitzEnder1.mp4' },
+          { purpose: 'Limit Strike', numericNotation: 'S2, {j.2H},  {j.H}', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder2.png', video: 'videos/blitz/combo-enders/blitzEnder2.mp4' },
+          { purpose: 'Damage, when Steamed', numericNotation: 'S2+M(hold to spend steam)', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder3.png', video: 'videos/blitz/combo-enders/blitzEnder3.mp4' },
+          { purpose: 'Hard Tag', numericNotation: '{j.H} > [T]', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder4.png', video: 'videos/blitz/combo-enders/blitzEnder4.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: 'wr.H > T, {j.H} > T', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder5.png', video: 'videos/blitz/combo-enders/blitzEnder5.mp4' },
+          { purpose: 'Air Grab Reset', numericNotation: '5L', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder6.png', video: 'videos/blitz/combo-enders/blitzEnder6.mp4' },
         ],
         //below everything
         description3: [
@@ -72,14 +72,14 @@ export const blitzcrank = {
       {
         id: 'team_synergies',
         title: 'Teams',
-        description: '',
+        description: 'Blitz is a strong support character and can work with any character if you play arounnd his restand mix ability, you can make all characters work.',
         teams: [
           {
             pairing: 'Braum',
             fuseType: 'Double Down',
             explanation: 'The Big Boys Squad, this team uses Braum assist to shield up while Blitz engages in shenanigans. Also, with Double Down, both can get their upgrades(Steam for Blitz and Unbreakable for Braum) off either super. In the corner they have immense pressure and not to mention damage.',
             videos: [
-               { id: 'HHG4Cgu7uaw' }
+               { id: 'thAC5haOQW' }
             ]
           },
           {
@@ -87,15 +87,15 @@ export const blitzcrank = {
             fuseType: 'Freeestyle',
             explanation: 'Yasuo being such a strong point character and Blitz being such a strong assist character makes for a great pairing. This also allows Blitz access to left/right mix, which he usually has none.',
             videos: [
-              { id: 'SxOSBAEJYMY' }
+              { id: 'juZOenv7FoI' }
             ]
           },
           {
-            pairing: 'Teemo',
+            pairing: 'Vi',
             fuseType: 'Double Down or Freestyle',
-            explanation: 'A high risk high reward team. Neither do good solo, but together they have oppressive corner pressure, gimmicks, and mental stack ability. Teemo can also OTG after Blitz throws with a tag.',
+            explanation: 'A team all about using Vi to get in fast, and Blitz to either restand or trade out for oppressive corner pressure. The big damage is also nice',
             videos: [
-              { id: 'DCBAFBurj9c' }
+              { id: 'DjdZgubxHJU' }
             ]
           },          
         ]
