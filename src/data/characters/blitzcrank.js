@@ -126,7 +126,7 @@ export const blitzcrank = {
             name: 'Shine',
             description: '',
             socials: {
-              twitch: 
+              twitch: ''
             },
             highlights: [
               { id: 'eL39aEZi1WY' }
