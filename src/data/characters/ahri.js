@@ -11,141 +11,129 @@ export const ahri = {
   },
   heroImageOffset: { desktop: -104, mobile: -27 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
   tabs: [
-   {
+      {
         id: 'key_moves',
         title: 'Key Moves',
         description: [
-         
+          "Ahri is all about that movement, that runaway, that...temptress energy.",
+          "Ahri's mobility is her greatest strength, allowing her to control space and create opportunities.",
+          "She can be as complex or simple as you want, with a variety of tools to keep opponents guessing.",
         ],
         moves: [
-          { numericNotation: 'S2, 2S2 and j.S2', notation: '', notationImage: '/key-moves-notation/ekko/ekko1.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: '5M', notation: '', notationImage: '/key-moves-notation/ekko/ekko2.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: 'S1 and 2S1', notation: '', notationImage: '/key-moves-notation/ekko/ekko3.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: 'j.66', notation: '', notationImage: '/key-moves-notation/ekko/ekko4.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-          { numericNotation: 'j.2H', notation: '', notationImage: '/key-moves-notation/ekko/ekko5.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' },
-        { numericNotation: '6S1', notation: '', notationImage: '/key-moves-notation/ekko/ekko6.png', description: 'UNDER CONSTRUCTION', video: 'videos/ekko/illaekko.mp4' }
+          { numericNotation: '5M', notation: '', notationImage: '/key-moves-notation/ahri/ahri1.png', description: 'Good poke that gives a full combo on hit	', video: 'videos/ahri/key-moves/ahri1.mp4' },
+          { numericNotation: '2M', notation: '', notationImage: '/key-moves-notation/ahri/ahri2.png', description: 'Good poke that also beats Retreating Guard and can catch people running away from her, it also has more range than 2M	', video: 'videos/ahri/key-moves/ahri2.mp4' },
+          { numericNotation: '3H', notation: '', notationImage: '/key-moves-notation/ahri/ahri3.png', description: 'Classic sweep that beats Retreating Guard at the end of a blockstring	', video: 'videos/ahri/key-moves/ahri3.mp4' },
+          { numericNotation: '2S1', notation: '', notationImage: '/key-moves-notation/ahri/ahri4.png', description: 'A set up fireball that can be used when tagging out or on oki to make a really nasty mix-up.	', video: 'videos/ahri/key-moves/ahri4.mp4' },
+          { numericNotation: 'j.66', notation: '', notationImage: '/key-moves-notation/ahri/ahri5.png', description: 'Airdash. But for real this airdash is really fast and really good at a lot of things, it makes her really scary to fight on offense and really hard to fight in nuetral.', video: 'videos/ahri/key-moves/ahri5.mp4' },   
+          { numericNotation: 'j.H, j.2H', notation: '', notationImage: '/key-moves-notation/ahri/ahri6.png', description: 'Her really good air buttons that you will use a lot after airdsah in neutral 	', video: 'videos/ahri/key-moves/ahri6.mp4' },   
+          { numericNotation: 'j.S1, j.2S1', notation: '', notationImage: '/key-moves-notation/ahri/ahri7.png', description: 'Her air fireballs are really good at controling space while not leaving yourself really vulnerable like ground fireball. It also goes farther than grounded fireball.', video: 'videos/ahri/key-moves/ahri7.mp4' }, 
+      ]
+      },
+      {
+        id: 'important_solo_combos',
+        title: 'Combos',
+        //above both tables
+        description: [
+        ],
+        combos: [
+          { purpose: 'Easy BnB', numericNotation: 'L>M>H > 6s2~7s2~ slight dl 5s1 IAD j.{H} 66 5H > j.2h dl j.H > 5H > j.2h dl j.H > j.3s2 > (3H 5s2~2s1)', notationImage: '/combo-notation/blitz/blitzCombo1.png', video: 'videos/blit/combos/blitzCombo1.mp4' },
+          { purpose: 'Side Swap', numericNotation: 'L>M>H -> 6s2~7s2~5s1 IAD j.{H} 66 5H > j.2h dl j.H > 5H > j.2h dl j.H > j.3s2 > (3H 5s2~2s1)', notationImage: '/combo-notation/blitz/blitzCombo2.png', video: 'videos/blitz/combos/blitzCombo2.mp4' },
+          { purpose: 'Corner Combo', numericNotation: 'L>M>H > 5s1~s1~j.5s1 IAD j.{H} 66 5H > j.2h dl j.H > 5H > j.2h dl j.H > j.3s2 > (3H 5s2~2s1)', notationImage: '/combo-notation/blitz/blitzCombo3.png', video: 'videos/blitz/combos/blitzCombo3.mp4' },
+         ],
+        //between combos and enders
+        description2: [
+        ],
+        comboEnders: [
+          { purpose: 'Oki', numericNotation: '3h 5s2~2s1', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder1.png', video: 'videos/blitz/combo-enders/ender1.mp4' },
+          { purpose: 'Limit Strike', numericNotation: '3h 5s2~2s1', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder2.png', video: 'videos/blitz/combo-enders/ender2.mp4' },
+          { purpose: 'Damage', numericNotation: '3h 5s2(2) Super 2', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder3.png', video: 'videos/blitz/combo-enders/ender3.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: '3h T', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder4.png', video: 'videos/blitz/combo-enders/ender4.mp4' },
+        ],
+        //below everything
+        description3: [
+        ],
+      },
+      {
+        id: 'team_synergies',
+        title: 'Teams',
+        description: 'Blitz is a strong support character and can work with any character if you play arounnd his restand mix ability, you can make all characters work. However, here are some fun suggestions.',
+        teams: [
+          {
+            pairing: 'Ekko',
+            fuseType: '2x or Freestyle',
+            explanation: 'Team is mix city, they both give eachother access to good mix, better on block pressure, and some fun grounded resets, making sure the only option the opponent has is to block right. Neutral with this team might make you think a little harder because you can\'t skip it as easily as a Yasuo or Vi can, but with the plenty of tricky options this team has it won\'t be too hard to get into your opponent\'s face and mix them to the grave.',
+            videos: [
+               { id: 'TzoYcRbVl-4' }
+            ]
+          },
+          {
+            pairing: 'Teemo',
+            fuseType: 'Freeestyle',
+            explanation: 'This team has really good neutral with Teemo pebble, mushrooms, and Ahri orb. This team doesn\'t have a braindead neutral skip like other teams do, so you have to think a little more to win, but the tools you have are really good. You can\'t become too predictable and rotate your tools properly, because if your opponent knows what you will be doing, it\'s easy to beat out any opponent without an assist. If you know your combos, you can get some crazy damage with this team too. Overall, the team is really good, and if you put in the work to master it with all the puppeting you can do with this team, you will get an amazing team that only gets better with time.',
+            videos: [
+              { id: 'Gip_qxuc7bg' }
+            ]
+          },
+          {
+            pairing: 'Yasuo',
+            fuseType: 'Freestyle',
+            explanation: 'Yasuo and Ahri are a really good duo for damage. You basically want to 2 touch with this team every time, with the amazing damage you get off of orb Yasuo pick-ups to the easy confirms you get off of any stray hit to the great mix that Yasuo gets off of Ahri assists. You want to get in and hit hard with the movement of a low damage character.',
+            videos: [
+              { id: 'LAMOsnhj9K' }
+            ]
+          },          
         ]
       },
-    {
-      id: 'important_solo_combos',
-      title: 'Combos',
-      content: 'UNDER CONSTRUCTION'
-    },
-    {
-      id: 'team_synergies',
-      title: 'Teams',
-      content: 'UNDER CONSTRUCTION'
-    },
-    // {
-    //   id: 'matchups',
-    //   title: 'Matchups',
-    //   matchups: {
-    //     'Braum': {
-    //       difficulty: 'Hard',
-    //       difficultyClass: 'hard',
-    //       overview: [
-    //         'Braum presents a significant challenge for Ahri. His Unbreakable shield can block your Orb of Deception and Charm, negating your primary trading tools and pick potential.',
-    //         'The matchup requires patience and positioning. Try to bait out his shield before using your key abilities, or angle your skillshots to hit around his shield. Your mobility with Spirit Rush can help you reposition, but be wary of his crowd control chain if you get too close.'
-    //       ],
-    //       keyPoints: [
-    //         'His shield blocks your Q and E completely',
-    //         'Wait for shield to go down before committing abilities',
-    //         'Avoid extended trades when his passive stacks are on you',
-    //         'Use Spirit Rush to reposition around his shield angle'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Darius': {
-    //       difficulty: 'Medium',
-    //       difficultyClass: 'medium',
-    //       overview: [
-    //         'This matchup favors Ahri due to her range and mobility advantages. The key is never letting Darius get close enough to pull you or land his Q outer ring.',
-    //         'Your Charm can interrupt his Decimate and prevent him from healing. Use your mobility to kite him and poke from safe distance. If he manages to get close, Spirit Rush away immediately. Never fight him when he has full passive stacks.'
-    //       ],
-    //       keyPoints: [
-    //         'Maintain distance and use range advantage',
-    //         'Charm cancels his Q animation',
-    //         'Spirit Rush away if he gets close',
-    //         'Never fight with 5 bleed stacks'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Ekko': {
-    //       difficulty: 'Medium',
-    //       difficultyClass: 'medium',
-    //       overview: [
-    //         'This is a pure skill matchup between two mobile burst mages. Both champions have strong mobility, burst damage, and crowd control, making every exchange matter.',
-    //         'Landing your Charm is crucial for confirming your combo. His ultimate can reset bad trades, so try to force it out before committing to an all-in. Your Spirit Rush gives you more mobility charges, which can be an advantage in extended fights.'
-    //       ],
-    //       keyPoints: [
-    //         'Skill-based matchup, both have similar tools',
-    //         'Landing CC first is crucial',
-    //         'Track his ultimate cooldown before all-ins',
-    //         'Your R gives more mobility charges than his E'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Illaoi': {
-    //       difficulty: 'Easy',
-    //       difficultyClass: 'easy',
-    //       overview: [
-    //         'Ahri excels against Illaoi thanks to superior mobility and range. Illaoi is immobile and struggles to land her abilities on a mobile target like Ahri.',
-    //         'The main danger is her Test of Spirit (E). Dodge this ability and she becomes much less threatening. Use your dashes to avoid tentacle slams and never fight her in her ultimate. Poke her down from range and use your mobility to dodge her telegraphed abilities.'
-    //       ],
-    //       keyPoints: [
-    //         'Heavy mobility advantage in your favor',
-    //         'Dodge her E and she has no threat',
-    //         'Stay away from tentacles',
-    //         'Never fight in her ultimate'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Jinx': {
-    //       difficulty: 'Easy',
-    //       difficultyClass: 'easy',
-    //       overview: [
-    //         'This is a very favorable matchup for Ahri. Jinx has no mobility and weak self-peel, making her an easy target for your assassination combo.',
-    //         'Your Charm into full combo can eliminate her quickly. Watch out for her Flame Chompers when diving, but otherwise this matchup is straightforward. Her only defense is positioning and team protection.'
-    //       ],
-    //       keyPoints: [
-    //         'Very favorable - she has no escape',
-    //         'E + Q + W combo can kill her easily',
-    //         'Watch for trap placement when diving',
-    //         'Focus her in team fights'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Vi': {
-    //       difficulty: 'Hard',
-    //       difficultyClass: 'hard',
-    //       overview: [
-    //         'Vi\'s point-and-click ultimate makes this a difficult matchup. Once she commits her R to you, there\'s no outplaying it with Charm or dashes.',
-    //         'Position carefully and respect her engage range. Your Spirit Rush can help you escape after her initial combo, but the lockdown is unavoidable. Try to poke her down before she can commit to an all-in, and stay near your team for peel.'
-    //       ],
-    //       keyPoints: [
-    //         'Her ultimate cannot be dodged',
-    //         'Position defensively and respect her range',
-    //         'Use Spirit Rush after her combo to escape',
-    //         'Poke before she can engage'
-    //       ],
-    //       videos: []
-    //     },
-    //     'Yasuo': {
-    //       difficulty: 'Hard',
-    //       difficultyClass: 'hard',
-    //       overview: [
-    //         'Yasuo is one of Ahri\'s hardest matchups due to his Wind Wall completely negating your Charm and Orb. Without these abilities, your damage and pick potential are severely limited.',
-    //         'Bait out his Wind Wall before using your important abilities. Track the wall cooldown carefully. His mobility with Sweeping Blade can make him hard to hit, and his passive shield absorbs poke. Look for opportunities when he\'s used E on minions and has fewer dash targets.'
-    //       ],
-    //       keyPoints: [
-    //         'Wind Wall blocks your Q and E',
-    //         'Bait wall before using key abilities',
-    //         'His mobility makes him hard to hit',
-    //         'Wait for him to use E on minions'
-    //       ],
-    //       videos: []
-    //     }
-    //   }
-    // }
+      {
+        id: 'top_players',
+        title: 'Top Players',
+        players: [
+          {
+            name: 'Blaizzy',
+            description: '',
+            socials: {
+              twitch: 'https://x.com/CrazyBlaizzy'
+            },
+            highlights: [
+              { id: 'tnoLXZqmR3Q' }
+            ]
+          },
+          {
+            name: 'SonicFox',
+            description: '',
+            socials: {
+              youtube: 'https://www.youtube.com/@SonicFox5000',
+            },
+            highlights: [
+              { id: 'YZhX_uFSEyc' }
+            ]
+          },
+          {
+            name: 'Inzem',
+            description: '',
+            socials: {
+              youtube: 'https://www.youtube.com/@INZEM'
+            },
+            highlights: [
+              { id: 'eL39aEZi1WY' }
+            ]
+          },
+        ]
+      },
+      {
+        id: 'guides',
+        title: 'Guides',
+        videos: [
+          { 
+            id: '7PVir9a_dmQ', 
+          },
+          { 
+            id: 'E2yJ-Fziqzo', 
+          },
+          { 
+            id: 'X_bf85QGOGg', 
+          },
+        ],
+      },
   ]
 };
