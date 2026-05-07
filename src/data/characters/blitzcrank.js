@@ -46,12 +46,12 @@ export const blitzcrank = {
           "When playing Blitz, it is vital to master his BnB rejump, as it can be used at all points of the stage, has great corner carry, and is universal on the cast."
         ],
         combos: [
-          { purpose: 'Easy BnB', numericNotation: 'L > M > H > 2H > j.L > j.M > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitz_combo1.png', video: 'videos/blitzcrank/combos/blitza_combo1.mp4' },
-          { purpose: 'BnB and Corner Carry', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitz_combo2.png', video: 'videos/blitzcrank/combos/blitz_combo2.mp4' },
-          { purpose: 'BnB with steam', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.2S2 > S1+L', notationImage: '/combo-notation/blitz/blitz_combo3.png', video: 'videos/blitzcrank/combos/blitz_combo3.mp4' },
-          { purpose: 'M+H(Throw Combo)Tag Launcher', numericNotation: 'wr.H > T', notationImage: '/combo-notation/blitz/blitz_combo4.png', video: 'videos/blitzcrank/combos/blitz_combo4.mp4' },
-          { purpose: 'M+H(Throw Combo)Get Steam', numericNotation: 'wr.H > S1+L', notationImage: '/combo-notation/blitz/blitz_combo5.png', video: 'videos/blitzcrank/combos/blitz_combo5.mp4' },
-          { purpose: 'Fury', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > j.2H > Fury > land > 2H > j.H > j.S1 ->-> wr.H > S1+L', notationImage: '/combo-notation/blitz/blitz_combo6.png', video: 'videos/blitzcrank/combos/blitz_combo6.mp4' },     
+          { purpose: 'Easy BnB', numericNotation: 'L > M > H > 2H > j.L > j.M > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitz_combo1.png', video: 'videos/blitzcrank/combos/blitz_Combo1.mp4' },
+          { purpose: 'BnB and Corner Carry', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitz_combo2.png', video: 'videos/blitzcrank/combos/blitz_Combo2.mp4' },
+          { purpose: 'BnB with steam', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.2S2 > S1+L', notationImage: '/combo-notation/blitz/blitz_combo3.png', video: 'videos/blitzcrank/combos/blitz_Combo3.mp4' },
+          { purpose: 'M+H(Throw Combo)Tag Launcher', numericNotation: 'wr.H > T', notationImage: '/combo-notation/blitz/blitz_combo4.png', video: 'videos/blitzcrank/combos/blitz_Combo4.mp4' },
+          { purpose: 'M+H(Throw Combo)Get Steam', numericNotation: 'wr.H > S1+L', notationImage: '/combo-notation/blitz/blitz_combo5.png', video: 'videos/blitzcrank/combos/blitz_Combo5.mp4' },
+          { purpose: 'Fury', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > j.2H > Fury > land > 2H > j.H > j.S1 ->-> wr.H > S1+L', notationImage: '/combo-notation/blitz/blitz_combo6.png', video: 'videos/blitzcrank/combos/blitz_Combo6.mp4' },     
         ],
         //between combos and enders
         description2: [
