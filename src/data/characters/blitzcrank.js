@@ -46,11 +46,11 @@ export const blitzcrank = {
           "When playing Blitz, it is vital to master his BnB rejump, as it can be used at all points of the stage, has great corner carry, and is universal on the cast."
         ],
         combos: [
-          { purpose: 'Easy BnB', numericNotation: 'L > M > H > 2H > j.L > j.M > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitz_combo1.png', video: 'videos/blit/combos/blitz_Combo1.mp4' },
-          { purpose: 'BnB and Corner Carry', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitz_combo2.png', video: 'videos/blitz/combos/blitz_Combo2.mp4' },
-          { purpose: 'BnB with steam', numericNotation: 'M > H > S2 > S1 > 2H > {j.2H} > j.H > M > 2H > j.H > j.2S2', notationImage: '/combo-notation/blitz/blitz_combo3.png', video: 'videos/blitz/combos/blitz_Combo3.mp4' },
-          { purpose: 'M+H(Throw Combo)Tag Launcher', numericNotation: 'wr.H > T', notationImage: '/combo-notation/blitz/blitz_combo4.png', video: 'videos/blitz/combos/blitz_Combo4.mp4' },
-          { purpose: 'M+H(Throw Combo)Get Steam', numericNotation: 'wr.H > S1+L', notationImage: '/combo-notation/blitz/blitz_combo5.png', video: 'videos/blitz/combos/blitz_Combo5.mp4' },    
+          { purpose: 'Easy BnB', numericNotation: 'L > M > H > 2H > j.L > j.M > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitzCombo1.png', video: 'videos/blit/combos/blitzCombo1.mp4' },
+          { purpose: 'BnB and Corner Carry', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitzCombo2.png', video: 'videos/blitz/combos/blitzCombo2.mp4' },
+          { purpose: 'BnB with steam', numericNotation: 'M > H > S2 > S1 > 2H > {j.2H} > j.H > M > 2H > j.H > j.2S2', notationImage: '/combo-notation/blitz/blitzCombo3.png', video: 'videos/blitz/combos/blitzCombo3.mp4' },
+          { purpose: 'M+H(Throw Combo)Tag Launcher', numericNotation: 'wr.H > T', notationImage: '/combo-notation/blitz/blitzCombo4.png', video: 'videos/blitz/combos/blitzCombo4.mp4' },
+          { purpose: 'M+H(Throw Combo)Get Steam', numericNotation: 'wr.H > S1+L', notationImage: '/combo-notation/blitz/blitzCombo5.png', video: 'videos/blitz/combos/blitzCombo5.mp4' },    
         ],
         //between combos and enders
         description2: [
@@ -77,7 +77,7 @@ export const blitzcrank = {
             fuseType: 'Double Down',
             explanation: 'The Big Boys Squad, this team uses Braum assist to shield up while Blitz engages in shenanigans. Also, with Double Down, both can get their upgrades(Steam for Blitz and Unbreakable for Braum) off either super. In the corner they have immense pressure and not to mention damage.',
             videos: [
-               { id: 'pADop1XqNh' }
+               { id: 'pADop1XqNh8' }
             ]
           },
           {
@@ -126,7 +126,7 @@ export const blitzcrank = {
             name: 'Shine',
             description: '',
             socials: {
-              twitch: ''
+              twitch: 
             },
             highlights: [
               { id: 'eL39aEZi1WY' }
