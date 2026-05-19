@@ -47,7 +47,7 @@ export const teemo = {
           "So when learning these combos focus on: single hit him, partial charging 2H for shroom loops, and setting up traps during S2+M(Megashroom). Once you have these techniques down, check out the guide lists for more optimal combos."
         ],
       combos: [
-        { purpose: 'Easy BnB', numericNotation: 'M > H > 2H > j.LLL > j.MMM > j.2H > 3H > S1+L', notationImage: '/combo-notation/teemo/teemo-combo-1.png', video: 'videos/teemo/combos/teemo-combo-1.mp4' },
+        { purpose: 'Easy BnB', numericNotation: 'M > HH > j.LLL > j.MMM > j.2H > 3H > S1+L', notationImage: '/combo-notation/teemo/teemo-combo-1.png', video: 'videos/teemo/combos/teemo-combo-1.mp4' },
         { purpose: 'BnB', numericNotation: 'M > HH > j.LLL > j.d.M(1 hit only) > H > j.LLL > j.2MMM > j.2H > 3H > S1+L', notationImage: '/combo-notation/teemo/teemo-combo-2.png', video: 'videos/teemo/combos/teemo-combo-2.mp4' },
         { purpose: 'Corner Carry/Shroom Loop', numericNotation: 'M > HH > {2H} > j.6S2 > M > {2H} > j.6S2 > M > {2H} > [6S1] > Super(S1 super in the open, S2 on wall slump)', notationImage: '/combo-notation/teemo/teemo-combo-3.png', video: 'videos/teemo/combos/teemo-combo-3.mp4' },
         { purpose: 'Tag Launcher', numericNotation: 'M > HH > j.LLL > j.d.M(1 hit only) > M > H > j.LLL > j.2MMM > j.2H > 3H > T', notationImage: '/combo-notation/teemo/teemo-combo-4.png', video: 'videos/teemo/combos/teemo-combo-4.mp4' },
