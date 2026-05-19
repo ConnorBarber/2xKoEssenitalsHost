@@ -56,7 +56,7 @@ export const ahri = {
       {
         id: 'team_synergies',
         title: 'Teams',
-        description: 'Blitz is a strong support character and can work with any character if you play arounnd his restand mix ability, you can make all characters work. However, here are some fun suggestions.',
+        description: '',
         teams: [
           {
             pairing: 'Ekko',
