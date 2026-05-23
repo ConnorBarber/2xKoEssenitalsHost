@@ -1,6 +1,6 @@
 export const warwick = {
   name: 'Warwick',
-  isComplete: false,
+  isComplete: true,
   archetype: 'rushdown',
   stats: {
     range: 2,
