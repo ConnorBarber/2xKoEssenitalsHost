@@ -46,7 +46,7 @@ export const blitzcrank = {
           "When playing Blitz, it is vital to master his BnB rejump, as it can be used at all points of the stage, has great corner carry, and is universal on the cast."
         ],
         combos: [
-          { purpose: 'Easy BnB', numericNotation: 'L > M > H > 2H > j.L > j.M > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitzCombo1.png', video: 'videos/blit/combos/blitzCombo1.mp4' },
+          { purpose: 'Easy BnB', numericNotation: 'L > M > H > 2H > j.L > j.M > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitzCombo1.png', video: 'videos/blitz/combos/blitzCombo1.mp4' },
           { purpose: 'BnB and Corner Carry', numericNotation: 'L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.S1 > S1+L', notationImage: '/combo-notation/blitz/blitzCombo2.png', video: 'videos/blitz/combos/blitzCombo2.mp4' },
           { purpose: 'BnB with steam', numericNotation: 'M > H > S2 > S1 > 2H > {j.2H} > j.H > M > 2H > j.H > j.2S2', notationImage: '/combo-notation/blitz/blitzCombo3.png', video: 'videos/blitz/combos/blitzCombo3.mp4' },
           { purpose: 'M+H(Throw Combo)Tag Launcher', numericNotation: 'wr.H > T', notationImage: '/combo-notation/blitz/blitzCombo4.png', video: 'videos/blitz/combos/blitzCombo4.mp4' },
