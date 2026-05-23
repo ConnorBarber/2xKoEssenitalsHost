@@ -14,7 +14,6 @@ export const darius =  {
     name: 'RomeRulez', // Author name to display
     youtube: 'https://www.youtube.com/@Romerulez6', // YouTube channel URL (leave empty if none)
     twitter: 'https://www.youtube.com/@Romerulez6', // Twitter/X profile URL (leave empty if none)
-    instagram: 'https://www.instagram.com/romerulez6', // Instagram profile URL (leave empty if none)
   },
     tabs: [
       {
