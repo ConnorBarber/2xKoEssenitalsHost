@@ -1,6 +1,6 @@
 export const warwick = {
   name: 'Warwick',
-  isComplete: true,
+  isComplete: false,
   archetype: 'rushdown',
   stats: {
     range: 2,
@@ -25,10 +25,12 @@ export const warwick = {
         'Best for players who enjoy aggressive gameplay and high damage output.'],
       moves: [
         { numericNotation: 'S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick1.png', description: 'Unreactable overhead. Not really, but its fast.', video: 'videos/warwick/key-moves/warwick1.mp4' },
-        { numericNotation: 'S1+j', notation: '', notationImage: '/key-moves-notation/warwick/warwick2.png', description: 'Strike/throw and plus if blocked.', video: 'videos/warwick/key-moves/warwick2.mp4' },
+        { numericNotation: '2S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick2.png', description: 'Jumping demon flip, can be held, and has 3 versions. L-plus on block dive, M-ground bounce and plus on block overhead, and H-a command.', video: 'videos/warwick/key-moves/warwick2.mp4' },
         { numericNotation: '2S2', notation: '', notationImage: '/key-moves-notation/warwick/warwick3.png', description: 'Best anti-air in the game', video: 'videos/warwick/key-moves/warwick3.mp4' },
-        { numericNotation: '[S1] or [6S1]', notation: '', notationImage: '/key-moves-notation/warwick/warwick4.png', description: 'Can run through projectiles and exit into leap', video: 'videos/warwick/key-moves/warwick4.mp4' },
-        { numericNotation: 'Bloodlust 6S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick5.png', description: 'Crossup while in bloodlust', video: 'videos/warwick/key-moves/warwick5.mp4' },
+        { numericNotation: '[S1] or [6S1]', notation: '', notationImage: '/key-moves-notation/warwick/warwick4.png', description: 'Can run through projectiles and exit into overhead or headbutt.', video: 'videos/warwick/key-moves/warwick4.mp4' },
+        { numericNotation: 'Bloodlust 6S1', notation: '', notationImage: '/key-moves-notation/warwick/warwick5.png', description: 'Projectile Immune Crossup while in bloodlust', video: 'videos/warwick/key-moves/warwick5.mp4' },
+        { numericNotation: '5S2', notation: '', notationImage: '/key-moves-notation/warwick/warwick5.png', description: 'Core blockstring tool, can be pressed multiple times for follow ups, and allows for stagger pressure.', video: 'videos/warwick/key-moves/warwick5.mp4' },
+
       ]
     },
     {
@@ -40,7 +42,6 @@ export const warwick = {
         { purpose: 'BnB on Crouchers', numericNotation: 'M > H > 3H > d.2S1 > L > L > M > 2H > j.M > j.H > j.S1', notationImage: '/combo-notation/warwick/warwick-combo-2.png', video: 'videos/combos/warwick/ww-combo-2.mp4' },
         { purpose: 'Side Swap', numericNotation: 'M > H > 3H > d.2S1 > L > L > M > 2H > j.M > j.H > j.S2', notationImage: '/combo-notation/warwick/warwick-combo-3.png', video: 'videos/combos/warwick/ww-combo-3.mp4' },
         { purpose: 'Corner Combo', numericNotation: 'M > H > 2H > [2S1] > L > 2M > M > H > [2S1] > M > 6S2 > 2S2', notationImage: '/combo-notation/warwick/warwick-combo-4.png', video: 'videos/combos/warwick/ww-combo-4.mp4' },
-        { purpose: 'Fury', numericNotation: 'Any combo but loop 6S2 > 66 > S1 at the end'}
       ],
       comboEnders: [
         { purpose: 'Healing Oki', numericNotation: 'j.H S1 2T', notationImage: '/combo-notation/warwick/ww-ender-1.png', video: 'videos/warwick/combo-ender/warwick-ender1.mp4' },

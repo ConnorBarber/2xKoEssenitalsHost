@@ -10,6 +10,12 @@ export const darius =  {
       ease: 5
     },
     heroImageOffset: { desktop: -454, mobile: -150 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
+    guideAuthor: {
+    name: 'RomeRulez', // Author name to display
+    youtube: 'https://www.youtube.com/@Romerulez6', // YouTube channel URL (leave empty if none)
+    twitter: 'https://www.youtube.com/@Romerulez6', // Twitter/X profile URL (leave empty if none)
+    instagram: 'https://www.instagram.com/romerulez6', // Instagram profile URL (leave empty if none)
+  },
     tabs: [
       {
         id: 'key_moves',
@@ -36,21 +42,19 @@ export const darius =  {
         description: [
         ],
         combos: [
-          { purpose: 'BNB', numericNotation: 'L>M>H > 2H>j.M>j.H>j.S1>j.H>6H>2S1>5H>6H>S2+M', notationImage: '/combo-notation/blitz/blitzCombo1.png', video: 'videos/blit/combos/blitzCombo1.mp4' },
-          { purpose: 'Corner Carry', numericNotation: 'L>M>H > 6S2>5M>5H>6S2-S2', notationImage: '/combo-notation/blitz/blitzCombo2.png', video: 'videos/blitz/combos/blitzCombo2.mp4' },
-          { purpose: 'Side Swap', numericNotation: 'L>M>H > 2H>j.M>j.H>j.S1>j.H>6H>2S1>5H>6H>S1+L', notationImage: '/combo-notation/blitz/blitzCombo3.png', video: 'videos/blitz/combos/blitzCombo3.mp4' },
-          { purpose: 'Jump In', numericNotation: 'j.H>6S25>M>5H>6S2-S2', notationImage: '/combo-notation/blitz/blitzCombo3.png', video: 'videos/blitz/combos/blitzCombo3.mp4' },
-          { purpose: 'Jump In 2', numericNotation: '2H>JM>JH>JS1>JH 6H>2S1>5H>6H>3S2>S2+M', notationImage: '/combo-notation/blitz/blitzCombo3.png', video: 'videos/blitz/combos/blitzCombo3.mp4' },
-          { purpose: 'Corner Combo', numericNotation: 'L>M>H >  6S2>5M>5H>6S2-S2>5M>5H>6H>j.S1>j.H>5H>6H>S1+S2', notationImage: '/combo-notation/blitz/blitzCombo3.png', video: 'videos/blitz/combos/blitzCombo3.mp4' },
+          { purpose: 'BNB', numericNotation: 'L>M>H>2H>j.M>j.H>j.S1>j.H>6H>2S1>5H>6H>S2+M', notationImage: '/combo-notation/darius/dariusCombo1.png', video: 'videos/darius/combos/dariusCombo1.mp4' },
+          { purpose: 'Corner Carry', numericNotation: 'L>M>H>6S2>5M>5H>6S2-S>5M>5H>6H>j.S1>j.H>5H>6H>S2+M', notationImage: '/combo-notation/darius/dariusCombo2.png', video: 'videos/darius/combos/dariusCombo2.mp4' },
+          { purpose: 'Corner Tag Launch', numericNotation: 'M>H>6S2>5M>5H>6S2-S2>5M>5H>6H>j.S1>j.H>5H>6H>T', notationImage: '/combo-notation/darius/dariusCombo3.png', video: 'videos/darius/combos/dariusCombo3.mp4' },
+          { purpose: 'Corner Combo', numericNotation: 'L>M>H>6S2>5M>5H>6S2-S2>5M>5H>6H>>j.2H>5H>6H>S1+S2', notationImage: '/combo-notation/darius/dariusCombo4.png', video: 'videos/darius/combos/dariusCombo4.mp4' },
          ],
         //between combos and enders
         description2: [
         ],
         comboEnders: [
-          { purpose: 'Oki and limit strike, you can 5s2 to frame kill', numericNotation: '2S1', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder1.png', video: 'videos/blitz/combo-enders/ender1.mp4' },
-          { purpose: 'Limit Strike', numericNotation: '2S1', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder2.png', video: 'videos/blitz/combo-enders/ender2.mp4' },
-          { purpose: 'DamDMG, if to 3S2 into LVL 2 you can make the oppenent air tech	age', numericNotation: 'S2+M', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder3.png', video: 'videos/blitz/combo-enders/ender3.mp4' },
-          { purpose: 'Tag Launcher', numericNotation: '6H > T', notationImage: '/combo-notation/blitz/combo-enders/blitzEnder4.png', video: 'videos/blitz/combo-enders/ender4.mp4' },
+          { purpose: 'Oki and limit strike, you can 5s2 to frame kill', numericNotation: '2S1', notationImage: '/combo-notation/darius/combo-enders/dariusEnder1.png', video: 'videos/darius/combo-enders/ender1.mp4' },
+          { purpose: 'Limit Strike', numericNotation: '2S1', notationImage: '/combo-notation/darius/combo-enders/dariusEnder2.png', video: 'videos/darius/combo-enders/ender2.mp4' },
+          { purpose: 'DamDMG, if to 3S2 into LVL 2 you can make the oppenent air tech	age', numericNotation: 'S2+M', notationImage: '/combo-notation/darius/combo-enders/dariusEnder3.png', video: 'videos/darius/combo-enders/ender3.mp4' },
+          { purpose: 'Tag Launcher', numericNotation: '6H > T', notationImage: '/combo-notation/darius/combo-enders/dariusEnder4.png', video: 'videos/darius/combo-enders/ender4.mp4' },
         
         ],
         //below everything
