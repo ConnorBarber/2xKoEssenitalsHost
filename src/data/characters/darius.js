@@ -13,7 +13,7 @@ export const darius =  {
     guideAuthor: {
     name: 'RomeRulez', // Author name to display
     youtube: 'https://www.youtube.com/@Romerulez6', // YouTube channel URL (leave empty if none)
-    twitter: 'https://www.youtube.com/@Romerulez6', // Twitter/X profile URL (leave empty if none)
+    twitter: 'https://x.com/romerulez9', // Twitter/X profile URL (leave empty if none)
   },
     tabs: [
       {
@@ -70,7 +70,7 @@ export const darius =  {
             fuseType: 'Freestyle or Team Fight',
             explanation: 'Chip damage Setup Squad Premium. Shrooms and Poison + Bleed.',
             videos: [
-               { id: 'TzoYcRbVl-4' }
+               { id: 'xGNp43hGK9A' }
             ]
           },
           {
@@ -78,7 +78,7 @@ export const darius =  {
             fuseType: '2x',
             explanation: 'Darius assist and buttons allow him to play around braum shield well, plus heavy damage',
             videos: [
-              { id: 'Gip_qxuc7bg' }
+              { id: 'oukZiuaAYps' }
             ]
           },
           {
@@ -86,7 +86,7 @@ export const darius =  {
             fuseType: 'Freestyle or 2x',
             explanation: 'Heavy synergy across these two, darius wound lets Ilaoli tencactles do crazy chip damage. Then Ilaoli can set up Darius with tentactles letting him get access to more combos and allowing him to combo after supers with double down.',
             videos: [
-              { id: 'LAMOsnhj9K' }
+              { id: '62V-R_HWt4s' }
             ]
           },          
         ]
@@ -96,33 +96,36 @@ export const darius =  {
         title: 'Top Players',
         players: [
           {
-            name: 'SuperNoon',
+            name: 'DekillSage',
             description: '',
             socials: {
-              twitch: 'https://x.com/CrazyBlaizzy'
+              twitch: 'https://www.twitch.tv/dekillsage/videos',
+              twitter: 'https://x.com/dekillsage',
+              youtube: 'https://www.youtube.com/@dekillsage/videos'
             },
             highlights: [
-              { id: 'tnoLXZqmR3Q' }
+              { id: 'ZEWMQDuXFNQ' }
             ]
           },
           {
-            name: 'SonicFox',
+            name: 'Lighwisp',
             description: '',
             socials: {
-              youtube: 'https://www.youtube.com/@SonicFox5000',
+              twitch: 'https://www.twitch.tv/lightwhisp'
             },
             highlights: [
-              { id: 'YZhX_uFSEyc' }
+              { id: 'FxQ5i6djIzo' }
             ]
           },
           {
-            name: 'Inzem',
+            name: 'RomeRulez',
             description: '',
             socials: {
-              youtube: 'https://www.youtube.com/@INZEM'
+              youtube: 'https://www.youtube.com/@Romerulez6', // YouTube channel URL (leave empty if none)
+              twitter: 'https://x.com/romerulez9', // Twitter/X profile URL (leave empty if none)
             },
             highlights: [
-              { id: 'eL39aEZi1WY' }
+              { id: 'qxdrNp9iLeE' }
             ]
           },
         ]
