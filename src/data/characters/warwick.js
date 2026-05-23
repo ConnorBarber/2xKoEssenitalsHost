@@ -80,7 +80,7 @@ export const warwick = {
           fuseType: 'Freestyle',
           explanation: 'Not as good a team as with Ekko but more fun. Great crossup and mixups, with extremely high damage.',
           videos: [
-            { id: 'F3x1-ZBW8b1xavhg' },
+            { id: 'bD51xX8OBvU' },
           ]
         },
         {
@@ -88,7 +88,7 @@ export const warwick = {
           fuseType: 'Freestyle',
           explanation: 'Amazing neutral control, and a full screen projectile to help warwick on approach.',
           videos: [
-            { id: 'F3x1-j9zARVOZmUk' },
+            { id: 'FDBZuvSZRxs' },
           ]
         },
         {
@@ -96,7 +96,7 @@ export const warwick = {
           fuseType: 'Double Down',
           explanation: 'Super high damaging rush down team.',
           videos: [
-            { id: 'F3x1-Q8KQu8lFU4o' },
+            { id: 'rLU9P2sV_Yk' },
           ]
         },
         
@@ -105,24 +105,25 @@ export const warwick = {
     {
       id: 'top_players',
       title: 'Top Players',
-      players: [        
+      players: [     
         {
-          name: 'K7',
-          description: '',
-          socials: {
-            youtube: 'https://www.youtube.com/@K7Showoff'
+            name: 'RomeRulez',
+            description: '',
+            socials: {
+              youtube: 'https://www.youtube.com/@Romerulez6', // YouTube channel URL (leave empty if none)
+              twitter: 'https://x.com/romerulez9', // Twitter/X profile URL (leave empty if none)
+            },
+            highlights: [
+              { id: 'qxdrNp9iLeE' }
+            ]
           },
-          highlights: [
-            { id: 'F3x1-JYUuusXTpU' },
-          ]
-        },
       ]
     },
     {
       id: 'guides',
       title: 'Guides',
       videos: [
-        { id: 'F3x1-aGPcVHRN3ng' },
+        { id: 'aGPcVHRN3ng' },
         { id: 'pnhh7e6OsXg' },
         { id: 'S7YMLFy4FKE' },
       ],
