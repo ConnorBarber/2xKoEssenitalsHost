@@ -30,7 +30,7 @@ export const braum = {
           { numericNotation: '6S1 or [6S1]', notation: '', notationImage: '/key-moves-notation/braum/braum3.png', description: 'Your only projectile can be good to catch something fullscreen or to throw it out with no charge during a blockstring', video: 'videos/braum/key-moves/braum3.mp4' },
           { numericNotation: '6S1', notation: '', notationImage: '/key-moves-notation/braum/braum4.png', description: '6s1 can OTG a knockdown opponent after his 3H for his BNBs', video: 'videos/braum/key-moves/braum4.mp4' },
           { numericNotation: '[6S1]', notation: '', notationImage: '/key-moves-notation/braum/braum5.png', description: '6S1 is fast and can recover in time in some situations, and they can also interrupt your opponent while you\'re getting hit', video: 'videos/braum/key-moves/braum5.mp4' },   
-          { numericNotation: 'S2', notation: '', notationImage: '/key-moves-notation/braum/braum6.png', description: 'Is the BRAUM SHIELD, used to protect yourself and assists. Also stops you from being killed by chip.', video: 'videos/braum/key-moves/braum6.mp4' },
+          { numericNotation: '4S2', notation: '', notationImage: '/key-moves-notation/braum/braum6.png', description: 'Is the BRAUM SHIELD, used to protect yourself and assists. Also stops you from being killed by chip.', video: 'videos/braum/key-moves/braum6.mp4' },
         ]
       },
       {
@@ -41,23 +41,30 @@ export const braum = {
 
         ],
         combos: [
-          { purpose: 'Midscreen BnB', numericNotation: '5M>5H>6H>6H>[S2]>5M>5H>5H>S2>S2', notationImage: '/combo-notation/braum/brombo1.png', video: 'videos/braum/combos/brombo1.mp4' },
-          { purpose: 'BnB Close to Corner', numericNotation: '5M>5H>6H>6H>[S2]>5M>2H>2H>[6S1]>2H>2H>J.S2>6H>S2>S2', notationImage: '/combo-notation/braum/brombo2.png', video: 'videos/braum/combos/brombo2.mp4' },
-          { purpose: 'Alternate Midscreen', numericNotation: '5M>5H>3H>6S1 Dash 5M>2H>2H>[S2]>5M>S2>S2', notationImage: '/combo-notation/braum/brombo3.png', video: 'videos/braum/combos/braum-combo-3.mp4' },
-          { purpose: 'Side Swap', numericNotation: '5M>5H>S1 micro dash [6H] Dash [6S1]>5M S2>S2', notationImage: '/combo-notation/braum/brombo4.png', video: 'videos/braum/combos/brombo4.mp4' },
-          { purpose: 'Unbreakable Midscreen Simple', numericNotation: '5M>5H>S1 Backdash [6H] Dash [6S1] Dash S2>S2', notationImage: '/combo-notation/braum/brombo5.png', video: 'videos/braum/combos/brombo5.mp4' },
-          { purpose: 'Unbreakable Midscreen BnB', numericNotation: '5M>5H>6H>[S2] Dash 5M>2H>2H>[6S1]>5H>2S2>S2>S2', notationImage: '/combo-notation/braum/brombo6.png', video: 'videos/braum/combos/brombo6.mp4' },
-          { purpose: 'Unbreakable Corner to Corner', numericNotation: '5M>5H 6H>[S2] Dash 5M>2H>2H>[6S1]>5H>2S2>S2>S2', notationImage: '/combo-notation/braum/brombo7.png', video: 'videos/braum/combos/brombo7.mp4' },
-          { purpose: 'Unbreakable Command Grab', numericNotation: '2S1 DASH JUMP 5M>S2>S2', notationImage: '/combo-notation/braum/brombo8.png', video: 'videos/braum/combos/brombo8.mp4' },    
-        
+          { purpose: 'Corner Carry no UB', numericNotation: '5L > 5M > 2M > 5H > 6H > 3H > 6s1 > 5M > 2H-2H > [5s2] > 5M > 5s2-s2', notationImage: '/combo-notation/braum/brombo1.png', video: 'videos/braum/combos/brombo1.mp4' },
+          { purpose: 'Corner Carry with UB', numericNotation: '5L > 5M > 2M > 5H > 6H > 5s1 > {jH} > 5H > 6H > 3H > 6s1 > 66 5M > 2H-2H > [5s2] > 5M > 5s2-s2', notationImage: '/combo-notation/braum/brombo2.png', video: 'videos/braum/combos/brombo2.mp4' },
+          { purpose: 'Midscreen BnB no UB', numericNotation: '5L > 5M > 2M > 5H > 6H-6H > [5s2] > 5M > 2H > 2H > [6s1] > 6H > 5s2-s2', notationImage: '/combo-notation/braum/brombo3.png', video: 'videos/braum/combos/braum-combo-3.mp4' },
+          { purpose: 'Midscreen BnB with UB', numericNotation: '5L > 5M > 2M > 5H > 6H > 5s1 > {jH} > 5H > 6H > 2H-2H > js2 > 6H > 5s2-s2', notationImage: '/combo-notation/braum/brombo4.png', video: 'videos/braum/combos/brombo4.mp4' },
+          { purpose: 'M Route No UB', numericNotation: '5M > 2M > 5H > 6H > 3H > 6s1 > Dash > 5M > 2H > jL > jM > d.jH > 5H-5H > 5s2-s2', notationImage: '/combo-notation/braum/brombo5.png', video: 'videos/braum/combos/brombo5.mp4' },
+          { purpose: 'M Route with UB', numericNotation: '5M > 5H > 5s1 > [6H] > dash > 5s1 > [6H] > dash > [6s1] > dash > 5M > 5s2-s2', notationImage: '/combo-notation/braum/brombo6.png', video: 'videos/braum/combos/brombo6.mp4' },
+          { purpose: 'M Corner Route No UB', numericNotation: '5M > 2M > 5H > 6H-6H > [5s2] > 5M > 2H-2H > [6s1] > 6H > 5s2-s2', notationImage: '/combo-notation/braum/brombo7.png', video: 'videos/braum/combos/brombo7.mp4' },
+          { purpose: 'M Corner Route with UB(hard)', numericNotation: '5M > 5H > 5s1 > [6H] > backdash > d.[6H] > backdash > d.[6s1] > [5s2] > 2M > 5M > 5s2-s2', notationImage: '/combo-notation/braum/brombo8.png', video: 'videos/braum/combos/brombo8.mp4' },    
+          { purpose: '3H Midscreen', numericNotation: '3M > 2s2 > 5s1 > dash > [jH] > 5M > 2M > 5s2-s2', notationImage: '/combo-notation/braum/brombo9.png', video: 'videos/braum/combos/brombo9.mp4' },    
+          { purpose: '3H Corner', numericNotation: '3M > 2s2 > 6H > 5s1 > backdash > 2M > 5M > 5s2-s2', notationImage: '/combo-notation/braum/brombo10.png', video: 'videos/braum/combos/brombo10.mp4' },    
+          { purpose: 'Air Throw NonUB', numericNotation: 'Airthrow > d.js2 > dash > 5M > 2M > 5s2-s2', notationImage: '/combo-notation/braum/brombo11.png', video: 'videos/braum/combos/brombo11.mp4' },    
+          { purpose: 'Air Throw with UB', numericNotation: 'Airthrow > d.js2 > dash > 5H > 2s2 > 6H > 5s2-s2', notationImage: '/combo-notation/braum/brombo12.png', video: 'videos/braum/combos/brombo12.mp4' },    
+          { purpose: 'Command Grab Combo UB', numericNotation: '2s1 > [6H] > dash > [6s1] > 5H-5H > 5s2-s2', notationImage: '/combo-notation/braum/brombo13.png', video: 'videos/braum/combos/brombo13.mp4' },    
+          { purpose: 'Shield Charge Midscreen', numericNotation: '[5s2] > d.5s1 > 6H > dash > [6s1] > dash > 5M > 5s2-s2', notationImage: '/combo-notation/braum/brombo14.png', video: 'videos/braum/combos/brombo14.mp4' },    
+          { purpose: 'Shield Charge Corner', numericNotation: '[5s2] > 5H > 2s2 > d.2M > 5M > 2H > 5s2-s2', notationImage: '/combo-notation/braum/brombo15.png', video: 'videos/braum/combos/brombo15.mp4' },    
+
         ],
         //between combos and enders
         description2: [
         ],
-        comboEnders: [
-          { purpose: 'For Immediate Oki', numericNotation: 'S1+L', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder1.png', video: 'videos/braum/combo-enders/braumEnder1.mp4' },
-          { purpose: 'For Unbreakable', numericNotation: 'S2>S2', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder3.png', video: 'videos/braum/combo-enders/braumEnder2.mp4' },
-          { purpose: 'For Dmg and Unbreakable', numericNotation: 'S2+M', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder4.png', video: 'videos/braum/combo-enders/braumEnder3.mp4' },``
+        comboEnders: [          
+          { purpose: 'For Unbreakable', numericNotation: '5S2>S2', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder3.png', video: 'videos/braum/combo-enders/braumEnder2.mp4' },
+          { purpose: 'For Dmg and Unbreakable', numericNotation: 'S2+M', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder4.png', video: 'videos/braum/combo-enders/braumEnder3.mp4' },
+          { purpose: 'For Niche Fast Oki', numericNotation: 'S1+L', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder1.png', video: 'videos/braum/combo-enders/braumEnder1.mp4' },
         ],
         //below everything
         description3: [
