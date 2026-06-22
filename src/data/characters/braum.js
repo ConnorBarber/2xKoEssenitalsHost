@@ -11,9 +11,9 @@ export const braum = {
   },
   heroImageOffset: { desktop: -82, mobile: -35 }, // Vertical offset in px for hero banner image (negative = up, positive = down)
   guideAuthor: {
-    name: '', // Author name to display
-    twitter: 'https://x.com/Mrchupy01', // Twitter/X profile URL (leave empty if none)
-    twitch: '', // Twitch channel URL (leave empty if none)
+    name: 'DragonPunched', // Author name to display
+    twitter: 'https://twitter.com/dragon_punched', // Twitter/X profile URL (leave empty if none)
+    youtube: 'https://www.youtube.com/@dragonpunched9294/videos', // YouTube channel URL (leave empty if none)
   },
   tabs: [
       {
