@@ -62,8 +62,8 @@ export const braum = {
         description2: [
         ],
         comboEnders: [          
-          { purpose: 'For Unbreakable', numericNotation: '5S2>S2', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder3.png', video: 'videos/braum/combo-enders/braumEnder2.mp4' },
-          { purpose: 'For Dmg and Unbreakable', numericNotation: 'S2+M', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder4.png', video: 'videos/braum/combo-enders/braumEnder3.mp4' },
+          { purpose: 'For Unbreakable', numericNotation: '5S2>S2', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder2.png', video: 'videos/braum/combo-enders/braumEnder2.mp4' },
+          { purpose: 'For Dmg and Unbreakable', numericNotation: 'S2+M', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder3.png', video: 'videos/braum/combo-enders/braumEnder3.mp4' },
           { purpose: 'For Niche Fast Oki', numericNotation: 'S1+L', notationImage: '/combo-notation/braum/combo-enders/braum-comboEnder1.png', video: 'videos/braum/combo-enders/braumEnder1.mp4' },
         ],
         //below everything
