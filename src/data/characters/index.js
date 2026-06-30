@@ -11,9 +11,12 @@ import { teemo } from './teemo.js';
 import { vi } from './vi.js';
 import { warwick } from './warwick.js';
 import { yasuo } from './yasuo.js';
+import { akali } from './akali.js';
+import { thresh } from './thresh.js';
+import { senna } from './senna.js';
 
 // Re-export individual characters for direct imports
-export { ahri, blitzcrank, braum, caitlyn, darius, ekko, illaoi, jinx, teemo, vi, warwick, yasuo };
+export { ahri, blitzcrank, braum, caitlyn, darius, ekko, illaoi, jinx, teemo, vi, warwick, yasuo, };
 
 // Export the combined array, sorted with complete characters first
 const allCharacters = [
@@ -28,7 +31,10 @@ const allCharacters = [
   teemo,
   vi,
   warwick,
-  yasuo
+  yasuo,
+  akali,
+  thresh,
+  senna
 ];
 
 export const charactersData = allCharacters.sort((a, b) => {
