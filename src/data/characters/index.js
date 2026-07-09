@@ -16,7 +16,7 @@ import { thresh } from './thresh.js';
 import { senna } from './senna.js';
 
 // Re-export individual characters for direct imports
-export { ahri, blitzcrank, braum, caitlyn, darius, ekko, illaoi, jinx, teemo, vi, warwick, yasuo, };
+export { ahri, blitzcrank, braum, caitlyn, darius, ekko, illaoi, jinx, teemo, vi, warwick, yasuo, akali, thresh, senna };
 
 // Export the combined array, sorted with complete characters first
 const allCharacters = [
