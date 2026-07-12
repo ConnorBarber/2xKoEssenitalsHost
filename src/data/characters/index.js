@@ -1,19 +1,19 @@
 // Individual character data imports
-import { ahri } from './ahri.js';
-import { blitzcrank } from './blitzcrank.js';
-import { braum } from './braum.js';
-import { caitlyn } from './caitlyn.js';
-import { darius } from './darius.js';
-import { ekko } from './ekko.js';
-import { illaoi } from './illaoi.js';
-import { jinx } from './jinx.js';
-import { teemo } from './teemo.js';
-import { vi } from './vi.js';
-import { warwick } from './warwick.js';
-import { yasuo } from './yasuo.js';
-import { akali } from './akali.js';
-import { thresh } from './thresh.js';
-import { senna } from './senna.js';
+import ahri from './ahri.json';
+import blitzcrank from './blitzcrank.json';
+import braum from './braum.json';
+import caitlyn from './caitlyn.json';
+import darius from './darius.json';
+import ekko from './ekko.json';
+import illaoi from './illaoi.json';
+import jinx from './jinx.json';
+import teemo from './teemo.json';
+import vi from './vi.json';
+import warwick from './warwick.json';
+import yasuo from './yasuo.json';
+import akali from './akali.json';
+import thresh from './thresh.json';
+import senna from './senna.json';
 
 // Re-export individual characters for direct imports
 export { ahri, blitzcrank, braum, caitlyn, darius, ekko, illaoi, jinx, teemo, vi, warwick, yasuo, akali, thresh, senna };

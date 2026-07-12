@@ -1,0 +1,217 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: simple
+
+# Default location for brand-new uploads made through the CMS. Existing
+# images/videos referenced by characters stay wherever they already are
+# (e.g. public/key-moves-notation/<character>/...) - this default only
+# applies to new files. Contributors can pick/create a subfolder in the
+# media picker if they want to mirror the existing per-character folders.
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: characters
+    label: Characters
+    description: "Each character's guide content. Pick a character below to edit their Key Moves, Combos, Team Synergies, Top Players and Guides sections."
+    files:
+      - name: ahri
+        label: Ahri
+        file: src/data/characters/ahri.json
+        fields: &character_fields
+          - { label: Name, name: name, widget: string }
+          - { label: "Guide Complete?", name: isComplete, widget: boolean, default: false, hint: "Turn on once this character's guide is ready for regular players to see (incomplete guides show a work-in-progress banner)." }
+          - { label: Archetype, name: archetype, widget: string, hint: "Short playstyle label shown next to the character name, e.g. rushdown, zoner, grappler." }
+          - label: Stats
+            name: stats
+            widget: object
+            fields:
+              - { label: Range, name: range, widget: number, value_type: int, min: 1, max: 5 }
+              - { label: Power, name: power, widget: number, value_type: int, min: 1, max: 5 }
+              - { label: Vitality, name: vitality, widget: number, value_type: int, min: 1, max: 5 }
+              - { label: Mobility, name: mobility, widget: number, value_type: int, min: 1, max: 5 }
+              - { label: "Ease of Use", name: ease, widget: number, value_type: int, min: 1, max: 5 }
+          - label: "Hero Image Vertical Offset"
+            name: heroImageOffset
+            widget: object
+            hint: "Fine-tune the character portrait crop on the guide banner, in pixels. Negative moves the image up, positive moves it down."
+            fields:
+              - { label: "Desktop offset (px)", name: desktop, widget: number, value_type: int }
+              - { label: "Mobile offset (px)", name: mobile, widget: number, value_type: int }
+          - label: "Guide Author"
+            name: guideAuthor
+            widget: object
+            required: false
+            hint: "Optional credit shown on the guide banner."
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: "YouTube URL", name: youtube, widget: string, required: false }
+              - { label: "Twitter/X URL", name: twitter, widget: string, required: false }
+              - { label: "Twitch URL", name: twitch, widget: string, required: false }
+          - label: "Guide Sections"
+            name: tabs
+            label_singular: Section
+            widget: list
+            hint: "The tabs shown on this character's guide page, in display order."
+            types:
+              - label: "Key Moves"
+                name: key_moves
+                widget: object
+                fields:
+                  - { label: "Section ID (do not change)", name: id, widget: hidden, default: key_moves }
+                  - { label: "Tab Title", name: title, widget: string, default: "Key Moves" }
+                  - { label: "Intro Text", name: description, widget: list, required: false, hint: "One or more paragraphs shown above the move list." }
+                  - label: Moves
+                    name: moves
+                    widget: list
+                    label_singular: Move
+                    fields:
+                      - { label: Notation, name: numericNotation, widget: string, hint: "e.g. 5M, 2M, j.H" }
+                      - { label: "Notation Label (optional)", name: notation, widget: string, required: false }
+                      - { label: "Notation Image", name: notationImage, widget: image, required: false }
+                      - { label: Description, name: description, widget: text }
+                      - { label: Video, name: video, widget: file, required: false }
+              - label: Combos
+                name: important_solo_combos
+                widget: object
+                fields:
+                  - { label: "Section ID (do not change)", name: id, widget: hidden, default: important_solo_combos }
+                  - { label: "Tab Title", name: title, widget: string, default: Combos }
+                  - { label: "Intro Text (shown above the combo list)", name: description, widget: list, required: false }
+                  - label: Combos
+                    name: combos
+                    widget: list
+                    label_singular: Combo
+                    fields:
+                      - { label: Purpose, name: purpose, widget: string, hint: "e.g. Easy BnB, Corner Combo, Side Swap" }
+                      - { label: Notation, name: numericNotation, widget: text }
+                      - { label: "Notation Image", name: notationImage, widget: image, required: false }
+                      - { label: Video, name: video, widget: file, required: false }
+                  - { label: "Middle Text (shown between combos and combo enders)", name: description2, widget: list, required: false }
+                  - label: "Combo Enders"
+                    name: comboEnders
+                    widget: list
+                    label_singular: Ender
+                    fields:
+                      - { label: Purpose, name: purpose, widget: string, hint: "e.g. Oki, Damage, Tag Launcher" }
+                      - { label: Notation, name: numericNotation, widget: text }
+                      - { label: "Notation Image", name: notationImage, widget: image, required: false }
+                      - { label: Video, name: video, widget: file, required: false }
+                  - { label: "Closing Text (shown below everything)", name: description3, widget: list, required: false }
+              - label: "Team Synergies"
+                name: team_synergies
+                widget: object
+                fields:
+                  - { label: "Section ID (do not change)", name: id, widget: hidden, default: team_synergies }
+                  - { label: "Tab Title", name: title, widget: string, default: Teams }
+                  - label: Teams
+                    name: teams
+                    widget: list
+                    label_singular: Team
+                    fields:
+                      - { label: "Paired Character", name: pairing, widget: string, hint: "Must match the other character's name" }
+                      - { label: "Fuse Type", name: fuseType, widget: string, hint: "e.g. Freestyle, 2x Assist, Double Down, Juggernaut, Sidekick" }
+                      - { label: Explanation, name: explanation, widget: text }
+                      - label: Videos
+                        name: videos
+                        widget: list
+                        label_singular: Video
+                        fields:
+                          - { label: "YouTube Video ID", name: id, widget: string, hint: "Just the ID, e.g. the part after v= in the YouTube URL - not the full link" }
+              - label: "Top Players"
+                name: top_players
+                widget: object
+                fields:
+                  - { label: "Section ID (do not change)", name: id, widget: hidden, default: top_players }
+                  - { label: "Tab Title", name: title, widget: string, default: "Top Players" }
+                  - label: Players
+                    name: players
+                    widget: list
+                    label_singular: Player
+                    fields:
+                      - { label: Name, name: name, widget: string }
+                      - { label: Description, name: description, widget: text, required: false }
+                      - label: Socials
+                        name: socials
+                        widget: object
+                        required: false
+                        fields:
+                          - { label: Twitch, name: twitch, widget: string, required: false }
+                          - { label: YouTube, name: youtube, widget: string, required: false }
+                          - { label: "Twitter/X", name: twitter, widget: string, required: false }
+                      - label: Highlights
+                        name: highlights
+                        widget: list
+                        label_singular: Video
+                        fields:
+                          - { label: "YouTube Video ID", name: id, widget: string, hint: "Just the ID, e.g. the part after v= in the YouTube URL - not the full link" }
+              - label: Guides
+                name: guides
+                widget: object
+                fields:
+                  - { label: "Section ID (do not change)", name: id, widget: hidden, default: guides }
+                  - { label: "Tab Title", name: title, widget: string, default: Guides }
+                  - label: Videos
+                    name: videos
+                    widget: list
+                    label_singular: Video
+                    fields:
+                      - { label: "YouTube Video ID", name: id, widget: string, hint: "Just the ID, e.g. the part after v= in the YouTube URL - not the full link" }
+      - name: akali
+        label: Akali
+        file: src/data/characters/akali.json
+        fields: *character_fields
+      - name: blitzcrank
+        label: Blitzcrank
+        file: src/data/characters/blitzcrank.json
+        fields: *character_fields
+      - name: braum
+        label: Braum
+        file: src/data/characters/braum.json
+        fields: *character_fields
+      - name: caitlyn
+        label: Caitlyn
+        file: src/data/characters/caitlyn.json
+        fields: *character_fields
+      - name: darius
+        label: Darius
+        file: src/data/characters/darius.json
+        fields: *character_fields
+      - name: ekko
+        label: Ekko
+        file: src/data/characters/ekko.json
+        fields: *character_fields
+      - name: illaoi
+        label: Illaoi
+        file: src/data/characters/illaoi.json
+        fields: *character_fields
+      - name: jinx
+        label: Jinx
+        file: src/data/characters/jinx.json
+        fields: *character_fields
+      - name: senna
+        label: Senna
+        file: src/data/characters/senna.json
+        fields: *character_fields
+      - name: teemo
+        label: Teemo
+        file: src/data/characters/teemo.json
+        fields: *character_fields
+      - name: thresh
+        label: Thresh
+        file: src/data/characters/thresh.json
+        fields: *character_fields
+      - name: vi
+        label: Vi
+        file: src/data/characters/vi.json
+        fields: *character_fields
+      - name: warwick
+        label: Warwick
+        file: src/data/characters/warwick.json
+        fields: *character_fields
+      - name: yasuo
+        label: Yasuo
+        file: src/data/characters/yasuo.json
+        fields: *character_fields
