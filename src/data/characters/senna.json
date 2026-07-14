@@ -24,14 +24,11 @@
       "id": "key_moves",
       "title": "Key Moves",
       "description": [
-        "senna has a versatile moveset that can be used creatively both in offense and defense.",
-        "senna's S1 (Timewinder) is the best projectile in the game. It controls space for a long time and leads to easy combo conversions on hit. You can also hit your own (or your opponent's) Timewinder with senna's heavy moves to throw it at your opponent. ",
-        "All of his S2 moves leave a clone behind, which later can be reactivated to rewind senna's position to the clone's location and attack. By charging the initial S2 moves, you leave behind a volatile clone, which gives you more control to your follow up after rewinding.",
-        "Overall, his normals are very solid, with a special mention to his 5M, which has great range and speed."
+        "Senna is a stance character that can zone effectively in base form and mix really well in wraith form."
       ],
       "moves": [
         {
-          "numericNotation": "S2, 2S2 and j.S2",
+          "numericNotation": "5",
           "notation": "",
           "notationImage": "/key-moves-notation/senna/senna1.png",
           "description": "Replay is a core mechanic in most of his combos and a tool for being safe in neutral",
