@@ -8,6 +8,6 @@
   */
 export const notification = {
   enabled: true, // ← toggle ON / OFF
-  message: "Work in progress. More guides added soon!!",
+  message: "Work in progress. More guides added soon!",
   type: "info" // info | warning | error
 };
