@@ -3,10 +3,10 @@
   "isComplete": false,
   "archetype": "Stance, Frontline Support",
   "stats": {
-    "range": 3,
-    "power": 2,
-    "vitality": 2,
-    "mobility": 4,
+    "range": 5,
+    "power": 4,
+    "vitality": 3,
+    "mobility": 3,
     "ease": 3
   },
   "heroImageOffset": {
