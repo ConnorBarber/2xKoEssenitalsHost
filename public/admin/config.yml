@@ -55,6 +55,7 @@ collections:
             label_singular: Section
             widget: list
             hint: "The tabs shown on this character's guide page, in display order."
+            typeKey: id
             types:
               - label: "Key Moves"
                 name: key_moves
