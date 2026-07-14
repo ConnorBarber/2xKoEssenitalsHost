@@ -1,7 +1,7 @@
 {
   "name": "Senna",
   "isComplete": false,
-  "archetype": "Frontline Support",
+  "archetype": "Stance, Frontline Support",
   "stats": {
     "range": 3,
     "power": 2,
