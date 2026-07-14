@@ -39,7 +39,18 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <title>How to 2XKO</title>
-    
+
+    <!-- Netlify Identity emails link to the site root; bounce invite/confirmation/
+         recovery/email-change tokens straight to the admin CMS, which is the only
+         page that knows how to process them. -->
+    <script type="text/javascript">
+      (function(hash) {
+        if (/^#\/?(confirmation|invite|recovery|email_change)_token=/.test(hash)) {
+          window.location.replace('/admin/' + hash);
+        }
+      })(window.location.hash)
+    </script>
+
     <!-- Single Page App redirect script for GitHub Pages -->
     <script type="text/javascript">
       // This script restores the correct URL after a 404.html redirect on GitHub Pages
