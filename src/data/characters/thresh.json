@@ -1,34 +1,29 @@
 {
   "name": "Thresh",
   "isComplete": false,
-  "archetype": "support",
+  "archetype": "Support, Damage",
   "stats": {
-    "range": 3,
-    "power": 2,
-    "vitality": 2,
-    "mobility": 4,
-    "ease": 3
+    "range": 5,
+    "power": 3,
+    "vitality": 3,
+    "mobility": 3,
+    "ease": 2
   },
   "heroImageOffset": {
     "desktop": -73,
     "mobile": -20
   },
   "guideAuthor": {
-    "name": "PedroMakesStuff",
-    "youtube": "https://www.youtube.com/@PedroMakesStuff",
-    "twitter": "https://x.com/pedromakestuff",
-    "twitch": ""
+    "name": "EvanAlmightyFGC",
+    "youtube": "https://www.youtube.com/@EvanAlmightyFGC",
+    "twitter": "https://x.com/EvanAlmightyFGC",
+    "twitch": "https://twitch.tv/EvanAlmightyFGC"
   },
   "tabs": [
     {
       "id": "key_moves",
       "title": "Key Moves",
-      "description": [
-        "thresh has a versatile moveset that can be used creatively both in offense and defense.",
-        "thresh's S1 (Timewinder) is the best projectile in the game. It controls space for a long time and leads to easy combo conversions on hit. You can also hit your own (or your opponent's) Timewinder with thresh's heavy moves to throw it at your opponent. ",
-        "All of his S2 moves leave a clone behind, which later can be reactivated to rewind thresh's position to the clone's location and attack. By charging the initial S2 moves, you leave behind a volatile clone, which gives you more control to your follow up after rewinding.",
-        "Overall, his normals are very solid, with a special mention to his 5M, which has great range and speed."
-      ],
+      "description": [],
       "moves": [
         {
           "numericNotation": "S2, 2S2 and j.S2",
@@ -80,63 +75,35 @@
       "description": [],
       "combos": [
         {
-          "purpose": "BnB (easy, roll optional for side swap)",
-          "numericNotation": "M > H > S2 > S2 > S1 + L > 2H > 2S1 > j.[H] > 2S2 > H > 2T",
+          "purpose": "Universal combo (midscreen, corner, every opponent)",
+          "numericNotation": "M > H > S1 > 8 > j.[H] > M > 2M > 3H > 6S2 > 2M > 8 > j.H > j.S1 > j.[6S2]",
           "notationImage": "/combo-notation/thresh/thresh-combo-5.png",
-          "video": "videos/thresh/combos/thresh-combo-5.mp4"
+          "video": "https://www.youtube.com/shorts/MBPNqtGaJmg"
         },
         {
-          "purpose": "BnB (needs screen space, doesn't work close to corner)",
-          "numericNotation": "M > H > S2 > S2 > S1+L > 2H > S1 > 2S2 > [2H] > j.[H] > j.d.S1 > S2 > H > 2T",
+          "purpose": "Universal midscreen (teleport forward/back to choose direction)",
+          "numericNotation": "M > H > S1 > 6S2 > 7 > j.[H] > H > [2H] > [4S2] > 4H > 6S2 > [2H] > 8 > j.S1 > j.[6S2]"
+        },
+        {
+          "purpose": "Corner BnB (no manual timings)",
+          "numericNotation": "M > H > S1 > S2 > 9 > j.[H] > H > [2H] > 9 > j.[H] > j.6H > [2H] > [2S1] > j.S1 > j.[S2] > 8 > j.6H",
           "notationImage": "/combo-notation/thresh/thresh-combo-1.png",
-          "video": "videos/thresh/combos/thresh-combo-1.mp4"
+          "video": "https://www.youtube.com/shorts/Tkm7YI6-YXk"
         },
         {
-          "purpose": "2 bar mid screen",
-          "numericNotation": "M > H > S2 > S2 > S1+L > 2H > 2S1 > j.[H] > [2S2] > S1+L > S2 > 2T",
-          "notationImage": "/combo-notation/thresh/thresh-combo-6.png",
-          "video": "videos/thresh/combos/thresh-combo-6.mp4"
-        },
-        {
-          "purpose": "Corner BnB (easy)",
-          "numericNotation": "M > H > S2 > S2 > S1+L > 66 > j.H > j.S2 > H > 2H > j.H > j.S2",
-          "notationImage": "/combo-notation/thresh/thresh-combo-2.png",
-          "video": "videos/thresh/combos/thresh-combo-2.mp4"
-        },
-        {
-          "purpose": "Corner BnB",
-          "numericNotation": "M > H > S2 > S2 > L > H > S2 > 2S2 > j.[S2] > L > M > H > 6S1 > 2S2 > 6S1 > S2+L",
-          "notationImage": "/combo-notation/thresh/thresh-combo-7.png",
-          "video": "videos/thresh/combos/thresh-combo-7.mp4"
-        },
-        {
-          "purpose": "Corner BnB into launcher",
-          "numericNotation": "M > H > S2 > S2 > L > H > S2 > 2S2 > j.[S2] > L > M > H > S1+L > S2 > j.M > j.S2 > H > 2T",
+          "purpose": "Corner BnB (higher damage with manual timings)",
+          "numericNotation": "M > H > 6H > 8 > j.[H] > 6H > 8 > j.[H] > M > 2H > j.6H > j.6S2 > [2H] > j.S1 > j.[6S2]",
           "notationImage": "/combo-notation/thresh/thresh-combo-8.png",
           "video": "videos/thresh/combos/thresh-combo-8.mp4"
         },
         {
-          "purpose": "Corner 2 bar combo",
-          "numericNotation": "M > H > S2 > S2 > L > H > S2 > 2S2 > j.[S2] > L > M > H > S1+L > S2 > j.M > j.S2 > 6S1 (two hits only) > S1+L > 2S2 > 2T",
-          "notationImage": "/combo-notation/thresh/thresh-combo-9.png",
-          "video": "videos/thresh/combos/thresh-combo-9.mp4"
-        },
-        {
-          "purpose": "Side swap",
-          "numericNotation": "M > H > 2H > j.M > j.H > j.S2 > 66 > L > M > H > 2H > j.M > j.H > j.S2",
+          "purpose": "Side swap back to corner (highest damaging combo)",
+          "numericNotation": "M > H > S1 > 6S2 > 7 > j.[H] > H > [2H] > [6S2] > 4H > S2 > [2H] > 8 > j.S1 > j.[6S2] > j.6H > [2H] > j.6H",
           "notationImage": "/combo-notation/thresh/thresh-combo-3.png",
           "video": "videos/thresh/combos/thresh-combo-3.mp4"
-        },
-        {
-          "purpose": "Anti air starter",
-          "numericNotation": "2H > j.M > j.H > 66 > j.H > j.S2 > 2M > 5M > 5H > 2H > j.M > j.H > j.S2",
-          "notationImage": "/combo-notation/thresh/thresh-combo-4.png",
-          "video": "videos/thresh/combos/thresh-combo-4.mp4"
         }
       ],
-      "description2": [
-        "Some thresh combos (like his BnB) need a lot of screen space to work. If you don't have that space you can always opt for the corner BnB."
-      ],
+      "description2": [],
       "comboEnders": [
         {
           "purpose": "Limit Strike into S2 super",
@@ -157,10 +124,7 @@
           "video": "videos/thresh/combo-enders/thresh-ender3.mp4"
         }
       ],
-      "description3": [
-        "Generally thresh wants to end his combos in the corner, with a limit strike or setting up up his S2 super for continued pressure.",
-        "His BnB route also naturally leads to a tag launcher (2T) which is a great way to switch to your other character if you are mid screen, since thresh's best combo enders work better in the corner."
-      ]
+      "description3": []
     },
     {
       "id": "team_synergies",
@@ -168,9 +132,9 @@
       "description": "",
       "teams": [
         {
-          "pairing": "Teemo or Jinx",
-          "fuseType": "Double Down",
-          "explanation": "Using Teemo's or Jinx's supers with double down clears the way for thresh to get in safely",
+          "pairing": "Jinx",
+          "fuseType": "2X Assist",
+          "explanation": "Jinx assist creates amazing cover for Thresh. Thresh's back assist is amazing for punishes, baiting parries (on tag out), and his forward assist disables retreating guard until the last hit. Having 2 of them back to back is very strong.",
           "videos": [
             {
               "id": "F3x1-NNy6h4"
@@ -178,9 +142,9 @@
           ]
         },
         {
-          "pairing": "Warwick",
-          "fuseType": "2x Assist",
-          "explanation": "Very easy to build full bloodlust for Warwick with timewinder loops",
+          "pairing": "Akali",
+          "fuseType": "Freestyle",
+          "explanation": "Thresh enables Akali to do all the mix she wants. Akali assists are fairly weak but work surprisingly well for Thresh. Her back assist is a great anti-air when they start jump Thresh 5H/S1 stuff. And her forward assist is fast enough to enable Thresh dash crossups.\n\nPlay Akali point so that she dies first and gives Thresh her amazing super assist which can help with his zoning or pickup combos off held teleport because it OTGs.",
           "videos": [
             {
               "id": "gCDtZgLubqw"
@@ -191,9 +155,9 @@
           ]
         },
         {
-          "pairing": "Yasuo",
+          "pairing": "Ekko",
           "fuseType": "Freestyle",
-          "explanation": "Simply the best 2 characters in the game put together as of right now. Not much interesting sinergy but very strong all around",
+          "explanation": "One of the best teams in the game. Use Thresh much like you would Illaoi by tagging out to 4H then tagging back to Ekko. This enable Ekko's mix from anywhere on screen.",
           "videos": [
             {
               "id": "8qmI6OieGnI"
@@ -261,16 +225,10 @@
       "title": "Guides",
       "videos": [
         {
-          "id": "ZP_cp2Jl57k"
+          "id": "https://youtu.be/JnbjcZT2W6w"
         },
         {
-          "id": "linj99CyhAg"
-        },
-        {
-          "id": "zA72QlZbKjY"
-        },
-        {
-          "id": "VU5eCzvIko4"
+          "id": "https://youtu.be/Rg1V3KSb0vo"
         }
       ]
     }
