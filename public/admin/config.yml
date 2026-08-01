@@ -65,7 +65,12 @@ collections:
                 fields:
                   - { label: "Section ID (do not change)", name: id, widget: hidden, default: key_moves }
                   - { label: "Tab Title", name: title, widget: string, default: "Key Moves" }
-                  - { label: "Intro Text", name: description, widget: list, required: false, hint: "One or more paragraphs shown above the move list." }
+                  - label: "Intro Text"
+                    name: description
+                    widget: list
+                    required: false
+                    hint: "One or more paragraphs shown above the move list."
+                    field: { label: Paragraph, name: text, widget: text }
                   - label: Moves
                     name: moves
                     widget: list
@@ -82,7 +87,11 @@ collections:
                 fields:
                   - { label: "Section ID (do not change)", name: id, widget: hidden, default: important_solo_combos }
                   - { label: "Tab Title", name: title, widget: string, default: Combos }
-                  - { label: "Intro Text (shown above the combo list)", name: description, widget: list, required: false }
+                  - label: "Intro Text (shown above the combo list)"
+                    name: description
+                    widget: list
+                    required: false
+                    field: { label: Paragraph, name: text, widget: text }
                   - label: Combos
                     name: combos
                     widget: list
@@ -92,7 +101,11 @@ collections:
                       - { label: Notation, name: numericNotation, widget: text }
                       - { label: "Notation Image", name: notationImage, widget: image, required: false, choose_url: false, hint: "Upload the image or pick one already in the media library - pasting an external URL isn't supported here." }
                       - { label: Video, name: video, widget: file, required: false, choose_url: false, hint: "Upload the clip or pick one already in the media library - pasting an external URL (e.g. a YouTube link) isn't supported here." }
-                  - { label: "Middle Text (shown between combos and combo enders)", name: description2, widget: list, required: false }
+                  - label: "Middle Text (shown between combos and combo enders)"
+                    name: description2
+                    widget: list
+                    required: false
+                    field: { label: Paragraph, name: text, widget: text }
                   - label: "Combo Enders"
                     name: comboEnders
                     widget: list
@@ -102,7 +115,11 @@ collections:
                       - { label: Notation, name: numericNotation, widget: text }
                       - { label: "Notation Image", name: notationImage, widget: image, required: false, choose_url: false, hint: "Upload the image or pick one already in the media library - pasting an external URL isn't supported here." }
                       - { label: Video, name: video, widget: file, required: false, choose_url: false, hint: "Upload the clip or pick one already in the media library - pasting an external URL (e.g. a YouTube link) isn't supported here." }
-                  - { label: "Closing Text (shown below everything)", name: description3, widget: list, required: false }
+                  - label: "Closing Text (shown below everything)"
+                    name: description3
+                    widget: list
+                    required: false
+                    field: { label: Paragraph, name: text, widget: text }
               - label: "Team Synergies"
                 name: team_synergies
                 widget: object
