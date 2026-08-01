@@ -73,9 +73,9 @@ collections:
                     fields:
                       - { label: Notation, name: numericNotation, widget: string, hint: "e.g. 5M, 2M, j.H" }
                       - { label: "Notation Label (optional)", name: notation, widget: string, required: false }
-                      - { label: "Notation Image", name: notationImage, widget: image, required: false }
+                      - { label: "Notation Image", name: notationImage, widget: image, required: false, choose_url: false, hint: "Upload the image or pick one already in the media library - pasting an external URL isn't supported here." }
                       - { label: Description, name: description, widget: text }
-                      - { label: Video, name: video, widget: file, required: false }
+                      - { label: Video, name: video, widget: file, required: false, choose_url: false, hint: "Upload the clip or pick one already in the media library - pasting an external URL (e.g. a YouTube link) isn't supported here." }
               - label: Combos
                 name: important_solo_combos
                 widget: object
@@ -90,8 +90,8 @@ collections:
                     fields:
                       - { label: Purpose, name: purpose, widget: string, hint: "e.g. Easy BnB, Corner Combo, Side Swap" }
                       - { label: Notation, name: numericNotation, widget: text }
-                      - { label: "Notation Image", name: notationImage, widget: image, required: false }
-                      - { label: Video, name: video, widget: file, required: false }
+                      - { label: "Notation Image", name: notationImage, widget: image, required: false, choose_url: false, hint: "Upload the image or pick one already in the media library - pasting an external URL isn't supported here." }
+                      - { label: Video, name: video, widget: file, required: false, choose_url: false, hint: "Upload the clip or pick one already in the media library - pasting an external URL (e.g. a YouTube link) isn't supported here." }
                   - { label: "Middle Text (shown between combos and combo enders)", name: description2, widget: list, required: false }
                   - label: "Combo Enders"
                     name: comboEnders
@@ -100,8 +100,8 @@ collections:
                     fields:
                       - { label: Purpose, name: purpose, widget: string, hint: "e.g. Oki, Damage, Tag Launcher" }
                       - { label: Notation, name: numericNotation, widget: text }
-                      - { label: "Notation Image", name: notationImage, widget: image, required: false }
-                      - { label: Video, name: video, widget: file, required: false }
+                      - { label: "Notation Image", name: notationImage, widget: image, required: false, choose_url: false, hint: "Upload the image or pick one already in the media library - pasting an external URL isn't supported here." }
+                      - { label: Video, name: video, widget: file, required: false, choose_url: false, hint: "Upload the clip or pick one already in the media library - pasting an external URL (e.g. a YouTube link) isn't supported here." }
                   - { label: "Closing Text (shown below everything)", name: description3, widget: list, required: false }
               - label: "Team Synergies"
                 name: team_synergies
@@ -122,7 +122,7 @@ collections:
                         widget: list
                         label_singular: Video
                         fields:
-                          - { label: "YouTube Video ID", name: id, widget: string, hint: "Just the ID, e.g. the part after v= in the YouTube URL - not the full link" }
+                          - { label: "YouTube Video", name: id, widget: youtube-id, hint: "Only the video ID goes here, not the full link.", pattern: ["^[A-Za-z0-9_-]{6,20}$", "Enter only the video ID, not a full URL or anything else."] }
               - label: "Top Players"
                 name: top_players
                 widget: object
@@ -149,7 +149,7 @@ collections:
                         widget: list
                         label_singular: Video
                         fields:
-                          - { label: "YouTube Video ID", name: id, widget: string, hint: "Just the ID, e.g. the part after v= in the YouTube URL - not the full link" }
+                          - { label: "YouTube Video", name: id, widget: youtube-id, hint: "Only the video ID goes here, not the full link.", pattern: ["^[A-Za-z0-9_-]{6,20}$", "Enter only the video ID, not a full URL or anything else."] }
               - label: Guides
                 name: guides
                 widget: object
@@ -161,7 +161,7 @@ collections:
                     widget: list
                     label_singular: Video
                     fields:
-                      - { label: "YouTube Video ID", name: id, widget: string, hint: "Just the ID, e.g. the part after v= in the YouTube URL - not the full link" }
+                      - { label: "YouTube Video", name: id, widget: youtube-id, hint: "Only the video ID goes here, not the full link.", pattern: ["^[A-Za-z0-9_-]{6,20}$", "Enter only the video ID, not a full URL or anything else."] }
       - name: akali
         label: Akali
         file: src/data/characters/akali.json
