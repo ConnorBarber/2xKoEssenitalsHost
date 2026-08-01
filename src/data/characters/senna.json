@@ -14,60 +14,64 @@
     "mobile": -20
   },
   "guideAuthor": {
-    "name": "PedroMakesStuff",
-    "youtube": "https://www.youtube.com/@PedroMakesStuff",
-    "twitter": "https://x.com/pedromakestuff",
-    "twitch": ""
+    "name": "TerrAko",
+    "youtube": "https://www.youtube.com/@YoTerrako",
+    "twitter": "https://x.com/TerrAkoFGC",
+    "twitch": "https://www.twitch.tv/yoterrako"
   },
   "tabs": [
     {
       "id": "key_moves",
       "title": "Key Moves",
       "description": [
-        "Senna is a stance character that can zone effectively in base form and mix really well in wraith form."
+        "Senna is a stance character that can zone and box with her good ground normals in Base form and zoom and mix really well in Wraith form."
       ],
       "moves": [
         {
-          "numericNotation": "5",
-          "notation": "",
+          "numericNotation": "Wraith Form",
+          "notation": "3s2, Super 2",
           "notationImage": "/key-moves-notation/senna/senna1.png",
-          "description": "Replay is a core mechanic in most of his combos and a tool for being safe in neutral",
+          "description": "Wraith Form changes all her normals, specials, supers, movement, and her assists. While Wraith  form is really good when in your opponent's face and has really good movement with a faster run and access to an airdash, when she gets caught out in the form its very hard for her to take the advantage again.",
           "video": "videos/senna/key-moves/senna-key1.mp4"
         },
         {
-          "numericNotation": "5M",
+          "numericNotation": "5M and w.5M",
           "notation": "",
           "notationImage": "/key-moves-notation/senna/senna2.png",
-          "description": "One of the best 5Ms in the game. Reaches far and fast",
+          "description": "While 5M changes in Wraith form, her 5M in both forms is really good. In Base form it is her better tool to box and fight out of situations and in Wraith form she has what might be debatably the best 5M in the game. The projectile makes it beat so many other buttons in trades and because its multi hit it also beats some armor moves.",
           "video": "videos/senna/key-moves/senna-key2.mp4"
         },
         {
-          "numericNotation": "S1 and 2S1",
+          "numericNotation": "2M",
           "notation": "",
           "notationImage": "/key-moves-notation/senna/senna3.png",
           "description": "Timewinder is an important option for covering the screen on the ground or against jump ins. Remember you can hit your timewinder with senna's heavy moves to throw it at your opponent.",
           "video": "videos/senna/key-moves/senna-key3.mp4"
         },
         {
-          "numericNotation": "j.66",
+          "numericNotation": "5[S1]",
           "notation": "",
           "notationImage": "/key-moves-notation/senna/senna4.png",
           "description": "Amazing air mobility tool, useful for baiting anti airs and for crossing up at hard to predict angles",
           "video": "videos/senna/key-moves/senna-key4.mp4"
         },
         {
-          "numericNotation": "j.2H",
+          "numericNotation": "j.2S2",
           "notation": "",
           "notationImage": "/key-moves-notation/senna/senna5.png",
           "description": "By itself or with his air dash, this move can be an easy crossup overhead that goes into a full combo",
           "video": "videos/senna/key-moves/senna-key5.mp4"
         },
         {
-          "numericNotation": "6S1",
+          "numericNotation": "w.S1",
           "notation": "",
           "notationImage": "/key-moves-notation/senna/senna6.png",
           "description": "Risky move to use alone, but using it right before tagging out is an easy way to get senna in with freestyle or just use him as a fake projectile",
           "video": "videos/senna/key-moves/senna-key6.mp4"
+        },
+        {
+          "numericNotation": "w.66",
+          "description": "czxc"
         }
       ]
     },
