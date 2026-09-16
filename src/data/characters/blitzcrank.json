@@ -1,0 +1,268 @@
+{
+  "name": "Blitzcrank",
+  "isComplete": true,
+  "archetype": "Grappler",
+  "stats": {
+    "range": 3,
+    "power": 4,
+    "vitality": 4,
+    "mobility": 2,
+    "ease": 3
+  },
+  "heroImageOffset": {
+    "desktop": -296,
+    "mobile": -100
+  },
+  "guideAuthor": {
+    "name": "Quicksand_FGC",
+    "youtube": "https://www.youtube.com/@Quicksand_FGC",
+    "twitter": "https://x.com/Quicksand_FGC",
+    "twitch": ""
+  },
+  "tabs": [
+    {
+      "id": "key_moves",
+      "title": "Key Moves",
+      "description": [
+        "Blitzcrank is the resident 2xKo grappler, with a unique steam mechanic and big damage combos",
+        "Blitz's steam mechanic is built up when using his 6S2, 2S2, and S1 Super. Once Blitz has steam he has enhanced moves, speed, and damage, along with one hit of armor on his command grabs. Steam is vital to making this character playable.",
+        "Blitz has a simple gameplan and simple buttons, allowing for easy pick up and play. However, he becomes harder the higher you climb and requires good fundamentals."
+      ],
+      "moves": [
+        {
+          "numericNotation": "5M",
+          "notation": "",
+          "notationImage": "/key-moves-notation/blitz/blitz1.png",
+          "description": "Main Neutral Poke tool, disjointed enough to challenge with",
+          "video": "videos/blitz/key-moves/blitz1.mp4"
+        },
+        {
+          "numericNotation": "2H",
+          "notation": "",
+          "notationImage": "/key-moves-notation/blitz/blitz2.png",
+          "description": "Huge Anti Air",
+          "video": "videos/blitz/key-moves/blitz2.mp4"
+        },
+        {
+          "numericNotation": "5L",
+          "notation": "",
+          "notationImage": "/key-moves-notation/blitz/blitz3.png",
+          "description": "Fastest button at 7 frames. Key for punishes, mashing out, and stagger pressure",
+          "video": "videos/blitz/key-moves/blitz3.mp4"
+        },
+        {
+          "numericNotation": "S2",
+          "notation": "",
+          "notationImage": "/key-moves-notation/blitz/blitz4.png",
+          "description": "Rocket Punch is useful for destroying projectiles, stopping jumps, and provides a wall bounce if it hits aerial targets",
+          "video": "videos/blitz/key-moves/blitz4.mp4"
+        },
+        {
+          "numericNotation": "S1 and j.S1",
+          "notation": "",
+          "notationImage": "/key-moves-notation/blitz/blitz5.png",
+          "description": "Rocket Grab allows Blitz to yank enemies in close, and start his strike/throw mix.j.S1 is the air version of S1 and allows for Blitz to get a hit grab. In steam both options allow follow ups on hit.",
+          "video": "videos/blitz/key-moves/blitz5.mp4"
+        },
+        {
+          "numericNotation": "{S1}",
+          "notation": "",
+          "notationImage": "/key-moves-notation/blitz/blitz6.png",
+          "description": "Holding S1 lets Blitz start cranking, and builld steam. Backdash to cancel out of this move, it makes it a great bait, as opponents will approach when they see you cranking.",
+          "video": "videos/blitz/key-moves/blitz6.mp4"
+        },
+        {
+          "numericNotation": "2S1",
+          "notation": "",
+          "notationImage": "/key-moves-notation/blitz/blitz7.png",
+          "description": "This is the anti air version of the grab, allowing blitz to rip opponents out of the sky if unsafely jumping",
+          "video": "videos/blitz/key-moves/blitz7.mp4"
+        },
+        {
+          "numericNotation": "2S2 and j.2S2",
+          "notation": "",
+          "notationImage": "/key-moves-notation/blitz/blitz8.png",
+          "description": "These are the 2 most important command grabs for Blitz and is what makes him a grappler. Both can combo into super in the corner, and in steam can combo into S2 super anywhere on screen for big damage.",
+          "video": "videos/blitz/key-moves/blitz8.mp4"
+        },
+        {
+          "numericNotation": "2L and 2M",
+          "notation": "",
+          "notationImage": "/key-moves-notation/blitz/blitz9.png",
+          "description": "Blitz has 2 lows, which are of vital importance to his mix, due to his weak block strings you will rely on these simple tools.",
+          "video": "videos/blitz/key-moves/blitz9.mp4"
+        }
+      ]
+    },
+    {
+      "id": "important_solo_combos",
+      "title": "Combos",
+      "description": [
+        "Blitz combos are not challenging and there is 1 combo that is practically used for everything, all that changes is your ender.",
+        "When playing Blitz, it is vital to master his BnB rejump, as it can be used at all points of the stage, has great corner carry, and is universal on the cast."
+      ],
+      "combos": [
+        {
+          "purpose": "Easy BnB",
+          "numericNotation": "L > M > H > 2H > j.L > j.M > j.H > j.S1 > S1+L",
+          "notationImage": "/combo-notation/blitz/blitzCombo1.png",
+          "video": "videos/blitz/combos/blitzCombo1.mp4"
+        },
+        {
+          "purpose": "BnB and Corner Carry",
+          "numericNotation": "L > M > H > 2H > j.M > j.2H > j.H > land > 2H > {j.2H} > land > 2H > j.H > j.S1 > S1+L",
+          "notationImage": "/combo-notation/blitz/blitzCombo2.png",
+          "video": "videos/blitz/combos/blitzCombo2.mp4"
+        },
+        {
+          "purpose": "BnB with steam",
+          "numericNotation": "M > H > S2 > S1 > 2H > {j.2H} > j.H > M > 2H > j.H > j.2S2",
+          "notationImage": "/combo-notation/blitz/blitzCombo3.png",
+          "video": "videos/blitz/combos/blitzCombo3.mp4"
+        },
+        {
+          "purpose": "M+H(Throw Combo)Tag Launcher",
+          "numericNotation": "wr.H > T",
+          "notationImage": "/combo-notation/blitz/blitzCombo4.png",
+          "video": "videos/blitz/combos/blitzCombo4.mp4"
+        },
+        {
+          "purpose": "M+H(Throw Combo)Get Steam",
+          "numericNotation": "wr.H > S1+L",
+          "notationImage": "/combo-notation/blitz/blitzCombo5.png",
+          "video": "videos/blitz/combos/blitzCombo5.mp4"
+        }
+      ],
+      "description2": [],
+      "comboEnders": [
+        {
+          "purpose": "Oki and Steam",
+          "numericNotation": "S1+L",
+          "notationImage": "/combo-notation/blitz/combo-enders/blitzEnder1.png",
+          "video": "videos/blitz/combo-enders/ender1.mp4"
+        },
+        {
+          "purpose": "Limit Strike",
+          "numericNotation": "S2, {j.2H},  {j.H}",
+          "notationImage": "/combo-notation/blitz/combo-enders/blitzEnder2.png",
+          "video": "videos/blitz/combo-enders/ender2.mp4"
+        },
+        {
+          "purpose": "Damage, when Steamed",
+          "numericNotation": "S2+M(hold to spend steam)",
+          "notationImage": "/combo-notation/blitz/combo-enders/blitzEnder3.png",
+          "video": "videos/blitz/combo-enders/ender3.mp4"
+        },
+        {
+          "purpose": "Hard Tag",
+          "numericNotation": "{j.H} > [T]",
+          "notationImage": "/combo-notation/blitz/combo-enders/blitzEnder4.png",
+          "video": "videos/blitz/combo-enders/ender4.mp4"
+        },
+        {
+          "purpose": "Air Grab Reset",
+          "numericNotation": "5L",
+          "notationImage": "/combo-notation/blitz/combo-enders/blitzEnder5.png",
+          "video": "videos/blitz/combo-enders/ender5.mp4"
+        }
+      ],
+      "description3": [
+        "Choosing a proper Blitz ender depends on what resources you have and what resouces you need(steam, super, etc), but all do damage."
+      ]
+    },
+    {
+      "id": "team_synergies",
+      "title": "Teams",
+      "description": "Blitz is a strong support character and can work with any character if you play arounnd his restand mix ability, you can make all characters work. However, here are some fun suggestions.",
+      "teams": [
+        {
+          "pairing": "Braum",
+          "fuseType": "Double Down",
+          "explanation": "The Big Boys Squad, this team uses Braum assist to shield up while Blitz engages in shenanigans. Also, with Double Down, both can get their upgrades(Steam for Blitz and Unbreakable for Braum) off either super. In the corner they have immense pressure and not to mention damage.",
+          "videos": [
+            {
+              "id": "pADop1XqNh8"
+            }
+          ]
+        },
+        {
+          "pairing": "Yasuo",
+          "fuseType": "Freeestyle",
+          "explanation": "Yasuo being such a strong point character and Blitz being such a strong assist character makes for a great pairing. This also allows Blitz access to left/right mix, which he usually has none.",
+          "videos": [
+            {
+              "id": "eeicOzhwrvs"
+            }
+          ]
+        },
+        {
+          "pairing": "Vi",
+          "fuseType": "Double Down or Freestyle",
+          "explanation": "A team all about using Vi to get in fast, and Blitz to either restand or trade out for oppressive corner pressure. The big damage is also nice",
+          "videos": [
+            {
+              "id": "DjdZgubxHJU"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top_players",
+      "title": "Top Players",
+      "players": [
+        {
+          "name": "Tate",
+          "description": "",
+          "socials": {
+            "twitter": "https://x.com/theyoungtate"
+          },
+          "highlights": [
+            {
+              "id": "tnoLXZqmR3Q"
+            }
+          ]
+        },
+        {
+          "name": "Quainty",
+          "description": "",
+          "socials": {
+            "twitter": "https://x.com/imquainty"
+          },
+          "highlights": [
+            {
+              "id": "YZhX_uFSEyc"
+            }
+          ]
+        },
+        {
+          "name": "Shine",
+          "description": "",
+          "socials": {
+            "twitch": ""
+          },
+          "highlights": [
+            {
+              "id": "eL39aEZi1WY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guides",
+      "title": "Guides",
+      "videos": [
+        {
+          "id": "IHTr25KGyiM"
+        },
+        {
+          "id": "Yj3lOumwBxs"
+        },
+        {
+          "id": "zTpfCUJB1CA"
+        }
+      ]
+    }
+  ]
+}

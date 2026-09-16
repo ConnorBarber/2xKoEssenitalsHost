@@ -1,0 +1,236 @@
+{
+  "name": "Thresh",
+  "isComplete": false,
+  "archetype": "Support, Damage",
+  "stats": {
+    "range": 5,
+    "power": 3,
+    "vitality": 3,
+    "mobility": 3,
+    "ease": 2
+  },
+  "heroImageOffset": {
+    "desktop": -73,
+    "mobile": -20
+  },
+  "guideAuthor": {
+    "name": "EvanAlmightyFGC",
+    "youtube": "https://www.youtube.com/@EvanAlmightyFGC",
+    "twitter": "https://x.com/EvanAlmightyFGC",
+    "twitch": "https://twitch.tv/EvanAlmightyFGC"
+  },
+  "tabs": [
+    {
+      "id": "key_moves",
+      "title": "Key Moves",
+      "description": [],
+      "moves": [
+        {
+          "numericNotation": "S2, 2S2 and j.S2",
+          "notation": "",
+          "notationImage": "/key-moves-notation/thresh/thresh1.png",
+          "description": "Replay is a core mechanic in most of his combos and a tool for being safe in neutral",
+          "video": "videos/thresh/key-moves/thresh-key1.mp4"
+        },
+        {
+          "numericNotation": "5M",
+          "notation": "",
+          "notationImage": "/key-moves-notation/thresh/thresh2.png",
+          "description": "One of the best 5Ms in the game. Reaches far and fast",
+          "video": "videos/thresh/key-moves/thresh-key2.mp4"
+        },
+        {
+          "numericNotation": "S1 and 2S1",
+          "notation": "",
+          "notationImage": "/key-moves-notation/thresh/thresh3.png",
+          "description": "Timewinder is an important option for covering the screen on the ground or against jump ins. Remember you can hit your timewinder with thresh's heavy moves to throw it at your opponent.",
+          "video": "videos/thresh/key-moves/thresh-key3.mp4"
+        },
+        {
+          "numericNotation": "j.66",
+          "notation": "",
+          "notationImage": "/key-moves-notation/thresh/thresh4.png",
+          "description": "Amazing air mobility tool, useful for baiting anti airs and for crossing up at hard to predict angles",
+          "video": "videos/thresh/key-moves/thresh-key4.mp4"
+        },
+        {
+          "numericNotation": "j.2H",
+          "notation": "",
+          "notationImage": "/key-moves-notation/thresh/thresh5.png",
+          "description": "By itself or with his air dash, this move can be an easy crossup overhead that goes into a full combo",
+          "video": "videos/thresh/key-moves/thresh-key5.mp4"
+        },
+        {
+          "numericNotation": "6S1",
+          "notation": "",
+          "notationImage": "/key-moves-notation/thresh/thresh6.png",
+          "description": "Risky move to use alone, but using it right before tagging out is an easy way to get thresh in with freestyle or just use him as a fake projectile",
+          "video": "videos/thresh/key-moves/thresh-key6.mp4"
+        }
+      ]
+    },
+    {
+      "id": "important_solo_combos",
+      "title": "Combos",
+      "description": [],
+      "combos": [
+        {
+          "purpose": "Universal combo (midscreen, corner, every opponent)",
+          "numericNotation": "M > H > S1 > 8 > j.[H] > M > 2M > 3H > 6S2 > 2M > 8 > j.H > j.S1 > j.[6S2]",
+          "notationImage": "/combo-notation/thresh/thresh-combo-5.png",
+          "video": "https://www.youtube.com/shorts/MBPNqtGaJmg"
+        },
+        {
+          "purpose": "Universal midscreen (teleport forward/back to choose direction)",
+          "numericNotation": "M > H > S1 > 6S2 > 7 > j.[H] > H > [2H] > [4S2] > 4H > 6S2 > [2H] > 8 > j.S1 > j.[6S2]"
+        },
+        {
+          "purpose": "Corner BnB (no manual timings)",
+          "numericNotation": "M > H > S1 > S2 > 9 > j.[H] > H > [2H] > 9 > j.[H] > j.6H > [2H] > [2S1] > j.S1 > j.[S2] > 8 > j.6H",
+          "notationImage": "/combo-notation/thresh/thresh-combo-1.png",
+          "video": "https://www.youtube.com/shorts/Tkm7YI6-YXk"
+        },
+        {
+          "purpose": "Corner BnB (higher damage with manual timings)",
+          "numericNotation": "M > H > 6H > 8 > j.[H] > 6H > 8 > j.[H] > M > 2H > j.6H > j.6S2 > [2H] > j.S1 > j.[6S2]",
+          "notationImage": "/combo-notation/thresh/thresh-combo-8.png",
+          "video": "videos/thresh/combos/thresh-combo-8.mp4"
+        },
+        {
+          "purpose": "Side swap back to corner (highest damaging combo)",
+          "numericNotation": "M > H > S1 > 6S2 > 7 > j.[H] > H > [2H] > [6S2] > 4H > S2 > [2H] > 8 > j.S1 > j.[6S2] > j.6H > [2H] > j.6H",
+          "notationImage": "/combo-notation/thresh/thresh-combo-3.png",
+          "video": "videos/thresh/combos/thresh-combo-3.mp4"
+        }
+      ],
+      "description2": [],
+      "comboEnders": [
+        {
+          "purpose": "Limit Strike into S2 super",
+          "numericNotation": "j.S2 > 2S1 > S2+L",
+          "notationImage": "/combo-notation/thresh/combo-enders/thresh-ender1.png",
+          "video": "videos/thresh/combo-enders/thresh-ender1.mp4"
+        },
+        {
+          "purpose": "6S1 into S2 super",
+          "numericNotation": "6S1 > S2+L",
+          "notationImage": "/combo-notation/thresh/combo-enders/thresh-ender2.png",
+          "video": "videos/thresh/combo-enders/thresh-ender2.mp4"
+        },
+        {
+          "purpose": "Tag launcher",
+          "numericNotation": "2M > M > H > 2T",
+          "notationImage": "/combo-notation/thresh/combo-enders/thresh-ender3.png",
+          "video": "videos/thresh/combo-enders/thresh-ender3.mp4"
+        }
+      ],
+      "description3": []
+    },
+    {
+      "id": "team_synergies",
+      "title": "Teams",
+      "description": "",
+      "teams": [
+        {
+          "pairing": "Jinx",
+          "fuseType": "2X Assist",
+          "explanation": "Jinx assist creates amazing cover for Thresh. Thresh's back assist is amazing for punishes, baiting parries (on tag out), and his forward assist disables retreating guard until the last hit. Having 2 of them back to back is very strong.",
+          "videos": [
+            {
+              "id": "F3x1-NNy6h4"
+            }
+          ]
+        },
+        {
+          "pairing": "Akali",
+          "fuseType": "Freestyle",
+          "explanation": "Thresh enables Akali to do all the mix she wants. Akali assists are fairly weak but work surprisingly well for Thresh. Her back assist is a great anti-air when they start jump Thresh 5H/S1 stuff. And her forward assist is fast enough to enable Thresh dash crossups.\n\nPlay Akali point so that she dies first and gives Thresh her amazing super assist which can help with his zoning or pickup combos off held teleport because it OTGs.",
+          "videos": [
+            {
+              "id": "gCDtZgLubqw"
+            },
+            {
+              "id": "EXbUrEpVoRw"
+            }
+          ]
+        },
+        {
+          "pairing": "Ekko",
+          "fuseType": "Freestyle",
+          "explanation": "One of the best teams in the game. Use Thresh much like you would Illaoi by tagging out to 4H then tagging back to Ekko. This enable Ekko's mix from anywhere on screen.",
+          "videos": [
+            {
+              "id": "8qmI6OieGnI"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "top_players",
+      "title": "Top Players",
+      "players": [
+        {
+          "name": "SonicFox",
+          "description": "",
+          "socials": {
+            "twitter": "https://twitter.com/SonicFox",
+            "youtube": "https://www.youtube.com/@SonicFox5000",
+            "twitch": "http://www.twitch.tv/sonicfox"
+          },
+          "highlights": [
+            {
+              "id": "F3x1-NNy6h4"
+            },
+            {
+              "id": "GHhFvO0TAW0"
+            },
+            {
+              "id": "mR92xVB7sT0"
+            }
+          ]
+        },
+        {
+          "name": "Hikari",
+          "description": "",
+          "socials": {
+            "twitter": "https://x.com/HikariNYC",
+            "twitch": "https://t.co/4sYjxDdnAn"
+          },
+          "highlights": [
+            {
+              "id": "K6YIcxSAKz8"
+            },
+            {
+              "id": "6dFSUmYA2Lw"
+            },
+            {
+              "id": "4fIa3CZNLZI"
+            }
+          ]
+        },
+        {
+          "name": "Bleed",
+          "socials": {},
+          "highlights": [
+            {
+              "id": "bSJgmmHctq8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "guides",
+      "title": "Guides",
+      "videos": [
+        {
+          "id": "https://youtu.be/JnbjcZT2W6w"
+        },
+        {
+          "id": "https://youtu.be/Rg1V3KSb0vo"
+        }
+      ]
+    }
+  ]
+}
