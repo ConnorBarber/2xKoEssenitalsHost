@@ -14,9 +14,10 @@ import yasuo from './yasuo.json';
 import akali from './akali.json';
 import thresh from './thresh.json';
 import senna from './senna.json';
+import lux from './lux.json';
 
 // Re-export individual characters for direct imports
-export { ahri, blitzcrank, braum, caitlyn, darius, ekko, illaoi, jinx, teemo, vi, warwick, yasuo, akali, thresh, senna };
+export { ahri, blitzcrank, braum, caitlyn, darius, ekko, illaoi, jinx, teemo, vi, warwick, yasuo, akali, thresh, senna, lux };
 
 // Export the combined array, sorted with complete characters first
 const allCharacters = [
@@ -34,7 +35,8 @@ const allCharacters = [
   yasuo,
   akali,
   thresh,
-  senna
+  senna,
+  lux
 ];
 
 export const charactersData = allCharacters.sort((a, b) => {
