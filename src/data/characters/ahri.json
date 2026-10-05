@@ -1,7 +1,7 @@
 {
   "name": "Ahri",
   "isComplete": false,
-  "archetype": "rushdown",
+  "archetype": "All-rounder Mix-up",
   "stats": {
     "range": 3,
     "power": 2,
@@ -18,9 +18,7 @@
       "id": "key_moves",
       "title": "Key Moves",
       "description": [
-        "Ahri is all about that movement, that runaway, that...temptress energy.",
-        "Ahri's mobility is her greatest strength, allowing her to control space and create opportunities.",
-        "She can be as complex or simple as you want, with a variety of tools to keep opponents guessing."
+        "Ahri is a easy to pick up all-rounder that is really good at mix-ups with amazing mobility."
       ],
       "moves": [
         {
@@ -221,5 +219,8 @@
         }
       ]
     }
-  ]
+  ],
+  "guideAuthor": {
+    "name": "Info from Kamui Senketsu, Written by TerrAko"
+  }
 }
